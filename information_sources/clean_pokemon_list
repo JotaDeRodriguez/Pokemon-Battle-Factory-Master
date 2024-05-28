@@ -1,0 +1,3106 @@
+[
+  {
+    "Index no. HEX": "001",
+    "Index no. DEC": "001",
+    "Pokemon MS": "",
+    "Pokemon Name": "Bulbasaur",
+    "Type": "Grass",
+    "Type2": "Poison"
+  },
+  {
+    "Index no. HEX": "002",
+    "Index no. DEC": "002",
+    "Pokemon MS": "",
+    "Pokemon Name": "Ivysaur",
+    "Type": "Grass",
+    "Type2": "Poison"
+  },
+  {
+    "Index no. HEX": "003",
+    "Index no. DEC": "003",
+    "Pokemon MS": "",
+    "Pokemon Name": "Venusaur",
+    "Type": "Grass",
+    "Type2": "Poison"
+  },
+  {
+    "Index no. HEX": "004",
+    "Index no. DEC": "004",
+    "Pokemon MS": "",
+    "Pokemon Name": "Charmander",
+    "Type": "Fire",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "005",
+    "Index no. DEC": "005",
+    "Pokemon MS": "",
+    "Pokemon Name": "Charmeleon",
+    "Type": "Fire",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "006",
+    "Index no. DEC": "006",
+    "Pokemon MS": "",
+    "Pokemon Name": "Charizard",
+    "Type": "Fire",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": "007",
+    "Index no. DEC": "007",
+    "Pokemon MS": "",
+    "Pokemon Name": "Squirtle",
+    "Type": "Water",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "008",
+    "Index no. DEC": "008",
+    "Pokemon MS": "",
+    "Pokemon Name": "Wartortle",
+    "Type": "Water",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "009",
+    "Index no. DEC": "009",
+    "Pokemon MS": "",
+    "Pokemon Name": "Blastoise",
+    "Type": "Water",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "00A",
+    "Index no. DEC": "010",
+    "Pokemon MS": "",
+    "Pokemon Name": "Caterpie",
+    "Type": "Bug",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "00B",
+    "Index no. DEC": "011",
+    "Pokemon MS": "",
+    "Pokemon Name": "Metapod",
+    "Type": "Bug",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "00C",
+    "Index no. DEC": "012",
+    "Pokemon MS": "",
+    "Pokemon Name": "Butterfree",
+    "Type": "Bug",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": "00D",
+    "Index no. DEC": "013",
+    "Pokemon MS": "",
+    "Pokemon Name": "Weedle",
+    "Type": "Bug",
+    "Type2": "Poison"
+  },
+  {
+    "Index no. HEX": "00E",
+    "Index no. DEC": "014",
+    "Pokemon MS": "",
+    "Pokemon Name": "Kakuna",
+    "Type": "Bug",
+    "Type2": "Poison"
+  },
+  {
+    "Index no. HEX": "00F",
+    "Index no. DEC": "015",
+    "Pokemon MS": "",
+    "Pokemon Name": "Beedrill",
+    "Type": "Bug",
+    "Type2": "Poison"
+  },
+  {
+    "Index no. HEX": "010",
+    "Index no. DEC": "016",
+    "Pokemon MS": "",
+    "Pokemon Name": "Pidgey",
+    "Type": "Normal",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": "011",
+    "Index no. DEC": "017",
+    "Pokemon MS": "",
+    "Pokemon Name": "Pidgeotto",
+    "Type": "Normal",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": "012",
+    "Index no. DEC": "018",
+    "Pokemon MS": "",
+    "Pokemon Name": "Pidgeot",
+    "Type": "Normal",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": "013",
+    "Index no. DEC": "019",
+    "Pokemon MS": "",
+    "Pokemon Name": "Rattata",
+    "Type": "Normal",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "014",
+    "Index no. DEC": "020",
+    "Pokemon MS": "",
+    "Pokemon Name": "Raticate",
+    "Type": "Normal",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "015",
+    "Index no. DEC": "021",
+    "Pokemon MS": "",
+    "Pokemon Name": "Spearow",
+    "Type": "Normal",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": "016",
+    "Index no. DEC": "022",
+    "Pokemon MS": "",
+    "Pokemon Name": "Fearow",
+    "Type": "Normal",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": "017",
+    "Index no. DEC": "023",
+    "Pokemon MS": "",
+    "Pokemon Name": "Ekans",
+    "Type": "Poison",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "018",
+    "Index no. DEC": "024",
+    "Pokemon MS": "",
+    "Pokemon Name": "Arbok",
+    "Type": "Poison",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "019",
+    "Index no. DEC": "025",
+    "Pokemon MS": "",
+    "Pokemon Name": "Pikachu",
+    "Type": "Electric",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "01A",
+    "Index no. DEC": "026",
+    "Pokemon MS": "",
+    "Pokemon Name": "Raichu",
+    "Type": "Electric",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "01B",
+    "Index no. DEC": "027",
+    "Pokemon MS": "",
+    "Pokemon Name": "Sandshrew",
+    "Type": "Ground",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "01C",
+    "Index no. DEC": "028",
+    "Pokemon MS": "",
+    "Pokemon Name": "Sandslash",
+    "Type": "Ground",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "01D",
+    "Index no. DEC": "029",
+    "Pokemon MS": "",
+    "Pokemon Name": "Nidoran?",
+    "Type": "Poison",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "01E",
+    "Index no. DEC": "030",
+    "Pokemon MS": "",
+    "Pokemon Name": "Nidorina",
+    "Type": "Poison",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "01F",
+    "Index no. DEC": "031",
+    "Pokemon MS": "",
+    "Pokemon Name": "Nidoqueen",
+    "Type": "Poison",
+    "Type2": "Ground"
+  },
+  {
+    "Index no. HEX": "020",
+    "Index no. DEC": "032",
+    "Pokemon MS": "",
+    "Pokemon Name": "Nidoran?",
+    "Type": "Poison",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "021",
+    "Index no. DEC": "033",
+    "Pokemon MS": "",
+    "Pokemon Name": "Nidorino",
+    "Type": "Poison",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "022",
+    "Index no. DEC": "034",
+    "Pokemon MS": "",
+    "Pokemon Name": "Nidoking",
+    "Type": "Poison",
+    "Type2": "Ground"
+  },
+  {
+    "Index no. HEX": "023",
+    "Index no. DEC": "035",
+    "Pokemon MS": "",
+    "Pokemon Name": "Clefairy",
+    "Type": "Normal",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "024",
+    "Index no. DEC": "036",
+    "Pokemon MS": "",
+    "Pokemon Name": "Clefable",
+    "Type": "Normal",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "025",
+    "Index no. DEC": "037",
+    "Pokemon MS": "",
+    "Pokemon Name": "Vulpix",
+    "Type": "Fire",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "026",
+    "Index no. DEC": "038",
+    "Pokemon MS": "",
+    "Pokemon Name": "Ninetales",
+    "Type": "Fire",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "027",
+    "Index no. DEC": "039",
+    "Pokemon MS": "",
+    "Pokemon Name": "Jigglypuff",
+    "Type": "Normal",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "028",
+    "Index no. DEC": "040",
+    "Pokemon MS": "",
+    "Pokemon Name": "Wigglytuff",
+    "Type": "Normal",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "029",
+    "Index no. DEC": "041",
+    "Pokemon MS": "",
+    "Pokemon Name": "Zubat",
+    "Type": "Poison",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": "02A",
+    "Index no. DEC": "042",
+    "Pokemon MS": "",
+    "Pokemon Name": "Golbat",
+    "Type": "Poison",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": "02B",
+    "Index no. DEC": "043",
+    "Pokemon MS": "",
+    "Pokemon Name": "Oddish",
+    "Type": "Grass",
+    "Type2": "Poison"
+  },
+  {
+    "Index no. HEX": "02C",
+    "Index no. DEC": "044",
+    "Pokemon MS": "",
+    "Pokemon Name": "Gloom",
+    "Type": "Grass",
+    "Type2": "Poison"
+  },
+  {
+    "Index no. HEX": "02D",
+    "Index no. DEC": "045",
+    "Pokemon MS": "",
+    "Pokemon Name": "Vileplume",
+    "Type": "Grass",
+    "Type2": "Poison"
+  },
+  {
+    "Index no. HEX": "02E",
+    "Index no. DEC": "046",
+    "Pokemon MS": "",
+    "Pokemon Name": "Paras",
+    "Type": "Bug",
+    "Type2": "Grass"
+  },
+  {
+    "Index no. HEX": "02F",
+    "Index no. DEC": "047",
+    "Pokemon MS": "",
+    "Pokemon Name": "Parasect",
+    "Type": "Bug",
+    "Type2": "Grass"
+  },
+  {
+    "Index no. HEX": "030",
+    "Index no. DEC": "048",
+    "Pokemon MS": "",
+    "Pokemon Name": "Venonat",
+    "Type": "Bug",
+    "Type2": "Poison"
+  },
+  {
+    "Index no. HEX": "031",
+    "Index no. DEC": "049",
+    "Pokemon MS": "",
+    "Pokemon Name": "Venomoth",
+    "Type": "Bug",
+    "Type2": "Poison"
+  },
+  {
+    "Index no. HEX": "032",
+    "Index no. DEC": "050",
+    "Pokemon MS": "",
+    "Pokemon Name": "Diglett",
+    "Type": "Ground",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "033",
+    "Index no. DEC": "051",
+    "Pokemon MS": "",
+    "Pokemon Name": "Dugtrio",
+    "Type": "Ground",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "034",
+    "Index no. DEC": "052",
+    "Pokemon MS": "",
+    "Pokemon Name": "Meowth",
+    "Type": "Normal",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "035",
+    "Index no. DEC": "053",
+    "Pokemon MS": "",
+    "Pokemon Name": "Persian",
+    "Type": "Normal",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "036",
+    "Index no. DEC": "054",
+    "Pokemon MS": "",
+    "Pokemon Name": "Psyduck",
+    "Type": "Water",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "037",
+    "Index no. DEC": "055",
+    "Pokemon MS": "",
+    "Pokemon Name": "Golduck",
+    "Type": "Water",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "038",
+    "Index no. DEC": "056",
+    "Pokemon MS": "",
+    "Pokemon Name": "Mankey",
+    "Type": "Fighting",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "039",
+    "Index no. DEC": "057",
+    "Pokemon MS": "",
+    "Pokemon Name": "Primeape",
+    "Type": "Fighting",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "03A",
+    "Index no. DEC": "058",
+    "Pokemon MS": "",
+    "Pokemon Name": "Growlithe",
+    "Type": "Fire",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "03B",
+    "Index no. DEC": "059",
+    "Pokemon MS": "",
+    "Pokemon Name": "Arcanine",
+    "Type": "Fire",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "03C",
+    "Index no. DEC": "060",
+    "Pokemon MS": "",
+    "Pokemon Name": "Poliwag",
+    "Type": "Water",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "03D",
+    "Index no. DEC": "061",
+    "Pokemon MS": "",
+    "Pokemon Name": "Poliwhirl",
+    "Type": "Water",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "03E",
+    "Index no. DEC": "062",
+    "Pokemon MS": "",
+    "Pokemon Name": "Poliwrath",
+    "Type": "Water",
+    "Type2": "Fighting"
+  },
+  {
+    "Index no. HEX": "03F",
+    "Index no. DEC": "063",
+    "Pokemon MS": "",
+    "Pokemon Name": "Abra",
+    "Type": "Psychic",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "040",
+    "Index no. DEC": "064",
+    "Pokemon MS": "",
+    "Pokemon Name": "Kadabra",
+    "Type": "Psychic",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "041",
+    "Index no. DEC": "065",
+    "Pokemon MS": "",
+    "Pokemon Name": "Alakazam",
+    "Type": "Psychic",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "042",
+    "Index no. DEC": "066",
+    "Pokemon MS": "",
+    "Pokemon Name": "Machop",
+    "Type": "Fighting",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "043",
+    "Index no. DEC": "067",
+    "Pokemon MS": "",
+    "Pokemon Name": "Machoke",
+    "Type": "Fighting",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "044",
+    "Index no. DEC": "068",
+    "Pokemon MS": "",
+    "Pokemon Name": "Machamp",
+    "Type": "Fighting",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "045",
+    "Index no. DEC": "069",
+    "Pokemon MS": "",
+    "Pokemon Name": "Bellsprout",
+    "Type": "Grass",
+    "Type2": "Poison"
+  },
+  {
+    "Index no. HEX": "046",
+    "Index no. DEC": "070",
+    "Pokemon MS": "",
+    "Pokemon Name": "Weepinbell",
+    "Type": "Grass",
+    "Type2": "Poison"
+  },
+  {
+    "Index no. HEX": "047",
+    "Index no. DEC": "071",
+    "Pokemon MS": "",
+    "Pokemon Name": "Victreebel",
+    "Type": "Grass",
+    "Type2": "Poison"
+  },
+  {
+    "Index no. HEX": "048",
+    "Index no. DEC": "072",
+    "Pokemon MS": "",
+    "Pokemon Name": "Tentacool",
+    "Type": "Water",
+    "Type2": "Poison"
+  },
+  {
+    "Index no. HEX": "049",
+    "Index no. DEC": "073",
+    "Pokemon MS": "",
+    "Pokemon Name": "Tentacruel",
+    "Type": "Water",
+    "Type2": "Poison"
+  },
+  {
+    "Index no. HEX": "04A",
+    "Index no. DEC": "074",
+    "Pokemon MS": "",
+    "Pokemon Name": "Geodude",
+    "Type": "Rock",
+    "Type2": "Ground"
+  },
+  {
+    "Index no. HEX": "04B",
+    "Index no. DEC": "075",
+    "Pokemon MS": "",
+    "Pokemon Name": "Graveler",
+    "Type": "Rock",
+    "Type2": "Ground"
+  },
+  {
+    "Index no. HEX": "04C",
+    "Index no. DEC": "076",
+    "Pokemon MS": "",
+    "Pokemon Name": "Golem",
+    "Type": "Rock",
+    "Type2": "Ground"
+  },
+  {
+    "Index no. HEX": "04D",
+    "Index no. DEC": "077",
+    "Pokemon MS": "",
+    "Pokemon Name": "Ponyta",
+    "Type": "Fire",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "04E",
+    "Index no. DEC": "078",
+    "Pokemon MS": "",
+    "Pokemon Name": "Rapidash",
+    "Type": "Fire",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "04F",
+    "Index no. DEC": "079",
+    "Pokemon MS": "",
+    "Pokemon Name": "Slowpoke",
+    "Type": "Water",
+    "Type2": "Psychic"
+  },
+  {
+    "Index no. HEX": "050",
+    "Index no. DEC": "080",
+    "Pokemon MS": "",
+    "Pokemon Name": "Slowbro",
+    "Type": "Water",
+    "Type2": "Psychic"
+  },
+  {
+    "Index no. HEX": "051",
+    "Index no. DEC": "081",
+    "Pokemon MS": "",
+    "Pokemon Name": "Magnemite",
+    "Type": "Electric",
+    "Type2": "Steel"
+  },
+  {
+    "Index no. HEX": "052",
+    "Index no. DEC": "082",
+    "Pokemon MS": "",
+    "Pokemon Name": "Magneton",
+    "Type": "Electric",
+    "Type2": "Steel"
+  },
+  {
+    "Index no. HEX": "053",
+    "Index no. DEC": "083",
+    "Pokemon MS": "",
+    "Pokemon Name": "Farfetch'd",
+    "Type": "Normal",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": "054",
+    "Index no. DEC": "084",
+    "Pokemon MS": "",
+    "Pokemon Name": "Doduo",
+    "Type": "Normal",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": "055",
+    "Index no. DEC": "085",
+    "Pokemon MS": "",
+    "Pokemon Name": "Dodrio",
+    "Type": "Normal",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": "056",
+    "Index no. DEC": "086",
+    "Pokemon MS": "",
+    "Pokemon Name": "Seel",
+    "Type": "Water",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "057",
+    "Index no. DEC": "087",
+    "Pokemon MS": "",
+    "Pokemon Name": "Dewgong",
+    "Type": "Water",
+    "Type2": "Ice"
+  },
+  {
+    "Index no. HEX": "058",
+    "Index no. DEC": "088",
+    "Pokemon MS": "",
+    "Pokemon Name": "Grimer",
+    "Type": "Poison",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "059",
+    "Index no. DEC": "089",
+    "Pokemon MS": "",
+    "Pokemon Name": "Muk",
+    "Type": "Poison",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "05A",
+    "Index no. DEC": "090",
+    "Pokemon MS": "",
+    "Pokemon Name": "Shellder",
+    "Type": "Water",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "05B",
+    "Index no. DEC": "091",
+    "Pokemon MS": "",
+    "Pokemon Name": "Cloyster",
+    "Type": "Water",
+    "Type2": "Ice"
+  },
+  {
+    "Index no. HEX": "05C",
+    "Index no. DEC": "092",
+    "Pokemon MS": "",
+    "Pokemon Name": "Gastly",
+    "Type": "Ghost",
+    "Type2": "Poison"
+  },
+  {
+    "Index no. HEX": "05D",
+    "Index no. DEC": "093",
+    "Pokemon MS": "",
+    "Pokemon Name": "Haunter",
+    "Type": "Ghost",
+    "Type2": "Poison"
+  },
+  {
+    "Index no. HEX": "05E",
+    "Index no. DEC": "094",
+    "Pokemon MS": "",
+    "Pokemon Name": "Gengar",
+    "Type": "Ghost",
+    "Type2": "Poison"
+  },
+  {
+    "Index no. HEX": "05F",
+    "Index no. DEC": "095",
+    "Pokemon MS": "",
+    "Pokemon Name": "Onix",
+    "Type": "Rock",
+    "Type2": "Ground"
+  },
+  {
+    "Index no. HEX": "060",
+    "Index no. DEC": "096",
+    "Pokemon MS": "",
+    "Pokemon Name": "Drowzee",
+    "Type": "Psychic",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "061",
+    "Index no. DEC": "097",
+    "Pokemon MS": "",
+    "Pokemon Name": "Hypno",
+    "Type": "Psychic",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "062",
+    "Index no. DEC": "098",
+    "Pokemon MS": "",
+    "Pokemon Name": "Krabby",
+    "Type": "Water",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "063",
+    "Index no. DEC": "099",
+    "Pokemon MS": "",
+    "Pokemon Name": "Kingler",
+    "Type": "Water",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "064",
+    "Index no. DEC": 100,
+    "Pokemon MS": "",
+    "Pokemon Name": "Voltorb",
+    "Type": "Electric",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "065",
+    "Index no. DEC": 101,
+    "Pokemon MS": "",
+    "Pokemon Name": "Electrode",
+    "Type": "Electric",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "066",
+    "Index no. DEC": 102,
+    "Pokemon MS": "",
+    "Pokemon Name": "Exeggcute",
+    "Type": "Grass",
+    "Type2": "Psychic"
+  },
+  {
+    "Index no. HEX": "067",
+    "Index no. DEC": 103,
+    "Pokemon MS": "",
+    "Pokemon Name": "Exeggutor",
+    "Type": "Grass",
+    "Type2": "Psychic"
+  },
+  {
+    "Index no. HEX": "068",
+    "Index no. DEC": 104,
+    "Pokemon MS": "",
+    "Pokemon Name": "Cubone",
+    "Type": "Ground",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "069",
+    "Index no. DEC": 105,
+    "Pokemon MS": "",
+    "Pokemon Name": "Marowak",
+    "Type": "Ground",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "06A",
+    "Index no. DEC": 106,
+    "Pokemon MS": "",
+    "Pokemon Name": "Hitmonlee",
+    "Type": "Fighting",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "06B",
+    "Index no. DEC": 107,
+    "Pokemon MS": "",
+    "Pokemon Name": "Hitmonchan",
+    "Type": "Fighting",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "06C",
+    "Index no. DEC": 108,
+    "Pokemon MS": "",
+    "Pokemon Name": "Lickitung",
+    "Type": "Normal",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "06D",
+    "Index no. DEC": 109,
+    "Pokemon MS": "",
+    "Pokemon Name": "Koffing",
+    "Type": "Poison",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "06E",
+    "Index no. DEC": 110,
+    "Pokemon MS": "",
+    "Pokemon Name": "Weezing",
+    "Type": "Poison",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "06F",
+    "Index no. DEC": 111,
+    "Pokemon MS": "",
+    "Pokemon Name": "Rhyhorn",
+    "Type": "Ground",
+    "Type2": "Rock"
+  },
+  {
+    "Index no. HEX": "070",
+    "Index no. DEC": 112,
+    "Pokemon MS": "",
+    "Pokemon Name": "Rhydon",
+    "Type": "Ground",
+    "Type2": "Rock"
+  },
+  {
+    "Index no. HEX": "071",
+    "Index no. DEC": 113,
+    "Pokemon MS": "",
+    "Pokemon Name": "Chansey",
+    "Type": "Normal",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "072",
+    "Index no. DEC": 114,
+    "Pokemon MS": "",
+    "Pokemon Name": "Tangela",
+    "Type": "Grass",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "073",
+    "Index no. DEC": 115,
+    "Pokemon MS": "",
+    "Pokemon Name": "Kangaskhan",
+    "Type": "Normal",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "074",
+    "Index no. DEC": 116,
+    "Pokemon MS": "",
+    "Pokemon Name": "Horsea",
+    "Type": "Water",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "075",
+    "Index no. DEC": 117,
+    "Pokemon MS": "",
+    "Pokemon Name": "Seadra",
+    "Type": "Water",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "076",
+    "Index no. DEC": 118,
+    "Pokemon MS": "",
+    "Pokemon Name": "Goldeen",
+    "Type": "Water",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "077",
+    "Index no. DEC": 119,
+    "Pokemon MS": "",
+    "Pokemon Name": "Seaking",
+    "Type": "Water",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "078",
+    "Index no. DEC": 120,
+    "Pokemon MS": "",
+    "Pokemon Name": "Staryu",
+    "Type": "Water",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "079",
+    "Index no. DEC": 121,
+    "Pokemon MS": "",
+    "Pokemon Name": "Starmie",
+    "Type": "Water",
+    "Type2": "Psychic"
+  },
+  {
+    "Index no. HEX": "07A",
+    "Index no. DEC": 122,
+    "Pokemon MS": "",
+    "Pokemon Name": "Mr. Mime",
+    "Type": "Psychic",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "07B",
+    "Index no. DEC": 123,
+    "Pokemon MS": "",
+    "Pokemon Name": "Scyther",
+    "Type": "Bug",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": "07C",
+    "Index no. DEC": 124,
+    "Pokemon MS": "",
+    "Pokemon Name": "Jynx",
+    "Type": "Ice",
+    "Type2": "Psychic"
+  },
+  {
+    "Index no. HEX": "07D",
+    "Index no. DEC": 125,
+    "Pokemon MS": "",
+    "Pokemon Name": "Electabuzz",
+    "Type": "Electric",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "07E",
+    "Index no. DEC": 126,
+    "Pokemon MS": "",
+    "Pokemon Name": "Magmar",
+    "Type": "Fire",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "07F",
+    "Index no. DEC": 127,
+    "Pokemon MS": "",
+    "Pokemon Name": "Pinsir",
+    "Type": "Bug",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "080",
+    "Index no. DEC": 128,
+    "Pokemon MS": "",
+    "Pokemon Name": "Tauros",
+    "Type": "Normal",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "081",
+    "Index no. DEC": 129,
+    "Pokemon MS": "",
+    "Pokemon Name": "Magikarp",
+    "Type": "Water",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "082",
+    "Index no. DEC": 130,
+    "Pokemon MS": "",
+    "Pokemon Name": "Gyarados",
+    "Type": "Water",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": "083",
+    "Index no. DEC": 131,
+    "Pokemon MS": "",
+    "Pokemon Name": "Lapras",
+    "Type": "Water",
+    "Type2": "Ice"
+  },
+  {
+    "Index no. HEX": "084",
+    "Index no. DEC": 132,
+    "Pokemon MS": "",
+    "Pokemon Name": "Ditto",
+    "Type": "Normal",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "085",
+    "Index no. DEC": 133,
+    "Pokemon MS": "",
+    "Pokemon Name": "Eevee",
+    "Type": "Normal",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "086",
+    "Index no. DEC": 134,
+    "Pokemon MS": "",
+    "Pokemon Name": "Vaporeon",
+    "Type": "Water",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "087",
+    "Index no. DEC": 135,
+    "Pokemon MS": "",
+    "Pokemon Name": "Jolteon",
+    "Type": "Electric",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "088",
+    "Index no. DEC": 136,
+    "Pokemon MS": "",
+    "Pokemon Name": "Flareon",
+    "Type": "Fire",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "089",
+    "Index no. DEC": 137,
+    "Pokemon MS": "",
+    "Pokemon Name": "Porygon",
+    "Type": "Normal",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "08A",
+    "Index no. DEC": 138,
+    "Pokemon MS": "",
+    "Pokemon Name": "Omanyte",
+    "Type": "Rock",
+    "Type2": "Water"
+  },
+  {
+    "Index no. HEX": "08B",
+    "Index no. DEC": 139,
+    "Pokemon MS": "",
+    "Pokemon Name": "Omastar",
+    "Type": "Rock",
+    "Type2": "Water"
+  },
+  {
+    "Index no. HEX": "08C",
+    "Index no. DEC": 140,
+    "Pokemon MS": "",
+    "Pokemon Name": "Kabuto",
+    "Type": "Rock",
+    "Type2": "Water"
+  },
+  {
+    "Index no. HEX": "08D",
+    "Index no. DEC": 141,
+    "Pokemon MS": "",
+    "Pokemon Name": "Kabutops",
+    "Type": "Rock",
+    "Type2": "Water"
+  },
+  {
+    "Index no. HEX": "08E",
+    "Index no. DEC": 142,
+    "Pokemon MS": "",
+    "Pokemon Name": "Aerodactyl",
+    "Type": "Rock",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": "08F",
+    "Index no. DEC": 143,
+    "Pokemon MS": "",
+    "Pokemon Name": "Snorlax",
+    "Type": "Normal",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "090",
+    "Index no. DEC": 144,
+    "Pokemon MS": "",
+    "Pokemon Name": "Articuno",
+    "Type": "Ice",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": "091",
+    "Index no. DEC": 145,
+    "Pokemon MS": "",
+    "Pokemon Name": "Zapdos",
+    "Type": "Electric",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": "092",
+    "Index no. DEC": 146,
+    "Pokemon MS": "",
+    "Pokemon Name": "Moltres",
+    "Type": "Fire",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": "093",
+    "Index no. DEC": 147,
+    "Pokemon MS": "",
+    "Pokemon Name": "Dratini",
+    "Type": "Dragon",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "094",
+    "Index no. DEC": 148,
+    "Pokemon MS": "",
+    "Pokemon Name": "Dragonair",
+    "Type": "Dragon",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "095",
+    "Index no. DEC": 149,
+    "Pokemon MS": "",
+    "Pokemon Name": "Dragonite",
+    "Type": "Dragon",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": "096",
+    "Index no. DEC": 150,
+    "Pokemon MS": "",
+    "Pokemon Name": "Mewtwo",
+    "Type": "Psychic",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "097",
+    "Index no. DEC": 151,
+    "Pokemon MS": "",
+    "Pokemon Name": "Mew",
+    "Type": "Psychic",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "098",
+    "Index no. DEC": 152,
+    "Pokemon MS": "",
+    "Pokemon Name": "Chikorita",
+    "Type": "Grass",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "099",
+    "Index no. DEC": 153,
+    "Pokemon MS": "",
+    "Pokemon Name": "Bayleef",
+    "Type": "Grass",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "09A",
+    "Index no. DEC": 154,
+    "Pokemon MS": "",
+    "Pokemon Name": "Meganium",
+    "Type": "Grass",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "09B",
+    "Index no. DEC": 155,
+    "Pokemon MS": "",
+    "Pokemon Name": "Cyndaquil",
+    "Type": "Fire",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "09C",
+    "Index no. DEC": 156,
+    "Pokemon MS": "",
+    "Pokemon Name": "Quilava",
+    "Type": "Fire",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "09D",
+    "Index no. DEC": 157,
+    "Pokemon MS": "",
+    "Pokemon Name": "Typhlosion",
+    "Type": "Fire",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "09E",
+    "Index no. DEC": 158,
+    "Pokemon MS": "",
+    "Pokemon Name": "Totodile",
+    "Type": "Water",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "09F",
+    "Index no. DEC": 159,
+    "Pokemon MS": "",
+    "Pokemon Name": "Croconaw",
+    "Type": "Water",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "0A0",
+    "Index no. DEC": 160,
+    "Pokemon MS": "",
+    "Pokemon Name": "Feraligatr",
+    "Type": "Water",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "0A1",
+    "Index no. DEC": 161,
+    "Pokemon MS": "",
+    "Pokemon Name": "Sentret",
+    "Type": "Normal",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "0A2",
+    "Index no. DEC": 162,
+    "Pokemon MS": "",
+    "Pokemon Name": "Furret",
+    "Type": "Normal",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "0A3",
+    "Index no. DEC": 163,
+    "Pokemon MS": "",
+    "Pokemon Name": "Hoothoot",
+    "Type": "Normal",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": "0A4",
+    "Index no. DEC": 164,
+    "Pokemon MS": "",
+    "Pokemon Name": "Noctowl",
+    "Type": "Normal",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": "0A5",
+    "Index no. DEC": 165,
+    "Pokemon MS": "",
+    "Pokemon Name": "Ledyba",
+    "Type": "Bug",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": "0A6",
+    "Index no. DEC": 166,
+    "Pokemon MS": "",
+    "Pokemon Name": "Ledian",
+    "Type": "Bug",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": "0A7",
+    "Index no. DEC": 167,
+    "Pokemon MS": "",
+    "Pokemon Name": "Spinarak",
+    "Type": "Bug",
+    "Type2": "Poison"
+  },
+  {
+    "Index no. HEX": "0A8",
+    "Index no. DEC": 168,
+    "Pokemon MS": "",
+    "Pokemon Name": "Ariados",
+    "Type": "Bug",
+    "Type2": "Poison"
+  },
+  {
+    "Index no. HEX": "0A9",
+    "Index no. DEC": 169,
+    "Pokemon MS": "",
+    "Pokemon Name": "Crobat",
+    "Type": "Poison",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": "0AA",
+    "Index no. DEC": 170,
+    "Pokemon MS": "",
+    "Pokemon Name": "Chinchou",
+    "Type": "Water",
+    "Type2": "Electric"
+  },
+  {
+    "Index no. HEX": "0AB",
+    "Index no. DEC": 171,
+    "Pokemon MS": "",
+    "Pokemon Name": "Lanturn",
+    "Type": "Water",
+    "Type2": "Electric"
+  },
+  {
+    "Index no. HEX": "0AC",
+    "Index no. DEC": 172,
+    "Pokemon MS": "",
+    "Pokemon Name": "Pichu",
+    "Type": "Electric",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "0AD",
+    "Index no. DEC": 173,
+    "Pokemon MS": "",
+    "Pokemon Name": "Cleffa",
+    "Type": "Normal",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "0AE",
+    "Index no. DEC": 174,
+    "Pokemon MS": "",
+    "Pokemon Name": "Igglybuff",
+    "Type": "Normal",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "0AF",
+    "Index no. DEC": 175,
+    "Pokemon MS": "",
+    "Pokemon Name": "Togepi",
+    "Type": "Normal",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "0B0",
+    "Index no. DEC": 176,
+    "Pokemon MS": "",
+    "Pokemon Name": "Togetic",
+    "Type": "Normal",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": "0B1",
+    "Index no. DEC": 177,
+    "Pokemon MS": "",
+    "Pokemon Name": "Natu",
+    "Type": "Psychic",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": "0B2",
+    "Index no. DEC": 178,
+    "Pokemon MS": "",
+    "Pokemon Name": "Xatu",
+    "Type": "Psychic",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": "0B3",
+    "Index no. DEC": 179,
+    "Pokemon MS": "",
+    "Pokemon Name": "Mareep",
+    "Type": "Electric",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "0B4",
+    "Index no. DEC": 180,
+    "Pokemon MS": "",
+    "Pokemon Name": "Flaaffy",
+    "Type": "Electric",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "0B5",
+    "Index no. DEC": 181,
+    "Pokemon MS": "",
+    "Pokemon Name": "Ampharos",
+    "Type": "Electric",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "0B6",
+    "Index no. DEC": 182,
+    "Pokemon MS": "",
+    "Pokemon Name": "Bellossom",
+    "Type": "Grass",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "0B7",
+    "Index no. DEC": 183,
+    "Pokemon MS": "",
+    "Pokemon Name": "Marill",
+    "Type": "Water",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "0B8",
+    "Index no. DEC": 184,
+    "Pokemon MS": "",
+    "Pokemon Name": "Azumarill",
+    "Type": "Water",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "0B9",
+    "Index no. DEC": 185,
+    "Pokemon MS": "",
+    "Pokemon Name": "Sudowoodo",
+    "Type": "Rock",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "0BA",
+    "Index no. DEC": 186,
+    "Pokemon MS": "",
+    "Pokemon Name": "Politoed",
+    "Type": "Water",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "0BB",
+    "Index no. DEC": 187,
+    "Pokemon MS": "",
+    "Pokemon Name": "Hoppip",
+    "Type": "Grass",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": "0BC",
+    "Index no. DEC": 188,
+    "Pokemon MS": "",
+    "Pokemon Name": "Skiploom",
+    "Type": "Grass",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": "0BD",
+    "Index no. DEC": 189,
+    "Pokemon MS": "",
+    "Pokemon Name": "Jumpluff",
+    "Type": "Grass",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": "0BE",
+    "Index no. DEC": 190,
+    "Pokemon MS": "",
+    "Pokemon Name": "Aipom",
+    "Type": "Normal",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "0BF",
+    "Index no. DEC": 191,
+    "Pokemon MS": "",
+    "Pokemon Name": "Sunkern",
+    "Type": "Grass",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "0C0",
+    "Index no. DEC": 192,
+    "Pokemon MS": "",
+    "Pokemon Name": "Sunflora",
+    "Type": "Grass",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "0C1",
+    "Index no. DEC": 193,
+    "Pokemon MS": "",
+    "Pokemon Name": "Yanma",
+    "Type": "Bug",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": "0C2",
+    "Index no. DEC": 194,
+    "Pokemon MS": "",
+    "Pokemon Name": "Wooper",
+    "Type": "Water",
+    "Type2": "Ground"
+  },
+  {
+    "Index no. HEX": "0C3",
+    "Index no. DEC": 195,
+    "Pokemon MS": "",
+    "Pokemon Name": "Quagsire",
+    "Type": "Water",
+    "Type2": "Ground"
+  },
+  {
+    "Index no. HEX": "0C4",
+    "Index no. DEC": 196,
+    "Pokemon MS": "",
+    "Pokemon Name": "Espeon",
+    "Type": "Psychic",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "0C5",
+    "Index no. DEC": 197,
+    "Pokemon MS": "",
+    "Pokemon Name": "Umbreon",
+    "Type": "Dark",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "0C6",
+    "Index no. DEC": 198,
+    "Pokemon MS": "",
+    "Pokemon Name": "Murkrow",
+    "Type": "Dark",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": "0C7",
+    "Index no. DEC": 199,
+    "Pokemon MS": "",
+    "Pokemon Name": "Slowking",
+    "Type": "Water",
+    "Type2": "Psychic"
+  },
+  {
+    "Index no. HEX": "0C8",
+    "Index no. DEC": 200,
+    "Pokemon MS": "",
+    "Pokemon Name": "Misdreavus",
+    "Type": "Ghost",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "0C9",
+    "Index no. DEC": 201,
+    "Pokemon MS": "",
+    "Pokemon Name": "Unown",
+    "Type": "Psychic",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "0CA",
+    "Index no. DEC": 202,
+    "Pokemon MS": "",
+    "Pokemon Name": "Wobbuffet",
+    "Type": "Psychic",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "0CB",
+    "Index no. DEC": 203,
+    "Pokemon MS": "",
+    "Pokemon Name": "Girafarig",
+    "Type": "Normal",
+    "Type2": "Psychic"
+  },
+  {
+    "Index no. HEX": "0CC",
+    "Index no. DEC": 204,
+    "Pokemon MS": "",
+    "Pokemon Name": "Pineco",
+    "Type": "Bug",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "0CD",
+    "Index no. DEC": 205,
+    "Pokemon MS": "",
+    "Pokemon Name": "Forretress",
+    "Type": "Bug",
+    "Type2": "Steel"
+  },
+  {
+    "Index no. HEX": "0CE",
+    "Index no. DEC": 206,
+    "Pokemon MS": "",
+    "Pokemon Name": "Dunsparce",
+    "Type": "Normal",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "0CF",
+    "Index no. DEC": 207,
+    "Pokemon MS": "",
+    "Pokemon Name": "Gligar",
+    "Type": "Ground",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": "0D0",
+    "Index no. DEC": 208,
+    "Pokemon MS": "",
+    "Pokemon Name": "Steelix",
+    "Type": "Steel",
+    "Type2": "Ground"
+  },
+  {
+    "Index no. HEX": "0D1",
+    "Index no. DEC": 209,
+    "Pokemon MS": "",
+    "Pokemon Name": "Snubbull",
+    "Type": "Normal",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "0D2",
+    "Index no. DEC": 210,
+    "Pokemon MS": "",
+    "Pokemon Name": "Granbull",
+    "Type": "Normal",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "0D3",
+    "Index no. DEC": 211,
+    "Pokemon MS": "",
+    "Pokemon Name": "Qwilfish",
+    "Type": "Water",
+    "Type2": "Poison"
+  },
+  {
+    "Index no. HEX": "0D4",
+    "Index no. DEC": 212,
+    "Pokemon MS": "",
+    "Pokemon Name": "Scizor",
+    "Type": "Bug",
+    "Type2": "Steel"
+  },
+  {
+    "Index no. HEX": "0D5",
+    "Index no. DEC": 213,
+    "Pokemon MS": "",
+    "Pokemon Name": "Shuckle",
+    "Type": "Bug",
+    "Type2": "Rock"
+  },
+  {
+    "Index no. HEX": "0D6",
+    "Index no. DEC": 214,
+    "Pokemon MS": "",
+    "Pokemon Name": "Heracross",
+    "Type": "Bug",
+    "Type2": "Fighting"
+  },
+  {
+    "Index no. HEX": "0D7",
+    "Index no. DEC": 215,
+    "Pokemon MS": "",
+    "Pokemon Name": "Sneasel",
+    "Type": "Dark",
+    "Type2": "Ice"
+  },
+  {
+    "Index no. HEX": "0D8",
+    "Index no. DEC": 216,
+    "Pokemon MS": "",
+    "Pokemon Name": "Teddiursa",
+    "Type": "Normal",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "0D9",
+    "Index no. DEC": 217,
+    "Pokemon MS": "",
+    "Pokemon Name": "Ursaring",
+    "Type": "Normal",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "0DA",
+    "Index no. DEC": 218,
+    "Pokemon MS": "",
+    "Pokemon Name": "Slugma",
+    "Type": "Fire",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "0DB",
+    "Index no. DEC": 219,
+    "Pokemon MS": "",
+    "Pokemon Name": "Magcargo",
+    "Type": "Fire",
+    "Type2": "Rock"
+  },
+  {
+    "Index no. HEX": "0DC",
+    "Index no. DEC": 220,
+    "Pokemon MS": "",
+    "Pokemon Name": "Swinub",
+    "Type": "Ice",
+    "Type2": "Ground"
+  },
+  {
+    "Index no. HEX": "0DD",
+    "Index no. DEC": 221,
+    "Pokemon MS": "",
+    "Pokemon Name": "Piloswine",
+    "Type": "Ice",
+    "Type2": "Ground"
+  },
+  {
+    "Index no. HEX": "0DE",
+    "Index no. DEC": 222,
+    "Pokemon MS": "",
+    "Pokemon Name": "Corsola",
+    "Type": "Water",
+    "Type2": "Rock"
+  },
+  {
+    "Index no. HEX": "0DF",
+    "Index no. DEC": 223,
+    "Pokemon MS": "",
+    "Pokemon Name": "Remoraid",
+    "Type": "Water",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 0,
+    "Index no. DEC": 224,
+    "Pokemon MS": "",
+    "Pokemon Name": "Octillery",
+    "Type": "Water",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 0,
+    "Index no. DEC": 225,
+    "Pokemon MS": "",
+    "Pokemon Name": "Delibird",
+    "Type": "Ice",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": 0,
+    "Index no. DEC": 226,
+    "Pokemon MS": "",
+    "Pokemon Name": "Mantine",
+    "Type": "Water",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": 0,
+    "Index no. DEC": 227,
+    "Pokemon MS": "",
+    "Pokemon Name": "Skarmory",
+    "Type": "Steel",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": 0,
+    "Index no. DEC": 228,
+    "Pokemon MS": "",
+    "Pokemon Name": "Houndour",
+    "Type": "Dark",
+    "Type2": "Fire"
+  },
+  {
+    "Index no. HEX": 0,
+    "Index no. DEC": 229,
+    "Pokemon MS": "",
+    "Pokemon Name": "Houndoom",
+    "Type": "Dark",
+    "Type2": "Fire"
+  },
+  {
+    "Index no. HEX": 0,
+    "Index no. DEC": 230,
+    "Pokemon MS": "",
+    "Pokemon Name": "Kingdra",
+    "Type": "Water",
+    "Type2": "Dragon"
+  },
+  {
+    "Index no. HEX": 0,
+    "Index no. DEC": 231,
+    "Pokemon MS": "",
+    "Pokemon Name": "Phanpy",
+    "Type": "Ground",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 0,
+    "Index no. DEC": 232,
+    "Pokemon MS": "",
+    "Pokemon Name": "Donphan",
+    "Type": "Ground",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 0,
+    "Index no. DEC": 233,
+    "Pokemon MS": "",
+    "Pokemon Name": "Porygon2",
+    "Type": "Normal",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "0EA",
+    "Index no. DEC": 234,
+    "Pokemon MS": "",
+    "Pokemon Name": "Stantler",
+    "Type": "Normal",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "0EB",
+    "Index no. DEC": 235,
+    "Pokemon MS": "",
+    "Pokemon Name": "Smeargle",
+    "Type": "Normal",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "0EC",
+    "Index no. DEC": 236,
+    "Pokemon MS": "",
+    "Pokemon Name": "Tyrogue",
+    "Type": "Fighting",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "0ED",
+    "Index no. DEC": 237,
+    "Pokemon MS": "",
+    "Pokemon Name": "Hitmontop",
+    "Type": "Fighting",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "0EE",
+    "Index no. DEC": 238,
+    "Pokemon MS": "",
+    "Pokemon Name": "Smoochum",
+    "Type": "Ice",
+    "Type2": "Psychic"
+  },
+  {
+    "Index no. HEX": "0EF",
+    "Index no. DEC": 239,
+    "Pokemon MS": "",
+    "Pokemon Name": "Elekid",
+    "Type": "Electric",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "0F0",
+    "Index no. DEC": 240,
+    "Pokemon MS": "",
+    "Pokemon Name": "Magby",
+    "Type": "Fire",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "0F1",
+    "Index no. DEC": 241,
+    "Pokemon MS": "",
+    "Pokemon Name": "Miltank",
+    "Type": "Normal",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "0F2",
+    "Index no. DEC": 242,
+    "Pokemon MS": "",
+    "Pokemon Name": "Blissey",
+    "Type": "Normal",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "0F3",
+    "Index no. DEC": 243,
+    "Pokemon MS": "",
+    "Pokemon Name": "Raikou",
+    "Type": "Electric",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "0F4",
+    "Index no. DEC": 244,
+    "Pokemon MS": "",
+    "Pokemon Name": "Entei",
+    "Type": "Fire",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "0F5",
+    "Index no. DEC": 245,
+    "Pokemon MS": "",
+    "Pokemon Name": "Suicune",
+    "Type": "Water",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "0F6",
+    "Index no. DEC": 246,
+    "Pokemon MS": "",
+    "Pokemon Name": "Larvitar",
+    "Type": "Rock",
+    "Type2": "Ground"
+  },
+  {
+    "Index no. HEX": "0F7",
+    "Index no. DEC": 247,
+    "Pokemon MS": "",
+    "Pokemon Name": "Pupitar",
+    "Type": "Rock",
+    "Type2": "Ground"
+  },
+  {
+    "Index no. HEX": "0F8",
+    "Index no. DEC": 248,
+    "Pokemon MS": "",
+    "Pokemon Name": "Tyranitar",
+    "Type": "Rock",
+    "Type2": "Dark"
+  },
+  {
+    "Index no. HEX": "0F9",
+    "Index no. DEC": 249,
+    "Pokemon MS": "",
+    "Pokemon Name": "Lugia",
+    "Type": "Psychic",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": "0FA",
+    "Index no. DEC": 250,
+    "Pokemon MS": "",
+    "Pokemon Name": "Ho-Oh",
+    "Type": "Fire",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": "0FB",
+    "Index no. DEC": 251,
+    "Pokemon MS": "",
+    "Pokemon Name": "Celebi",
+    "Type": "Psychic",
+    "Type2": "Grass"
+  },
+  {
+    "Index no. HEX": "0FC",
+    "Index no. DEC": 252,
+    "Pokemon MS": "",
+    "Pokemon Name": "?",
+    "Type": "Normal",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 115,
+    "Index no. DEC": 277,
+    "Pokemon MS": "",
+    "Pokemon Name": "Treecko",
+    "Type": "Grass",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 116,
+    "Index no. DEC": 278,
+    "Pokemon MS": "",
+    "Pokemon Name": "Grovyle",
+    "Type": "Grass",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 117,
+    "Index no. DEC": 279,
+    "Pokemon MS": "",
+    "Pokemon Name": "Sceptile",
+    "Type": "Grass",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 118,
+    "Index no. DEC": 280,
+    "Pokemon MS": "",
+    "Pokemon Name": "Torchic",
+    "Type": "Fire",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 119,
+    "Index no. DEC": 281,
+    "Pokemon MS": "",
+    "Pokemon Name": "Combusken",
+    "Type": "Fire",
+    "Type2": "Fighting"
+  },
+  {
+    "Index no. HEX": "11A",
+    "Index no. DEC": 282,
+    "Pokemon MS": "",
+    "Pokemon Name": "Blaziken",
+    "Type": "Fire",
+    "Type2": "Fighting"
+  },
+  {
+    "Index no. HEX": "11B",
+    "Index no. DEC": 283,
+    "Pokemon MS": "",
+    "Pokemon Name": "Mudkip",
+    "Type": "Water",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "11C",
+    "Index no. DEC": 284,
+    "Pokemon MS": "",
+    "Pokemon Name": "Marshtomp",
+    "Type": "Water",
+    "Type2": "Ground"
+  },
+  {
+    "Index no. HEX": "11D",
+    "Index no. DEC": 285,
+    "Pokemon MS": "",
+    "Pokemon Name": "Swampert",
+    "Type": "Water",
+    "Type2": "Ground"
+  },
+  {
+    "Index no. HEX": "11E",
+    "Index no. DEC": 286,
+    "Pokemon MS": "",
+    "Pokemon Name": "Poochyena",
+    "Type": "Dark",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "11F",
+    "Index no. DEC": 287,
+    "Pokemon MS": "",
+    "Pokemon Name": "Mightyena",
+    "Type": "Dark",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 120,
+    "Index no. DEC": 288,
+    "Pokemon MS": "",
+    "Pokemon Name": "Zigzagoon",
+    "Type": "Normal",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 121,
+    "Index no. DEC": 289,
+    "Pokemon MS": "",
+    "Pokemon Name": "Linoone",
+    "Type": "Normal",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 122,
+    "Index no. DEC": 290,
+    "Pokemon MS": "",
+    "Pokemon Name": "Wurmple",
+    "Type": "Bug",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 123,
+    "Index no. DEC": 291,
+    "Pokemon MS": "",
+    "Pokemon Name": "Silcoon",
+    "Type": "Bug",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 124,
+    "Index no. DEC": 292,
+    "Pokemon MS": "",
+    "Pokemon Name": "Beautifly",
+    "Type": "Bug",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": 125,
+    "Index no. DEC": 293,
+    "Pokemon MS": "",
+    "Pokemon Name": "Cascoon",
+    "Type": "Bug",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 126,
+    "Index no. DEC": 294,
+    "Pokemon MS": "",
+    "Pokemon Name": "Dustox",
+    "Type": "Bug",
+    "Type2": "Poison"
+  },
+  {
+    "Index no. HEX": 127,
+    "Index no. DEC": 295,
+    "Pokemon MS": "",
+    "Pokemon Name": "Lotad",
+    "Type": "Water",
+    "Type2": "Grass"
+  },
+  {
+    "Index no. HEX": 128,
+    "Index no. DEC": 296,
+    "Pokemon MS": "",
+    "Pokemon Name": "Lombre",
+    "Type": "Water",
+    "Type2": "Grass"
+  },
+  {
+    "Index no. HEX": 129,
+    "Index no. DEC": 297,
+    "Pokemon MS": "",
+    "Pokemon Name": "Ludicolo",
+    "Type": "Water",
+    "Type2": "Grass"
+  },
+  {
+    "Index no. HEX": "12A",
+    "Index no. DEC": 298,
+    "Pokemon MS": "",
+    "Pokemon Name": "Seedot",
+    "Type": "Grass",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "12B",
+    "Index no. DEC": 299,
+    "Pokemon MS": "",
+    "Pokemon Name": "Nuzleaf",
+    "Type": "Grass",
+    "Type2": "Dark"
+  },
+  {
+    "Index no. HEX": "12C",
+    "Index no. DEC": 300,
+    "Pokemon MS": "",
+    "Pokemon Name": "Shiftry",
+    "Type": "Grass",
+    "Type2": "Dark"
+  },
+  {
+    "Index no. HEX": "12D",
+    "Index no. DEC": 301,
+    "Pokemon MS": "",
+    "Pokemon Name": "Nincada",
+    "Type": "Bug",
+    "Type2": "Ground"
+  },
+  {
+    "Index no. HEX": "12E",
+    "Index no. DEC": 302,
+    "Pokemon MS": "",
+    "Pokemon Name": "Ninjask",
+    "Type": "Bug",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": "12F",
+    "Index no. DEC": 303,
+    "Pokemon MS": "",
+    "Pokemon Name": "Shedinja",
+    "Type": "Bug",
+    "Type2": "Ghost"
+  },
+  {
+    "Index no. HEX": 130,
+    "Index no. DEC": 304,
+    "Pokemon MS": "",
+    "Pokemon Name": "Taillow",
+    "Type": "Normal",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": 131,
+    "Index no. DEC": 305,
+    "Pokemon MS": "",
+    "Pokemon Name": "Swellow",
+    "Type": "Normal",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": 132,
+    "Index no. DEC": 306,
+    "Pokemon MS": "",
+    "Pokemon Name": "Shroomish",
+    "Type": "Grass",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 133,
+    "Index no. DEC": 307,
+    "Pokemon MS": "",
+    "Pokemon Name": "Breloom",
+    "Type": "Grass",
+    "Type2": "Fighting"
+  },
+  {
+    "Index no. HEX": 134,
+    "Index no. DEC": 308,
+    "Pokemon MS": "",
+    "Pokemon Name": "Spinda",
+    "Type": "Normal",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 135,
+    "Index no. DEC": 309,
+    "Pokemon MS": "",
+    "Pokemon Name": "Wingull",
+    "Type": "Water",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": 136,
+    "Index no. DEC": 310,
+    "Pokemon MS": "",
+    "Pokemon Name": "Pelipper",
+    "Type": "Water",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": 137,
+    "Index no. DEC": 311,
+    "Pokemon MS": "",
+    "Pokemon Name": "Surskit",
+    "Type": "Bug",
+    "Type2": "Water"
+  },
+  {
+    "Index no. HEX": 138,
+    "Index no. DEC": 312,
+    "Pokemon MS": "",
+    "Pokemon Name": "Masquerain",
+    "Type": "Bug",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": 139,
+    "Index no. DEC": 313,
+    "Pokemon MS": "",
+    "Pokemon Name": "Wailmer",
+    "Type": "Water",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "13A",
+    "Index no. DEC": 314,
+    "Pokemon MS": "",
+    "Pokemon Name": "Wailord",
+    "Type": "Water",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "13B",
+    "Index no. DEC": 315,
+    "Pokemon MS": "",
+    "Pokemon Name": "Skitty",
+    "Type": "Normal",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "13C",
+    "Index no. DEC": 316,
+    "Pokemon MS": "",
+    "Pokemon Name": "Delcatty",
+    "Type": "Normal",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "13D",
+    "Index no. DEC": 317,
+    "Pokemon MS": "",
+    "Pokemon Name": "Kecleon",
+    "Type": "Normal",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "13E",
+    "Index no. DEC": 318,
+    "Pokemon MS": "",
+    "Pokemon Name": "Baltoy",
+    "Type": "Ground",
+    "Type2": "Psychic"
+  },
+  {
+    "Index no. HEX": "13F",
+    "Index no. DEC": 319,
+    "Pokemon MS": "",
+    "Pokemon Name": "Claydol",
+    "Type": "Ground",
+    "Type2": "Psychic"
+  },
+  {
+    "Index no. HEX": 140,
+    "Index no. DEC": 320,
+    "Pokemon MS": "",
+    "Pokemon Name": "Nosepass",
+    "Type": "Rock",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 141,
+    "Index no. DEC": 321,
+    "Pokemon MS": "",
+    "Pokemon Name": "Torkoal",
+    "Type": "Fire",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 142,
+    "Index no. DEC": 322,
+    "Pokemon MS": "",
+    "Pokemon Name": "Sableye",
+    "Type": "Dark",
+    "Type2": "Ghost"
+  },
+  {
+    "Index no. HEX": 143,
+    "Index no. DEC": 323,
+    "Pokemon MS": "",
+    "Pokemon Name": "Barboach",
+    "Type": "Water",
+    "Type2": "Ground"
+  },
+  {
+    "Index no. HEX": 144,
+    "Index no. DEC": 324,
+    "Pokemon MS": "",
+    "Pokemon Name": "Whiscash",
+    "Type": "Water",
+    "Type2": "Ground"
+  },
+  {
+    "Index no. HEX": 145,
+    "Index no. DEC": 325,
+    "Pokemon MS": "",
+    "Pokemon Name": "Luvdisc",
+    "Type": "Water",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 146,
+    "Index no. DEC": 326,
+    "Pokemon MS": "",
+    "Pokemon Name": "Corphish",
+    "Type": "Water",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 147,
+    "Index no. DEC": 327,
+    "Pokemon MS": "",
+    "Pokemon Name": "Crawdaunt",
+    "Type": "Water",
+    "Type2": "Dark"
+  },
+  {
+    "Index no. HEX": 148,
+    "Index no. DEC": 328,
+    "Pokemon MS": "",
+    "Pokemon Name": "Feebas",
+    "Type": "Water",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 149,
+    "Index no. DEC": 329,
+    "Pokemon MS": "",
+    "Pokemon Name": "Milotic",
+    "Type": "Water",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "14A",
+    "Index no. DEC": 330,
+    "Pokemon MS": "",
+    "Pokemon Name": "Carvanha",
+    "Type": "Water",
+    "Type2": "Dark"
+  },
+  {
+    "Index no. HEX": "14B",
+    "Index no. DEC": 331,
+    "Pokemon MS": "",
+    "Pokemon Name": "Sharpedo",
+    "Type": "Water",
+    "Type2": "Dark"
+  },
+  {
+    "Index no. HEX": "14C",
+    "Index no. DEC": 332,
+    "Pokemon MS": "",
+    "Pokemon Name": "Trapinch",
+    "Type": "Ground",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "14D",
+    "Index no. DEC": 333,
+    "Pokemon MS": "",
+    "Pokemon Name": "Vibrava",
+    "Type": "Ground",
+    "Type2": "Dragon"
+  },
+  {
+    "Index no. HEX": "14E",
+    "Index no. DEC": 334,
+    "Pokemon MS": "",
+    "Pokemon Name": "Flygon",
+    "Type": "Ground",
+    "Type2": "Dragon"
+  },
+  {
+    "Index no. HEX": "14F",
+    "Index no. DEC": 335,
+    "Pokemon MS": "",
+    "Pokemon Name": "Makuhita",
+    "Type": "Fighting",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 150,
+    "Index no. DEC": 336,
+    "Pokemon MS": "",
+    "Pokemon Name": "Hariyama",
+    "Type": "Fighting",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 151,
+    "Index no. DEC": 337,
+    "Pokemon MS": "",
+    "Pokemon Name": "Electrike",
+    "Type": "Electric",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 152,
+    "Index no. DEC": 338,
+    "Pokemon MS": "",
+    "Pokemon Name": "Manectric",
+    "Type": "Electric",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 153,
+    "Index no. DEC": 339,
+    "Pokemon MS": "",
+    "Pokemon Name": "Numel",
+    "Type": "Fire",
+    "Type2": "Ground"
+  },
+  {
+    "Index no. HEX": 154,
+    "Index no. DEC": 340,
+    "Pokemon MS": "",
+    "Pokemon Name": "Camerupt",
+    "Type": "Fire",
+    "Type2": "Ground"
+  },
+  {
+    "Index no. HEX": 155,
+    "Index no. DEC": 341,
+    "Pokemon MS": "",
+    "Pokemon Name": "Spheal",
+    "Type": "Ice",
+    "Type2": "Water"
+  },
+  {
+    "Index no. HEX": 156,
+    "Index no. DEC": 342,
+    "Pokemon MS": "",
+    "Pokemon Name": "Sealeo",
+    "Type": "Ice",
+    "Type2": "Water"
+  },
+  {
+    "Index no. HEX": 157,
+    "Index no. DEC": 343,
+    "Pokemon MS": "",
+    "Pokemon Name": "Walrein",
+    "Type": "Ice",
+    "Type2": "Water"
+  },
+  {
+    "Index no. HEX": 158,
+    "Index no. DEC": 344,
+    "Pokemon MS": "",
+    "Pokemon Name": "Cacnea",
+    "Type": "Grass",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 159,
+    "Index no. DEC": 345,
+    "Pokemon MS": "",
+    "Pokemon Name": "Cacturne",
+    "Type": "Grass",
+    "Type2": "Dark"
+  },
+  {
+    "Index no. HEX": "15A",
+    "Index no. DEC": 346,
+    "Pokemon MS": "",
+    "Pokemon Name": "Snorunt",
+    "Type": "Ice",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "15B",
+    "Index no. DEC": 347,
+    "Pokemon MS": "",
+    "Pokemon Name": "Glalie",
+    "Type": "Ice",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "15C",
+    "Index no. DEC": 348,
+    "Pokemon MS": "",
+    "Pokemon Name": "Lunatone",
+    "Type": "Rock",
+    "Type2": "Psychic"
+  },
+  {
+    "Index no. HEX": "15D",
+    "Index no. DEC": 349,
+    "Pokemon MS": "",
+    "Pokemon Name": "Solrock",
+    "Type": "Rock",
+    "Type2": "Psychic"
+  },
+  {
+    "Index no. HEX": "15E",
+    "Index no. DEC": 350,
+    "Pokemon MS": "",
+    "Pokemon Name": "Azurill",
+    "Type": "Normal",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "15F",
+    "Index no. DEC": 351,
+    "Pokemon MS": "",
+    "Pokemon Name": "Spoink",
+    "Type": "Psychic",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 160,
+    "Index no. DEC": 352,
+    "Pokemon MS": "",
+    "Pokemon Name": "Grumpig",
+    "Type": "Psychic",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 161,
+    "Index no. DEC": 353,
+    "Pokemon MS": "",
+    "Pokemon Name": "Plusle",
+    "Type": "Electric",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 162,
+    "Index no. DEC": 354,
+    "Pokemon MS": "",
+    "Pokemon Name": "Minun",
+    "Type": "Electric",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 163,
+    "Index no. DEC": 355,
+    "Pokemon MS": "",
+    "Pokemon Name": "Mawile",
+    "Type": "Steel",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 164,
+    "Index no. DEC": 356,
+    "Pokemon MS": "",
+    "Pokemon Name": "Meditite",
+    "Type": "Fighting",
+    "Type2": "Psychic"
+  },
+  {
+    "Index no. HEX": 165,
+    "Index no. DEC": 357,
+    "Pokemon MS": "",
+    "Pokemon Name": "Medicham",
+    "Type": "Fighting",
+    "Type2": "Psychic"
+  },
+  {
+    "Index no. HEX": 166,
+    "Index no. DEC": 358,
+    "Pokemon MS": "",
+    "Pokemon Name": "Swablu",
+    "Type": "Normal",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": 167,
+    "Index no. DEC": 359,
+    "Pokemon MS": "",
+    "Pokemon Name": "Altaria",
+    "Type": "Dragon",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": 168,
+    "Index no. DEC": 360,
+    "Pokemon MS": "",
+    "Pokemon Name": "Wynaut",
+    "Type": "Psychic",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 169,
+    "Index no. DEC": 361,
+    "Pokemon MS": "",
+    "Pokemon Name": "Duskull",
+    "Type": "Ghost",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "16A",
+    "Index no. DEC": 362,
+    "Pokemon MS": "",
+    "Pokemon Name": "Dusclops",
+    "Type": "Ghost",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "16B",
+    "Index no. DEC": 363,
+    "Pokemon MS": "",
+    "Pokemon Name": "Roselia",
+    "Type": "Grass",
+    "Type2": "Poison"
+  },
+  {
+    "Index no. HEX": "16C",
+    "Index no. DEC": 364,
+    "Pokemon MS": "",
+    "Pokemon Name": "Slakoth",
+    "Type": "Normal",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "16D",
+    "Index no. DEC": 365,
+    "Pokemon MS": "",
+    "Pokemon Name": "Vigoroth",
+    "Type": "Normal",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "16E",
+    "Index no. DEC": 366,
+    "Pokemon MS": "",
+    "Pokemon Name": "Slaking",
+    "Type": "Normal",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "16F",
+    "Index no. DEC": 367,
+    "Pokemon MS": "",
+    "Pokemon Name": "Gulpin",
+    "Type": "Poison",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 170,
+    "Index no. DEC": 368,
+    "Pokemon MS": "",
+    "Pokemon Name": "Swalot",
+    "Type": "Poison",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 171,
+    "Index no. DEC": 369,
+    "Pokemon MS": "",
+    "Pokemon Name": "Tropius",
+    "Type": "Grass",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": 172,
+    "Index no. DEC": 370,
+    "Pokemon MS": "",
+    "Pokemon Name": "Whismur",
+    "Type": "Normal",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 173,
+    "Index no. DEC": 371,
+    "Pokemon MS": "",
+    "Pokemon Name": "Loudred",
+    "Type": "Normal",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 174,
+    "Index no. DEC": 372,
+    "Pokemon MS": "",
+    "Pokemon Name": "Exploud",
+    "Type": "Normal",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 175,
+    "Index no. DEC": 373,
+    "Pokemon MS": "",
+    "Pokemon Name": "Clamperl",
+    "Type": "Water",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 176,
+    "Index no. DEC": 374,
+    "Pokemon MS": "",
+    "Pokemon Name": "Huntail",
+    "Type": "Water",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 177,
+    "Index no. DEC": 375,
+    "Pokemon MS": "",
+    "Pokemon Name": "Gorebyss",
+    "Type": "Water",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 178,
+    "Index no. DEC": 376,
+    "Pokemon MS": "",
+    "Pokemon Name": "Absol",
+    "Type": "Dark",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 179,
+    "Index no. DEC": 377,
+    "Pokemon MS": "",
+    "Pokemon Name": "Shuppet",
+    "Type": "Ghost",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "17A",
+    "Index no. DEC": 378,
+    "Pokemon MS": "",
+    "Pokemon Name": "Banette",
+    "Type": "Ghost",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "17B",
+    "Index no. DEC": 379,
+    "Pokemon MS": "",
+    "Pokemon Name": "Seviper",
+    "Type": "Poison",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "17C",
+    "Index no. DEC": 380,
+    "Pokemon MS": "",
+    "Pokemon Name": "Zangoose",
+    "Type": "Normal",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "17D",
+    "Index no. DEC": 381,
+    "Pokemon MS": "",
+    "Pokemon Name": "Relicanth",
+    "Type": "Rock",
+    "Type2": "Water"
+  },
+  {
+    "Index no. HEX": "17E",
+    "Index no. DEC": 382,
+    "Pokemon MS": "",
+    "Pokemon Name": "Aron",
+    "Type": "Steel",
+    "Type2": "Rock"
+  },
+  {
+    "Index no. HEX": "17F",
+    "Index no. DEC": 383,
+    "Pokemon MS": "",
+    "Pokemon Name": "Lairon",
+    "Type": "Steel",
+    "Type2": "Rock"
+  },
+  {
+    "Index no. HEX": 180,
+    "Index no. DEC": 384,
+    "Pokemon MS": "",
+    "Pokemon Name": "Aggron",
+    "Type": "Steel",
+    "Type2": "Rock"
+  },
+  {
+    "Index no. HEX": 181,
+    "Index no. DEC": 385,
+    "Pokemon MS": "",
+    "Pokemon Name": "Castform",
+    "Type": "Normal",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 182,
+    "Index no. DEC": 386,
+    "Pokemon MS": "",
+    "Pokemon Name": "Volbeat",
+    "Type": "Bug",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 183,
+    "Index no. DEC": 387,
+    "Pokemon MS": "",
+    "Pokemon Name": "Illumise",
+    "Type": "Bug",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 184,
+    "Index no. DEC": 388,
+    "Pokemon MS": "",
+    "Pokemon Name": "Lileep",
+    "Type": "Rock",
+    "Type2": "Grass"
+  },
+  {
+    "Index no. HEX": 185,
+    "Index no. DEC": 389,
+    "Pokemon MS": "",
+    "Pokemon Name": "Cradily",
+    "Type": "Rock",
+    "Type2": "Grass"
+  },
+  {
+    "Index no. HEX": 186,
+    "Index no. DEC": 390,
+    "Pokemon MS": "",
+    "Pokemon Name": "Anorith",
+    "Type": "Rock",
+    "Type2": "Bug"
+  },
+  {
+    "Index no. HEX": 187,
+    "Index no. DEC": 391,
+    "Pokemon MS": "",
+    "Pokemon Name": "Armaldo",
+    "Type": "Rock",
+    "Type2": "Bug"
+  },
+  {
+    "Index no. HEX": 188,
+    "Index no. DEC": 392,
+    "Pokemon MS": "",
+    "Pokemon Name": "Ralts",
+    "Type": "Psychic",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 189,
+    "Index no. DEC": 393,
+    "Pokemon MS": "",
+    "Pokemon Name": "Kirlia",
+    "Type": "Psychic",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "18A",
+    "Index no. DEC": 394,
+    "Pokemon MS": "",
+    "Pokemon Name": "Gardevoir",
+    "Type": "Psychic",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "18B",
+    "Index no. DEC": 395,
+    "Pokemon MS": "",
+    "Pokemon Name": "Bagon",
+    "Type": "Dragon",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "18C",
+    "Index no. DEC": 396,
+    "Pokemon MS": "",
+    "Pokemon Name": "Shelgon",
+    "Type": "Dragon",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "18D",
+    "Index no. DEC": 397,
+    "Pokemon MS": "",
+    "Pokemon Name": "Salamence",
+    "Type": "Dragon",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": "18E",
+    "Index no. DEC": 398,
+    "Pokemon MS": "",
+    "Pokemon Name": "Beldum",
+    "Type": "Steel",
+    "Type2": "Psychic"
+  },
+  {
+    "Index no. HEX": "18F",
+    "Index no. DEC": 399,
+    "Pokemon MS": "",
+    "Pokemon Name": "Metang",
+    "Type": "Steel",
+    "Type2": "Psychic"
+  },
+  {
+    "Index no. HEX": 190,
+    "Index no. DEC": 400,
+    "Pokemon MS": "",
+    "Pokemon Name": "Metagross",
+    "Type": "Steel",
+    "Type2": "Psychic"
+  },
+  {
+    "Index no. HEX": 191,
+    "Index no. DEC": 401,
+    "Pokemon MS": "",
+    "Pokemon Name": "Regirock",
+    "Type": "Rock",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 192,
+    "Index no. DEC": 402,
+    "Pokemon MS": "",
+    "Pokemon Name": "Regice",
+    "Type": "Ice",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 193,
+    "Index no. DEC": 403,
+    "Pokemon MS": "",
+    "Pokemon Name": "Registeel",
+    "Type": "Steel",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 194,
+    "Index no. DEC": 404,
+    "Pokemon MS": "",
+    "Pokemon Name": "Kyogre",
+    "Type": "Water",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 195,
+    "Index no. DEC": 405,
+    "Pokemon MS": "",
+    "Pokemon Name": "Groudon",
+    "Type": "Ground",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": 196,
+    "Index no. DEC": 406,
+    "Pokemon MS": "",
+    "Pokemon Name": "Rayquaza",
+    "Type": "Dragon",
+    "Type2": "Flying"
+  },
+  {
+    "Index no. HEX": 197,
+    "Index no. DEC": 407,
+    "Pokemon MS": "",
+    "Pokemon Name": "Latias",
+    "Type": "Dragon",
+    "Type2": "Psychic"
+  },
+  {
+    "Index no. HEX": 198,
+    "Index no. DEC": 408,
+    "Pokemon MS": "",
+    "Pokemon Name": "Latios",
+    "Type": "Dragon",
+    "Type2": "Psychic"
+  },
+  {
+    "Index no. HEX": 199,
+    "Index no. DEC": 409,
+    "Pokemon MS": "",
+    "Pokemon Name": "Jirachi",
+    "Type": "Steel",
+    "Type2": "Psychic"
+  },
+  {
+    "Index no. HEX": "19A",
+    "Index no. DEC": 410,
+    "Pokemon MS": "",
+    "Pokemon Name": "Deoxys",
+    "Type": "Psychic",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "19B",
+    "Index no. DEC": 411,
+    "Pokemon MS": "",
+    "Pokemon Name": "Chimecho",
+    "Type": "Psychic",
+    "Type2": null
+  },
+  {
+    "Index no. HEX": "19C",
+    "Index no. DEC": 412,
+    "Pokemon MS": "",
+    "Pokemon Name": "Pok\ufffdmon Egg",
+    "Type": "???",
+    "Type2": null
+  }
+]
