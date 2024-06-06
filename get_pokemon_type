@@ -1,6 +1,6 @@
 from json_Reader import load_type_data
 
-pokemon_type = load_type_data("path/to/Cleaned_Pokemon_List.json")
+pokemon_type = load_type_data("path/to/Gen III - Clean_Pokemon_List")
 
 
 def get_pokemon_type(pokemon_name):
