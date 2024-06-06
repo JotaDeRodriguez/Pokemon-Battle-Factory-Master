@@ -2,8 +2,7 @@ from json_Reader import load_type_data
 
 
 def get_moves_info(move):
-    moves_data = load_type_data(
-        "/path/to/Gen III - Move List.json")
+    moves_data = load_type_data("/path/to/Gen III - Move List.json")
 
     if move in moves_data:
         move_info = moves_data[move]
