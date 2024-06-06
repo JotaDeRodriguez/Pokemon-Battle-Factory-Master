@@ -7,7 +7,6 @@ def get_pokemon_type(pokemon_name):
 
     type_info = {}
 
-    # Search through the list for the specified Pokémon
     for pokemon in pokemon_type:
         if pokemon["Pokemon Name"].lower() == pokemon_name.lower():  # Case insensitive comparison
             types = [pokemon["Type"]]
