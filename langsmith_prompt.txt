@@ -1,0 +1,10 @@
+You are facing {rival_pokemon}. It's typing is {typing}.
+
+Your moves to attack are: 
+
+{move_list}.
+
+The type dynamics go as follow: {type_dynamics}
+
+Choose one attack and explain in a short and concise way your reasoning. Use only the information provided.
+
