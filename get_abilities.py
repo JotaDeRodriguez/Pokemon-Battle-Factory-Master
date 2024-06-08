@@ -1,6 +1,6 @@
 from json_Reader import load_type_data
 
-ability_info = load_type_data(r"C:\Users\juandavid.rodriguez\Documents\Langchain\PokemonProject\Gen III - Abilities.json")
+ability_info = load_type_data("path/to/Gen III - Abilities.json")
 
 
 def get_pokemon_ability(pokemon_name):
