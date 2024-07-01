@@ -971,7 +971,7 @@
     "Index no. HEX": "07A",
     "Index no. DEC": 122,
     "Pokemon MS": "",
-    "Pokemon Name": "Mr. Mime",
+    "Pokemon Name": "MrMime",
     "Type": "Psychic",
     "Type2": null
   },
@@ -3102,5 +3102,29 @@
     "Pokemon Name": "Pok\ufffdmon Egg",
     "Type": "???",
     "Type2": null
+  },
+  {
+    "Index no. HEX": "19A",
+    "Index no. DEC": 410,
+    "Pokemon MS": "",
+    "Pokemon Name": "DeoxysAttack",
+    "Type": "Psychic",
+    "Type2": "Psychic"
+  },
+  {
+    "Index no. HEX": "19A",
+    "Index no. DEC": 410,
+    "Pokemon MS": "",
+    "Pokemon Name": "DeoxysDefense",
+    "Type": "Psychic",
+    "Type2": "Psychic"
+  },
+  {
+    "Index no. HEX": "19A",
+    "Index no. DEC": 410,
+    "Pokemon MS": "",
+    "Pokemon Name": "DeoxysSpeed",
+    "Type": "Psychic",
+    "Type2": "Psychic"
   }
 ]
