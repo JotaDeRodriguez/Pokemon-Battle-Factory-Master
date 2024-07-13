@@ -1,7 +1,24 @@
 {
   "battle_messages": [
-    "Player sent out Regirock!",
-    "Rival sent out Gligar!",
-    "Turn 1 begins."
+    "Player sent out Luvdisc!",
+    "Rival sent out Manectric!",
+    "Turn 1 begins.",
+    "Player's Luvdisc used Surf!",
+    "Rival's Manectric took damage from the attack! It's now at 59/100 HP.",
+    "Rival's Manectric used Hidden Power!",
+    "Player's Luvdisc resisted the attack!",
+    "Player's Luvdisc took damage from the attack! It's now at 222/248 HP.",
+    "Luvdisc recovered health from Leftovers. It's now at 237/248 HP.",
+    "Turn 2 begins.",
+    "Player's Luvdisc used Surf!",
+    "Rival's Manectric took damage from the attack! It's now at 13/100 HP.",
+    "Rival's Manectric used Substitute!",
+    "Luvdisc recovered health from Leftovers. It's now at 248/248 HP.",
+    "Rival's Manectric's Special Attack rose by 1!",
+    "Turn 3 begins.",
+    "Player's Luvdisc used Surf!",
+    "Manectric fainted!",
+    "Rival sent out Scyther!",
+    "Turn 4 begins."
   ]
 }

@@ -12,11 +12,14 @@ client = OpenAI(api_key=api_key)
 
 def supervisor(battle_info):
     response = client.chat.completions.create(
-        model="gpt-3.5-turbo",
+        model="gpt-4o",
         messages=[
-            {"role": "system", "content": "You are a pokemon battles supervisor, tasked with advising on battles"
+            {"role": "system", "content": """
+            You are a pokemon battle trainer. Tasked with deciding on a move. With the info provided, your task is making
+            the optimal play. 
+             """
              },
-            {"role": "user", "content": f"{battle_info}. Tell me whats going on, summarize the battle"},
+            {"role": "user", "content": f"{battle_info}. Choose the most advantageous move!"},
         ]
     )
     return response.choices[0].message.content

@@ -20,14 +20,14 @@ def load_memory_from_file(file_path):
     try:
         with open(file_path, "r") as file:
             data = json.load(file)
-            return data['history']
+            return data if isinstance(data, list) else data.get('history', [])
     except FileNotFoundError:
         return []
 
 def save_memory_to_file(file_path, memory_data):
     """Save memory to a JSON file."""
     with open(file_path, "w") as file:
-        json.dump({'history': memory_data}, file)
+        json.dump(memory_data, file)
 
 def serialize_messages(messages):
     """Convert message objects to a serializable format."""
@@ -42,12 +42,15 @@ chat_history = load_memory_from_file(memory_path)
 for message in chat_history:
     if message['content']:
         if message['type'] == 'HumanMessage':
-            memory.save_context({"input": message['content']}, {"output": ""})  # Ensure `output` is an empty string instead of None
+            memory.save_context({"input": message['content']}, {"output": ""})
         elif message['type'] == 'AIMessage':
-            memory.save_context({"input": ""}, {"output": message['content']})  # Ensure `input` is an empty string instead of None
+            memory.save_context({"input": ""}, {"output": message['content']})
+
 
 prompt = ChatPromptTemplate.from_messages([
-    ("system", "You're an assistant who's good at Pokemon Battles")])
+    ("system", "You're an assistant who's good at Pokemon Battles. Use the following conversation history to provide context to your responses:\n\n{history}"),
+    ("human", "{input}")
+])
 
 # Set up the conversation chain
 conversation_with_summary = ConversationChain(

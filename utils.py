@@ -278,9 +278,9 @@ def build_battle_prompt(player_pokemon, opponent_pokemon, player_moves, bench, o
     return prompt.strip()
 
 
-# Usage
-info = ['lapras', 'magnemite', ['shadowball', 'sludgebomb', 'icebeam', 'yawn'],
-        ['jynx', 'magneton', 'gligar', 'manectric', 'volbeat'], ['truant']]
-
-prompt = build_battle_prompt(*info)
-print(prompt)
+# # Usage
+# info = ['lapras', 'magnemite', ['shadowball', 'sludgebomb', 'icebeam', 'yawn'],
+#         ['jynx', 'magneton', 'gligar', 'manectric', 'volbeat'], ['truant']]
+#
+# prompt = build_battle_prompt(*info)
+# print(prompt)

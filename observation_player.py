@@ -1,6 +1,8 @@
 import asyncio
 import json
 import os
+from colorama import Fore, Style
+
 
 from poke_env.player import Player, RandomPlayer, cross_evaluate
 from poke_env.environment.pokemon import Pokemon
@@ -15,7 +17,7 @@ def clear_memory():
         with open(file_path, "w") as battle_context:
             # Write an empty list to the file
             json.dump({"battle_messages": []}, battle_context)
-        print("Debug: Battle context cleared. File has been reset.")
+        print(Fore.CYAN + "Debug: Battle context cleared. File has been reset." + Style.RESET_ALL)
     except Exception as e:
         print(f"Error clearing memory: {e}")
 
@@ -258,7 +260,7 @@ class RealTimePlayer(Player):
 
                 # Check if messages list is empty
                 if not messages:
-                    return None
+                    return ["The battle is starting. Make a strategy!"]
 
                 # Reverse iterate over the list to find the last three "Turn" starts
                 turns = []
@@ -269,7 +271,7 @@ class RealTimePlayer(Player):
                             break
 
                 # Check if there are fewer than three turns
-                if len(turns) < 3:
+                if len(turns) < 1:
                     if turns:
                         last_turns = messages[turns[-1]:]
                     else:
@@ -279,16 +281,22 @@ class RealTimePlayer(Player):
 
                 return last_turns
 
-        context = get_context()
-        if context:
-            battle_context = build_battle_prompt(*current_pokemon_and_moves)
+        context_list = get_context()
 
-            full_context = context + battle_context
+        # Check if context_list is None or empty
+        if context_list:
+            context = " ".join(context_list)
+            battle_context = build_battle_prompt(*current_pokemon_and_moves)
+            full_context = context + "\n" + battle_context
             print(full_context)
             call_gpt = supervisor(full_context)
-            print(call_gpt)
-            # pass
-        # Chooses a move with the highest base power when possible
+            print(Fore.GREEN + call_gpt + Style.RESET_ALL)
+        else:
+            # Handle the case when there's no context
+            print("No battle context available. Starting with initial strategy.")
+            battle_context = build_battle_prompt(*current_pokemon_and_moves)
+            call_gpt = supervisor(battle_context)
+            print(Fore.GREEN + call_gpt + Style.RESET_ALL)
 
         if battle.available_moves:
             best_move = max(battle.available_moves, key=lambda move: move.base_power)
