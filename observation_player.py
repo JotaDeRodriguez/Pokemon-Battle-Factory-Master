@@ -200,7 +200,7 @@ class RealTimePlayer(Player):
         battle_messages = all_messages.replace("\n", "")
         write_as_context(output_messages)
 
-        print(battle_messages.strip())  # Print all messages at once after processing
+        # print(battle_messages.strip())  # Print all messages at once after processing
 
         return battle_messages
 
@@ -221,6 +221,30 @@ class RealTimePlayer(Player):
             print("Empty request data")
 
     def choose_move(self, battle):
+
+        def battle_info():
+
+            if battle.available_moves:
+                for move in battle.available_moves:
+                    moves_data.append(move.id)
+
+            if battle.available_switches:
+                for mon in battle.available_switches:
+                    switches_data.append(mon.species)
+
+        current_pokemon_and_moves = []
+        moves_data = []
+        switches_data = []
+
+        current_pokemon_and_moves.append(battle.active_pokemon.species)
+
+        current_pokemon_and_moves.append(battle.opponent_active_pokemon.species)
+
+        battle_info()
+        current_pokemon_and_moves.extend([moves_data, switches_data])
+
+        print(current_pokemon_and_moves)
+
         def get_context():
             with open("battle_context/battle_context.json", "r") as file:
                 data = json.load(file)
@@ -251,9 +275,9 @@ class RealTimePlayer(Player):
 
         context = get_context()
         if context:
-            call_gpt = supervisor(context)
-            print(call_gpt)
-
+            # call_gpt = supervisor(context)
+            # print(call_gpt)
+            pass
         # Chooses a move with the highest base power when possible
 
         if battle.available_moves:
