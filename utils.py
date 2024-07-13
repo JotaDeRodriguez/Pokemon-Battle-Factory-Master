@@ -29,6 +29,8 @@ def get_pokemon_type(pokemon_name):
 
 def get_pokemon_ability(pokemon_name):
 
+    # to do: Fix json, remove periods and commas.
+
     ability_info = load_type_data("information/Gen III - Abilities.json")
 
     ability_list = []
@@ -36,17 +38,26 @@ def get_pokemon_ability(pokemon_name):
     for ability in ability_info:
         description = ability_info[ability]['Description']
         learnt_by = ability_info[ability]['Learnt By']
+        ability_name = ability_info[ability]['Name']
 
-        if pokemon_name in learnt_by:
-            full_description = str(ability + ":" + " " + description)
+        if pokemon_name.capitalize() in learnt_by:
+            full_description = str(ability_name + ":" + " " + description)
             ability_list.append(full_description)
 
     if len(ability_list)>1:
         string = "The pokemon can have one of two possible abilities:"
-        string_list = str(string + " " + str(ability_list))
+        string_list = string + " " + " ".join(ability_list)
         return string_list
     else:
         return ability_list
+
+
+def get_ability_description(ability_id):
+
+    ability_info = load_type_data("information/Gen III - Abilities.json")
+    description = ability_info[ability_id]['Description']
+
+    return description
 
 
 def get_moves_info(move):
@@ -112,8 +123,7 @@ def move_to_id(move):
 
 # Function to get type interactions in a simplified dictionary format
 def get_attacking_type_interaction(attacking_type):
-    type_advantages = load_type_data(
-        r"C:\Users\juandavid.rodriguez\Documents\Langchain\PokemonProject\Gen III - Attacking Type Chart.json")
+    type_advantages = load_type_data("information/Gen III - Attacking Type Chart.json")
 
     interactions = {
         'super effective': [],
@@ -134,8 +144,7 @@ def get_attacking_type_interaction(attacking_type):
 
 
 def get_defending_type_interaction(defending_type):
-    type_advantages = load_type_data(
-        r"C:\Users\juandavid.rodriguez\Documents\Langchain\PokemonProject\Gen III - Defending Type Chart.json")
+    type_advantages = load_type_data("information/Gen III - Defending Type Chart.json")
 
     interactions = {
         'super effective': [],
@@ -216,67 +225,62 @@ def get_combined_type_interaction(typing):
         return combined_interactions
 
 
-def natural_language_typing_dynamics(typing):
 
-    type_interactions = get_combined_type_interaction(typing)
+def build_battle_prompt(player_pokemon, opponent_pokemon, player_moves, bench, own_ability):
+    def get_type_effectiveness(pokemon):
+        types = get_pokemon_type(pokemon)
+        pokemon_type = types[pokemon]
+        effectiveness = get_combined_type_interaction(pokemon_type)
 
-    parts = []
-    if type_interactions.get('four times effective'):
-        parts.append(f"The pokemon is four times weak to {', '.join(type_interactions['four times effective'])}.")
-    if type_interactions.get('super effective'):
-        parts.append(f"Weak to {', '.join(type_interactions['super effective'])}.")
-    if type_interactions.get('not very effective'):
-        parts.append(f"Resistant to {', '.join(type_interactions['not very effective'])}.")
-    if type_interactions.get('almost ineffective'):
-        parts.append(f"Heavily resistant to {', '.join(type_interactions['almost ineffective'])}.")
-    if type_interactions.get('no effect'):
-        parts.append(f"And moves of {', '.join(type_interactions['no effect'])} type will not have any effect at all.")
-    if type_interactions.get('normal damage'):
-        parts.append(f"Moves of types {', '.join(type_interactions['normal damage'])}. will make normal damage")
+        descriptions = {
+            'four times effective': 'four times weak to',
+            'super effective': 'weak to',
+            'not very effective': 'resistant to',
+            'almost ineffective': 'very resistant to',
+            'no effect': 'immune to'
+        }
 
-    statement = '\n'.join(parts)
-    return statement
+        type_info = []
+        for effect, desc in descriptions.items():
+            if effect in effectiveness and effectiveness[effect]:
+                capitalized_types = [attack_type.capitalize() for attack_type in effectiveness[effect]]
+                type_info.append(f"{desc} {', '.join(capitalized_types)}")
 
-def prompt_builder(info):
+        if 'normal damage' in effectiveness and effectiveness['normal damage']:
+            capitalized_normal_types = [attack_type.capitalize() for attack_type in effectiveness['normal damage']]
+            type_info.append(f"takes normal damage from {', '.join(capitalized_normal_types)}")
 
-    rival_pokemon = info[1]
+        return f"{pokemon.capitalize()} is {'. It '.join(type_info)}"
 
-    get_type = get_pokemon_type(rival_pokemon)
-    rival_typing = get_type[rival_pokemon]
+    player_type_info = get_type_effectiveness(player_pokemon)
+    player_ability = ' '.join(own_ability)
+    player_ability_description = get_ability_description(player_ability)
 
-    rival_type_dynamics = natural_language_typing_dynamics(rival_typing)
+    opponent_type_info = get_type_effectiveness(opponent_pokemon)
+    opponent_ability = get_pokemon_ability(opponent_pokemon)
 
-    pokemon = info[0]
+    bench_info = ', '.join(pokemon.capitalize() for pokemon in bench)
 
-    get_type = get_pokemon_type(pokemon)
-    own_typing = get_type[pokemon]
+    moves_info = ', '.join(move.capitalize() for move in player_moves)
 
-    type_dynamics = natural_language_typing_dynamics(own_typing)
+    prompt = f"""
+        Battle situation:
+        - You are using {player_pokemon.capitalize()} with the ability {player_ability.capitalize()}: {player_ability_description}
+            - Your moves: {moves_info}
+            - Remember that {player_type_info}
 
-    remaining_pokemon = info[3]
+        - Your opponent is using a {opponent_pokemon.capitalize()} (ability: {opponent_ability}).
+        - {opponent_type_info}
 
-    remaining_pokemon_and_typing = ""
+        - Your bench: {bench_info}
+        """
 
-    for benched_pokemon in remaining_pokemon:
-        get_type = get_pokemon_type(benched_pokemon)
-        individual_typing = get_type[benched_pokemon]  # Assuming this returns a list of types like ['Poison']
-        typing_str = ', '.join(individual_typing)  # Join all types into a single string separated by commas
-        remaining_pokemon_and_typing += f"{benched_pokemon} ({typing_str}), "
-
-    prompt = f"""You are facing {rival_pokemon}. It's typing is {rival_typing}.
-
-    It's likely to attack with moves of its type.
-
-    Your Pokemon is {pokemon}, of type {own_typing}
-
-    Your own type dynamics go as follow: {type_dynamics}
-
-    Your remaining pokemon and their types are:
-    {remaining_pokemon_and_typing}. They have moves of their own types, so make use of type advantages.
-
-    Here's the rival type dynamics:
-    {rival_type_dynamics}
+    return prompt.strip()
 
 
-    Be concise and use only the information provided"""
+# Usage
+info = ['lapras', 'magnemite', ['shadowball', 'sludgebomb', 'icebeam', 'yawn'],
+        ['jynx', 'magneton', 'gligar', 'manectric', 'volbeat'], ['truant']]
 
+prompt = build_battle_prompt(*info)
+print(prompt)

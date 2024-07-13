@@ -3,7 +3,10 @@ import json
 import os
 
 from poke_env.player import Player, RandomPlayer, cross_evaluate
+from poke_env.environment.pokemon import Pokemon
+
 from supervisor import supervisor
+from utils import build_battle_prompt
 
 def clear_memory():
     file_path = "battle_context/battle_context.json"
@@ -235,13 +238,16 @@ class RealTimePlayer(Player):
         current_pokemon_and_moves = []
         moves_data = []
         switches_data = []
+        own_ability = []
 
         current_pokemon_and_moves.append(battle.active_pokemon.species)
 
         current_pokemon_and_moves.append(battle.opponent_active_pokemon.species)
 
+        own_ability.append(battle.active_pokemon.ability)
+
         battle_info()
-        current_pokemon_and_moves.extend([moves_data, switches_data])
+        current_pokemon_and_moves.extend([moves_data, switches_data, own_ability])
 
         print(current_pokemon_and_moves)
 
@@ -275,9 +281,13 @@ class RealTimePlayer(Player):
 
         context = get_context()
         if context:
-            # call_gpt = supervisor(context)
-            # print(call_gpt)
-            pass
+            battle_context = build_battle_prompt(*current_pokemon_and_moves)
+
+            full_context = context + battle_context
+            print(full_context)
+            call_gpt = supervisor(full_context)
+            print(call_gpt)
+            # pass
         # Chooses a move with the highest base power when possible
 
         if battle.available_moves:

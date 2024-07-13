@@ -1,306 +1,382 @@
 {
-  "Air Lock": {
-    "Description": "While this Pokemon is active. all weather conditions and their effects are disabled.",
-    "Learnt By": "Rayquaza"
-  },
-  "Arena Trap": {
-    "Description": "When this Pokemon enters the field. its opponents cannot switch or flee the battle unless they are part Flying-type. have the Levitate ability or they use the move Baton Pass. Levitate Pokemon cannot escape if their ability is disabled through other means. such as Skill Swap.",
-    "Learnt By": "Diglett. Dugtrio. Trapinch"
-  },
-  "Battle Armor": {
-    "Description": "Critical Hits cannot strike this Pokemon.",
-    "Learnt By": "Anorith. Armaldo. Kabuto. Kabutops"
-  },
-  "Blaze": {
-    "Description": "When its health reaches one-third or less of its max HP. this Pokemon's Fire-type attacks receive a 50% boost in power.",
-    "Learnt By": "Blaziken. Charizard. Charmander. Charmeleon. Combusken. Cyndaquil. Quilava. Torchic. Typhlosion"
-  },
-  "Chlorophyll": {
-    "Description": "If this Pokemon is active while Sunny Day is in effect. its speed is temporarily doubled.",
-    "Learnt By": "Bellossom. Bellsprout. Exeggcute. Exeggutor. Gloom. Hoppip. Jumpluff. Nuzleaf. Oddish. Seedot. Shiftry. Skiploom. Sunflora. Sunkern. Tangela. Tropius. Victreebel. Vileplume. Weepinbell"
-  },
-  "Clear Body": {
-    "Description": "Opponents cannot reduce this Pokemon's stats, they can. however. inflict stat boosts with Swagger and Flatter. This ability does not prevent self-inflicted stat reductions.",
-    "Learnt By": "Beldum. Metagross. Metang. Regice. Regirock. Registeel. Tentacool. Tentacruel"
-  },
-  "Cloud Nine": {
-    "Description": "While this Pokemon is active. all weather conditions and their effects are disabled.",
-    "Learnt By": "Golduck. Psyduck"
-  },
-  "Color Change": {
-    "Description": "This Pokemon's type changes according to the type of the last move that hit this Pokemon.",
-    "Learnt By": "Kecleon"
-  },
-  "Compoundeyes": {
-    "Description": "The accuracy of this Pokemon's moves receives a 30% increase, for example. a 75% accurate move becomes 97.5% accurate.",
-    "Learnt By": "Butterfree. Nincada. Venonat. Yanma"
-  },
-  "Cute Charm": {
-    "Description": "If an opponent of the opposite gender directly attacks this Pokemon. there is a 30% chance that the opponent will become Attracted to this Pokemon.",
-    "Learnt By": "Clefable. Clefairy. Cleffa. Delcatty. Igglybuff. Jigglypuff. Skitty. Wigglytuff"
-  },
-  "Damp": {
-    "Description": "While this Pokemon is active. no Pokemon on the field can use Selfdestruct or Explosion.",
-    "Learnt By": "Golduck. Politoed. Poliwag. Poliwhirl. Poliwrath. Psyduck. Quagsire. Wooper"
-  },
-  "Drizzle": {
-    "Description": "When this Pokemon enters the battlefield. it causes a permanent Rain Dance that can only be stopped by Air Lock. Cloud Nine or another weather condition.",
-    "Learnt By": "Kyogre"
-  },
-  "Drought": {
-    "Description": "When this Pokemon enters the battlefield. it causes a permanent Sunny Day that can only be stopped by Air Lock. Cloud Nine or another weather condition.",
-    "Learnt By": "Groudon"
-  },
-  "Early Bird": {
-    "Description": "This Pokemon will remain asleep for half as long as it normally would, this includes both opponent-induced sleep and user-induced sleep via Rest.",
-    "Learnt By": "Dodrio. Doduo. Girafarig. Houndoom. Houndour. Kangaskhan. Ledian. Ledyba. Natu. Nuzleaf. Seedot. Shiftry. Xatu"
-  },
-  "Effect Spore": {
-    "Description": "If an opponent directly attacks this Pokemon. there is a 30% chance that the opponent will become either poisoned. paralyzed or put to sleep. There is an equal chance to inflict each status.",
-    "Learnt By": "Breloom. Paras. Parasect. Shroomish"
-  },
-  "Flame Body": {
-    "Description": "If an opponent directly attacks this Pokemon. there is a 30% chance that the opponent will become burned.",
-    "Learnt By": "Magby. Magcargo. Magmar. Slugma"
-  },
-  "Flash Fire": {
-    "Description": "This Pokemon is immune to all Fire-type attacks, additionally. its own Fire-type attacks receive a 50% boost if a Fire-type move hits this Pokemon. Multiple boosts do not occur if this Pokemon is hit with multiple Fire-type attacks.",
-    "Learnt By": "Arcanine. Flareon. Growlithe. Houndoom. Houndour. Ninetales. Ponyta. Rapidash. Vulpix"
-  },
-  "Forecast": {
-    "Description": "This Pokemon's type changes according to the current weather conditions: it becomes Fire-type during Sunny Day. Water-type during Rain Dance. Ice-type during Hail and remains its regular type otherwise.",
-    "Learnt By": "Castform. Castform (Rain). Castform (Snow-Cloud). Castform (Sunny)"
-  },
-  "Guts": {
-    "Description": "When this Pokemon is poisoned (including Toxic). burned. paralyzed or asleep (including self-induced Rest). its Attack stat receives a 50% boost, the burn status' Attack drop is also ignored.",
-    "Learnt By": "Hariyama. Heracross. Larvitar. Machamp. Machoke. Machop. Makuhita. Raticate. Rattata. Swellow. Taillow. Tyrogue. Ursaring"
-  },
-  "Huge Power": {
-    "Description": "This Pokemon's Attack stat is doubled. Therefore. if this Pokemon's Attack stat on the status screen is 200. it effectively has an Attack stat of 400, this stat is then subject to the full range of stat boosts and reductions.",
-    "Learnt By": "Azumarill. Azurill. Marill"
-  },
-  "Hustle": {
-    "Description": "This Pokemon's Attack receives a 50% boost but its Physical attacks receive a 20% drop in Accuracy. For example. a 100% accurate move would become an 80% accurate move. The accuracy of moves that never miss. such as Aerial Ace. remains unaffected.",
-    "Learnt By": "Corsola. Delibird. Remoraid. Togepi. Togetic"
-  },
-  "Hyper Cutter": {
-    "Description": "Opponents cannot reduce this Pokemon's Attack stat, they can. however. inflict a stat boost with Swagger. This ability does not prevent self-inflicted stat reductions.",
-    "Learnt By": "Corphish. Crawdaunt. Gligar. Kingler. Krabby. Mawile. Pinsir. Trapinch"
-  },
-  "Illuminate": {
-    "Description": "When this Pokemon is in the first slot of the player's party. it doubles the rate of wild encounters.",
-    "Learnt By": "Chinchou. Lanturn. Starmie. Staryu. Volbeat"
-  },
-  "Immunity": {
-    "Description": "This Pokemon cannot become poisoned nor Toxic poisoned.",
-    "Learnt By": "Snorlax. Zangoose"
-  },
-  "Inner Focus": {
-    "Description": "This Pokemon cannot be made to flinch.",
-    "Learnt By": "Abra. Alakazam. Crobat. Dragonite. Farfetch'd. Girafarig. Glalie. Golbat. Kadabra. Sneasel. Snorunt. Zubat"
-  },
-  "Insomnia": {
-    "Description": "This Pokemon cannot be put to sleep, this includes both opponent-induced sleep as well as user-induced sleep via Rest.",
-    "Learnt By": "Ariados. Banette. Drowzee. Hoothoot. Hypno. Murkrow. Noctowl. Shuppet. Spinarak"
-  },
-  "Intimidate": {
-    "Description": "When this Pokemon enters the field. the Attack stat of each of its opponents lowers by one stage.",
-    "Learnt By": "Arbok. Arcanine. Ekans. Granbull. Growlithe. Gyarados. Hitmontop. Masquerain. Mawile. Mightyena. Salamence. Snubbull. Stantler. Tauros"
-  },
-  "Keen Eye": {
-    "Description": "This Pokemon's Accuracy cannot be lowered.",
-    "Learnt By": "Farfetch'd. Fearow. Furret. Hitmonchan. Hoothoot. Noctowl. Pelipper. Pidgeot. Pidgeotto. Pidgey. Sableye. Sentret. Skarmory. Sneasel. Spearow. Wingull"
-  },
-  "Levitate": {
-    "Description": "This Pokemon is immune to Ground-type attacks. Spikes and the Arena Trap ability, it loses these immunities after using Ingrain.",
-    "Learnt By": "Baltoy. Chimecho. Claydol. Duskull. Flygon. Gastly. Gengar. Haunter. Koffing. Latias. Latios. Lunatone. Misdreavus. Solrock. Unown. Vibrava. Weezing"
-  },
-  "Lightning Rod": {
-    "Description": "During double battles. this Pokemon draws any single-target Electric-type attack to itself. If an opponent uses an Electric-type attack that affects multiple Pokemon. those targets will be hit. This ability does not affect Electric Hidden Power.",
-    "Learnt By": "Cubone. Electrike. Manectric. Marowak. Rhydon. Rhyhorn"
-  },
-  "Limber": {
-    "Description": "This Pokemon cannot become paralyzed.",
-    "Learnt By": "Ditto. Hitmonlee. Persian"
-  },
-  "Liquid Ooze": {
-    "Description": "When another Pokemon uses Absorb. Dream Eater. Giga Drain. Leech Life. Leech Seed or Mega Drain against this Pokemon. the attacking Pokemon loses the amount of health that it would have gained.",
-    "Learnt By": "Gulpin. Swalot. Tentacool. Tentacruel"
-  },
-  "Magma Armor": {
-    "Description": "This Pokemon cannot become frozen.",
-    "Learnt By": "Camerupt. Magcargo. Slugma"
-  },
-  "Magnet Pull": {
-    "Description": "When this Pokemon enters the field. Steel-type opponents cannot switch out nor flee the battle unless they use the attack Baton Pass.",
-    "Learnt By": "Magnemite. Magneton. Nosepass"
-  },
-  "Marvel Scale": {
-    "Description": "When this Pokemon becomes burned. poisoned (including Toxic). paralyzed. frozen or put to sleep (including self-induced sleep via Rest). its Defense receives a 50% boost.",
-    "Learnt By": "Milotic"
-  },
-  "Minus": {
-    "Description": "This Pokemon's Special Attack receives a 50% boost in double battles if its partner has the Plus ability.",
-    "Learnt By": "Minun"
-  },
-  "Natural Cure": {
-    "Description": "When this Pokemon switches out of battle. it is cured of poison (including Toxic). paralysis. burn. freeze and sleep (including self-induced Rest).",
-    "Learnt By": "Altaria. Blissey. Celebi. Chansey. Corsola. Roselia. Starmie. Staryu. Swablu"
-  },
-  "Oblivious": {
-    "Description": "This Pokemon cannot become attracted to another Pokemon.",
-    "Learnt By": "Barboach. Illumise. Jynx. Lickitung. Numel. Piloswine. Slowbro. Slowking. Slowpoke. Smoochum. Swinub. Wailmer. Wailord. Whiscash"
-  },
-  "Overgrow": {
-    "Description": "When its health reaches one-third or less of its max HP. this Pokemon's Grass-type attacks receive a 50% boost in power.",
-    "Learnt By": "Bayleef. Bulbasaur. Chikorita. Grovyle. Ivysaur. Meganium. Sceptile. Treecko. Venusaur"
-  },
-  "Own Tempo": {
-    "Description": "This Pokemon cannot become confused.",
-    "Learnt By": "Grumpig. Lickitung. Slowbro. Slowking. Slowpoke. Smeargle. Spinda. Spoink"
-  },
-  "Pickup": {
-    "Description": "If it is not already holding an item. this Pokemon may find and be holding a variety of items after a battle: see the full Pickup List for more information.",
-    "Learnt By": "Aipom. Linoone. Meowth. Phanpy. Teddiursa. Zigzagoon"
-  },
-  "Plus": {
-    "Description": "This Pokemon's Special Attack receives a 50% boost in double battles if its partner has the Minus ability.",
-    "Learnt By": "Plusle"
-  },
-  "Poison Point": {
-    "Description": "If an opponent directly attacks this Pokemon. there is a 30% chance that the opponent will become poisoned.",
-    "Learnt By": "Nidoking. Nidoqueen. Nidoran F. Nidoran M. Nidorina. Nidorino. Qwilfish. Roselia. Seadra"
-  },
-  "Pressure": {
-    "Description": "When an opponent uses a move that affects this Pokemon. an additional PP is required for the opponent to use that move.",
-    "Learnt By": "Absol. Aerodactyl. Articuno. Deoxys. Deoxys (Attack). Deoxys (Defense). Deoxys (Speed). Dusclops. Entei. Ho-oh. Lugia. Mewtwo. Moltres. Raikou. Suicune. Zapdos"
-  },
-  "Pure Power": {
-    "Description": "This Pokemon's Attack stat is doubled. Therefore. if this Pokemon's Attack stat on the status screen is 200. it effectively has an Attack stat of 400, this stat is then subject to the full range of stat boosts and reductions.",
-    "Learnt By": "Medicham. Meditite"
-  },
-  "Rain Dish": {
-    "Description": "If active while Rain Dance is in effect. this Pokemon recovers one-sixteenth of its max HP after each turn.",
-    "Learnt By": "Lombre. Lotad. Ludicolo"
-  },
-  "Rock Head": {
-    "Description": "This Pokemon does not receive recoil damage unless it uses Struggle or it misses with Jump Kick or Hi Jump Kick.",
-    "Learnt By": "Aerodactyl. Aggron. Aron. Bagon. Cubone. Geodude. Golem. Graveler. Lairon. Marowak. Onix. Relicanth. Rhydon. Rhyhorn. Shelgon. Steelix. Sudowoodo"
-  },
-  "Rough Skin": {
-    "Description": "When this Pokemon is directly attacked. the opponent receives damage equal to 1/8 of its max HP.",
-    "Learnt By": "Carvanha. Sharpedo"
-  },
-  "Run Away": {
-    "Description": "Unless this Pokemon is under the effects of a trapping move or ability. such as Mean Look or Shadow Tag. it will escape from wild Pokemon battles without fail.",
-    "Learnt By": "Aipom. Dodrio. Doduo. Dunsparce. Eevee. Furret. Ponyta. Poochyena. Rapidash. Raticate. Rattata. Sentret. Snubbull"
-  },
-  "Sand Stream": {
-    "Description": "When this Pokemon enters the battlefield. it causes a permanent Sandstorm that can only be stopped by Air Lock. Cloud Nine or another weather condition.",
-    "Learnt By": "Tyranitar"
-  },
-  "Sand Veil": {
-    "Description": "If active while Sandstorm is in effect. this Pokemon's Evasion receives a 20% boost, if this Pokemon has a typing that would normally take damage from Sandstorm. this Pokemon is also immune to Sandstorm's damage.",
-    "Learnt By": "Cacnea. Cacturne. Diglett. Dugtrio. Gligar. Sandshrew. Sandslash"
-  },
-  "Serene Grace": {
-    "Description": "The side effects of this Pokemon's attack occur twice as often. For example. if this Pokemon uses Ice Beam. it will have a 20% chance to freeze its target.",
-    "Learnt By": "Blissey. Chansey. Dunsparce. Jirachi. Togepi. Togetic"
-  },
-  "Shadow Tag": {
-    "Description": "When this Pokemon enters the field. its opponents cannot switch or flee the battle unless they use the move Baton Pass.",
-    "Learnt By": "Wobbuffet. Wynaut"
-  },
-  "Shed Skin": {
-    "Description": "After each turn. this Pokemon has a 33% chance to heal itself from poison (including Toxic). paralysis. burn. freeze or sleep (including self-induced Rest).",
-    "Learnt By": "Arbok. Cascoon. Dragonair. Dratini. Ekans. Kakuna. Metapod. Pupitar. Seviper. Silcoon"
-  },
-  "Shell Armor": {
-    "Description": "Critical Hits cannot strike this Pokemon.",
-    "Learnt By": "Clamperl. Cloyster. Corphish. Crawdaunt. Kingler. Krabby. Lapras. Omanyte. Omastar. Shellder"
-  },
-  "Shield Dust": {
-    "Description": "If the opponent uses a move that has secondary effects that affect this Pokemon in addition to damage. the move's secondary effects will not trigger. (For example. an Ice Beam will lose its 10% chance to freeze this Pokemon.)",
-    "Learnt By": "Caterpie. Dustox. Venomoth. Weedle. Wurmple"
-  },
-  "Soundproof": {
-    "Description": "This Pokemon is immune to the effects of the sound-related moves Grasswhistle. Growl. Heal Bell. Hyper Voice. Metal Sound. Perish Song. Sing. Sonicboom. Supersonic. Screech. Snore and Uproar.",
-    "Learnt By": "Electrode. Exploud. Loudred. Mr. Mime. Voltorb. Whismur"
-  },
-  "Speed Boost": {
-    "Description": "While this Pokemon is active. its Speed increased by one stage at the end of every turn, the six stage maximum for stat boosts is still in effect.",
-    "Learnt By": "Ninjask. Yanma"
-  },
-  "Static": {
-    "Description": "If an opponent directly attacks this Pokemon. there is a 30% chance that the opponent will become paralyzed.",
-    "Learnt By": "Ampharos. Electabuzz. Electrike. Electrode. Elekid. Flaaffy. Manectric. Mareep. Pichu. Pikachu. Raichu. Voltorb"
-  },
-  "Stench": {
-    "Description": "When this Pokemon is in the first slot of the player's party. it halves the rate of wild encounters.",
-    "Learnt By": "Grimer. Muk"
-  },
-  "Sticky Hold": {
-    "Description": "Opponents cannot remove items from this Pokemon.",
-    "Learnt By": "Grimer. Gulpin. Muk. Swalot"
-  },
-  "Sturdy": {
-    "Description": "The one-hit KO moves Fissure. Guillotine. Horn Drill and Sheer Cold do not affect this Pokemon.",
-    "Learnt By": "Aggron. Aron. Donphan. Forretress. Geodude. Golem. Graveler. Lairon. Magnemite. Magneton. Nosepass. Onix. Pineco. Shuckle. Skarmory. Steelix. Sudowoodo"
-  },
-  "Suction Cups": {
-    "Description": "Roar and Whirlwind do not affect this Pokemon.",
-    "Learnt By": "Cradily. Lileep. Octillery"
-  },
-  "Swarm": {
-    "Description": "When its health reaches one-third or less of its max HP. this Pokemon's Bug-type attacks receive a 50% boost in power.",
-    "Learnt By": "Ariados. Beautifly. Beedrill. Heracross. Ledian. Ledyba. Scizor. Scyther. Spinarak. Volbeat"
-  },
-  "Swift Swim": {
-    "Description": "If this Pokemon is active while Rain Dance is in effect. its speed is temporarily doubled.",
-    "Learnt By": "Feebas. Goldeen. Gorebyss. Horsea. Huntail. Kabuto. Kabutops. Kingdra. Lombre. Lotad. Ludicolo. Luvdisc. Magikarp. Mantine. Omanyte. Omastar. Qwilfish. Relicanth. Seaking. Surskit"
-  },
-  "Synchronize": {
-    "Description": "If an opponent burns. poisons or paralyzes this Pokemon. the same condition inflicts the opponent.",
-    "Learnt By": "Abra. Alakazam. Espeon. Gardevoir. Kadabra. Kirlia. Mew. Natu. Ralts. Umbreon. Xatu"
-  },
-  "Thick Fat": {
-    "Description": "This Pokemon receives halved damage from Ice-type and Fire-type attacks.",
-    "Learnt By": "Azumarill. Azurill. Dewgong. Grumpig. Hariyama. Makuhita. Marill. Miltank. Sealeo. Seel. Snorlax. Spheal. Spoink. Walrein"
-  },
-  "Torrent": {
-    "Description": "When its health reaches one-third or less of its max HP. this Pokemon's Water-type attacks receive a 50% boost in power.",
-    "Learnt By": "Blastoise. Croconaw. Feraligatr. Marshtomp. Mudkip. Squirtle. Swampert. Totodile. Wartortle"
-  },
-  "Trace": {
-    "Description": "When this Pokemon enters the field. it temporarily copies an opponent's ability. This ability remains with this Pokemon until it leaves the field.",
-    "Learnt By": "Gardevoir. Kirlia. Porygon. Porygon2. Ralts"
-  },
-  "Truant": {
-    "Description": "After this Pokemon is switched into battle. it skips every other turn.",
-    "Learnt By": "Slaking. Slakoth"
-  },
-  "Vital Spirit": {
-    "Description": "This Pokemon cannot be put to sleep, this includes both opponent-induced sleep as well as user-induced sleep via Rest.",
-    "Learnt By": "Delibird. Mankey. Primeape. Vigoroth"
-  },
-  "Volt Absorb": {
-    "Description": "When an Electric-type attack hits this Pokemon. it recovers health equal to the damage that it would have taken, this Pokemon can recover up to 25% of its max HP in this way.",
-    "Learnt By": "Chinchou. Jolteon. Lanturn"
-  },
-  "Water Absorb": {
-    "Description": "When a Water-type attack hits this Pokemon. it recovers health equal to the damage that it would have taken, this Pokemon can recover up to 25% of its max HP in this way.",
-    "Learnt By": "Lapras. Mantine. Politoed. Poliwag. Poliwhirl. Poliwrath. Quagsire. Vaporeon. Wooper"
-  },
-  "Water Veil": {
-    "Description": "This Pokemon cannot become burned.",
-    "Learnt By": "Goldeen. Seaking. Wailmer. Wailord"
-  },
-  "White Smoke": {
-    "Description": "Opponents cannot reduce this Pokemon's stats, they can. however. inflict stat boosts with Swagger and Flatter. This ability does not prevent self-inflicted stat reductions.",
-    "Learnt By": "Torkoal"
-  },
-  "Wonder Guard": {
-    "Description": "This Pokemon only receives damage from attacks belonging to types that cause Super Effective to this Pokemon. Wonder Guard does not protect a Pokemon from status ailments (burn. freeze. paralysis. poison. sleep. Toxic or any of their side effects or damage). recoil damage nor the moves Beat Up. Bide. Doom Desire. Future Sight. Hail. Leech Seed. Sandstorm. Spikes and Struggle. Wonder Guard cannot be Skill Swapped nor Role Played. Trace. however. does copy Wonder Guard.",
-    "Learnt By": "Shedinja"
-  }
+    "airlock": {
+        "Description": "While this Pokemon is active. all weather conditions and their effects are disabled.",
+        "Learnt By": "Rayquaza",
+        "Name": "Air Lock"
+    },
+    "arenatrap": {
+        "Description": "When this Pokemon enters the field. its opponents cannot switch or flee the battle unless they are part Flying-type. have the Levitate ability or they use the move Baton Pass. Levitate Pokemon cannot escape if their ability is disabled through other means. such as Skill Swap.",
+        "Learnt By": "Diglett. Dugtrio. Trapinch",
+        "Name": "Arena Trap"
+    },
+    "battlearmor": {
+        "Description": "Critical Hits cannot strike this Pokemon.",
+        "Learnt By": "Anorith. Armaldo. Kabuto. Kabutops",
+        "Name": "Battle Armor"
+    },
+    "blaze": {
+        "Description": "When its health reaches one-third or less of its max HP. this Pokemon's Fire-type attacks receive a 50% boost in power.",
+        "Learnt By": "Blaziken. Charizard. Charmander. Charmeleon. Combusken. Cyndaquil. Quilava. Torchic. Typhlosion",
+        "Name": "Blaze"
+    },
+    "chlorophyll": {
+        "Description": "If this Pokemon is active while Sunny Day is in effect. its speed is temporarily doubled.",
+        "Learnt By": "Bellossom. Bellsprout. Exeggcute. Exeggutor. Gloom. Hoppip. Jumpluff. Nuzleaf. Oddish. Seedot. Shiftry. Skiploom. Sunflora. Sunkern. Tangela. Tropius. Victreebel. Vileplume. Weepinbell",
+        "Name": "Chlorophyll"
+    },
+    "clearbody": {
+        "Description": "Opponents cannot reduce this Pokemon's stats, they can. however. inflict stat boosts with Swagger and Flatter. This ability does not prevent self-inflicted stat reductions.",
+        "Learnt By": "Beldum. Metagross. Metang. Regice. Regirock. Registeel. Tentacool. Tentacruel",
+        "Name": "Clear Body"
+    },
+    "cloudnine": {
+        "Description": "While this Pokemon is active. all weather conditions and their effects are disabled.",
+        "Learnt By": "Golduck. Psyduck",
+        "Name": "Cloud Nine"
+    },
+    "colorchange": {
+        "Description": "This Pokemon's type changes according to the type of the last move that hit this Pokemon.",
+        "Learnt By": "Kecleon",
+        "Name": "Color Change"
+    },
+    "compoundeyes": {
+        "Description": "The accuracy of this Pokemon's moves receives a 30% increase, for example. a 75% accurate move becomes 97.5% accurate.",
+        "Learnt By": "Butterfree. Nincada. Venonat. Yanma",
+        "Name": "Compoundeyes"
+    },
+    "cutecharm": {
+        "Description": "If an opponent of the opposite gender directly attacks this Pokemon. there is a 30% chance that the opponent will become Attracted to this Pokemon.",
+        "Learnt By": "Clefable. Clefairy. Cleffa. Delcatty. Igglybuff. Jigglypuff. Skitty. Wigglytuff",
+        "Name": "Cute Charm"
+    },
+    "damp": {
+        "Description": "While this Pokemon is active. no Pokemon on the field can use Selfdestruct or Explosion.",
+        "Learnt By": "Golduck. Politoed. Poliwag. Poliwhirl. Poliwrath. Psyduck. Quagsire. Wooper",
+        "Name": "Damp"
+    },
+    "drizzle": {
+        "Description": "When this Pokemon enters the battlefield. it causes a permanent Rain Dance that can only be stopped by Air Lock. Cloud Nine or another weather condition.",
+        "Learnt By": "Kyogre",
+        "Name": "Drizzle"
+    },
+    "drought": {
+        "Description": "When this Pokemon enters the battlefield. it causes a permanent Sunny Day that can only be stopped by Air Lock. Cloud Nine or another weather condition.",
+        "Learnt By": "Groudon",
+        "Name": "Drought"
+    },
+    "earlybird": {
+        "Description": "This Pokemon will remain asleep for half as long as it normally would, this includes both opponent-induced sleep and user-induced sleep via Rest.",
+        "Learnt By": "Dodrio. Doduo. Girafarig. Houndoom. Houndour. Kangaskhan. Ledian. Ledyba. Natu. Nuzleaf. Seedot. Shiftry. Xatu",
+        "Name": "Early Bird"
+    },
+    "effectspore": {
+        "Description": "If an opponent directly attacks this Pokemon. there is a 30% chance that the opponent will become either poisoned. paralyzed or put to sleep. There is an equal chance to inflict each status.",
+        "Learnt By": "Breloom. Paras. Parasect. Shroomish",
+        "Name": "Effect Spore"
+    },
+    "flamebody": {
+        "Description": "If an opponent directly attacks this Pokemon. there is a 30% chance that the opponent will become burned.",
+        "Learnt By": "Magby. Magcargo. Magmar. Slugma",
+        "Name": "Flame Body"
+    },
+    "flashfire": {
+        "Description": "This Pokemon is immune to all Fire-type attacks, additionally. its own Fire-type attacks receive a 50% boost if a Fire-type move hits this Pokemon. Multiple boosts do not occur if this Pokemon is hit with multiple Fire-type attacks.",
+        "Learnt By": "Arcanine. Flareon. Growlithe. Houndoom. Houndour. Ninetales. Ponyta. Rapidash. Vulpix",
+        "Name": "Flash Fire"
+    },
+    "forecast": {
+        "Description": "This Pokemon's type changes according to the current weather conditions: it becomes Fire-type during Sunny Day. Water-type during Rain Dance. Ice-type during Hail and remains its regular type otherwise.",
+        "Learnt By": "Castform. Castform (Rain). Castform (Snow-Cloud). Castform (Sunny)",
+        "Name": "Forecast"
+    },
+    "guts": {
+        "Description": "When this Pokemon is poisoned (including Toxic). burned. paralyzed or asleep (including self-induced Rest). its Attack stat receives a 50% boost, the burn status' Attack drop is also ignored.",
+        "Learnt By": "Hariyama. Heracross. Larvitar. Machamp. Machoke. Machop. Makuhita. Raticate. Rattata. Swellow. Taillow. Tyrogue. Ursaring",
+        "Name": "Guts"
+    },
+    "hugepower": {
+        "Description": "This Pokemon's Attack stat is doubled. Therefore. if this Pokemon's Attack stat on the status screen is 200. it effectively has an Attack stat of 400, this stat is then subject to the full range of stat boosts and reductions.",
+        "Learnt By": "Azumarill. Azurill. Marill",
+        "Name": "Huge Power"
+    },
+    "hustle": {
+        "Description": "This Pokemon's Attack receives a 50% boost but its Physical attacks receive a 20% drop in Accuracy. For example. a 100% accurate move would become an 80% accurate move. The accuracy of moves that never miss. such as Aerial Ace. remains unaffected.",
+        "Learnt By": "Corsola. Delibird. Remoraid. Togepi. Togetic",
+        "Name": "Hustle"
+    },
+    "hypercutter": {
+        "Description": "Opponents cannot reduce this Pokemon's Attack stat, they can. however. inflict a stat boost with Swagger. This ability does not prevent self-inflicted stat reductions.",
+        "Learnt By": "Corphish. Crawdaunt. Gligar. Kingler. Krabby. Mawile. Pinsir. Trapinch",
+        "Name": "Hyper Cutter"
+    },
+    "illuminate": {
+        "Description": "When this Pokemon is in the first slot of the player's party. it doubles the rate of wild encounters.",
+        "Learnt By": "Chinchou. Lanturn. Starmie. Staryu. Volbeat",
+        "Name": "Illuminate"
+    },
+    "immunity": {
+        "Description": "This Pokemon cannot become poisoned nor Toxic poisoned.",
+        "Learnt By": "Snorlax. Zangoose",
+        "Name": "Immunity"
+    },
+    "innerfocus": {
+        "Description": "This Pokemon cannot be made to flinch.",
+        "Learnt By": "Abra. Alakazam. Crobat. Dragonite. Farfetch'd. Girafarig. Glalie. Golbat. Kadabra. Sneasel. Snorunt. Zubat",
+        "Name": "Inner Focus"
+    },
+    "insomnia": {
+        "Description": "This Pokemon cannot be put to sleep, this includes both opponent-induced sleep as well as user-induced sleep via Rest.",
+        "Learnt By": "Ariados. Banette. Drowzee. Hoothoot. Hypno. Murkrow. Noctowl. Shuppet. Spinarak",
+        "Name": "Insomnia"
+    },
+    "intimidate": {
+        "Description": "When this Pokemon enters the field. the Attack stat of each of its opponents lowers by one stage.",
+        "Learnt By": "Arbok. Arcanine. Ekans. Granbull. Growlithe. Gyarados. Hitmontop. Masquerain. Mawile. Mightyena. Salamence. Snubbull. Stantler. Tauros",
+        "Name": "Intimidate"
+    },
+    "keeneye": {
+        "Description": "This Pokemon's Accuracy cannot be lowered.",
+        "Learnt By": "Farfetch'd. Fearow. Furret. Hitmonchan. Hoothoot. Noctowl. Pelipper. Pidgeot. Pidgeotto. Pidgey. Sableye. Sentret. Skarmory. Sneasel. Spearow. Wingull",
+        "Name": "Keen Eye"
+    },
+    "levitate": {
+        "Description": "This Pokemon is immune to Ground-type attacks. Spikes and the Arena Trap ability, it loses these immunities after using Ingrain.",
+        "Learnt By": "Baltoy. Chimecho. Claydol. Duskull. Flygon. Gastly. Gengar. Haunter. Koffing. Latias. Latios. Lunatone. Misdreavus. Solrock. Unown. Vibrava. Weezing",
+        "Name": "Levitate"
+    },
+    "lightningrod": {
+        "Description": "During double battles. this Pokemon draws any single-target Electric-type attack to itself. If an opponent uses an Electric-type attack that affects multiple Pokemon. those targets will be hit. This ability does not affect Electric Hidden Power.",
+        "Learnt By": "Cubone. Electrike. Manectric. Marowak. Rhydon. Rhyhorn",
+        "Name": "Lightning Rod"
+    },
+    "limber": {
+        "Description": "This Pokemon cannot become paralyzed.",
+        "Learnt By": "Ditto. Hitmonlee. Persian",
+        "Name": "Limber"
+    },
+    "liquidooze": {
+        "Description": "When another Pokemon uses Absorb. Dream Eater. Giga Drain. Leech Life. Leech Seed or Mega Drain against this Pokemon. the attacking Pokemon loses the amount of health that it would have gained.",
+        "Learnt By": "Gulpin. Swalot. Tentacool. Tentacruel",
+        "Name": "Liquid Ooze"
+    },
+    "magmaarmor": {
+        "Description": "This Pokemon cannot become frozen.",
+        "Learnt By": "Camerupt. Magcargo. Slugma",
+        "Name": "Magma Armor"
+    },
+    "magnetpull": {
+        "Description": "When this Pokemon enters the field. Steel-type opponents cannot switch out nor flee the battle unless they use the attack Baton Pass.",
+        "Learnt By": "Magnemite. Magneton. Nosepass",
+        "Name": "Magnet Pull"
+    },
+    "marvelscale": {
+        "Description": "When this Pokemon becomes burned. poisoned (including Toxic). paralyzed. frozen or put to sleep (including self-induced sleep via Rest). its Defense receives a 50% boost.",
+        "Learnt By": "Milotic",
+        "Name": "Marvel Scale"
+    },
+    "minus": {
+        "Description": "This Pokemon's Special Attack receives a 50% boost in double battles if its partner has the Plus ability.",
+        "Learnt By": "Minun",
+        "Name": "Minus"
+    },
+    "naturalcure": {
+        "Description": "When this Pokemon switches out of battle. it is cured of poison (including Toxic). paralysis. burn. freeze and sleep (including self-induced Rest).",
+        "Learnt By": "Altaria. Blissey. Celebi. Chansey. Corsola. Roselia. Starmie. Staryu. Swablu",
+        "Name": "Natural Cure"
+    },
+    "oblivious": {
+        "Description": "This Pokemon cannot become attracted to another Pokemon.",
+        "Learnt By": "Barboach. Illumise. Jynx. Lickitung. Numel. Piloswine. Slowbro. Slowking. Slowpoke. Smoochum. Swinub. Wailmer. Wailord. Whiscash",
+        "Name": "Oblivious"
+    },
+    "overgrow": {
+        "Description": "When its health reaches one-third or less of its max HP. this Pokemon's Grass-type attacks receive a 50% boost in power.",
+        "Learnt By": "Bayleef. Bulbasaur. Chikorita. Grovyle. Ivysaur. Meganium. Sceptile. Treecko. Venusaur",
+        "Name": "Overgrow"
+    },
+    "owntempo": {
+        "Description": "This Pokemon cannot become confused.",
+        "Learnt By": "Grumpig. Lickitung. Slowbro. Slowking. Slowpoke. Smeargle. Spinda. Spoink",
+        "Name": "Own Tempo"
+    },
+    "pickup": {
+        "Description": "If it is not already holding an item. this Pokemon may find and be holding a variety of items after a battle: see the full Pickup List for more information.",
+        "Learnt By": "Aipom. Linoone. Meowth. Phanpy. Teddiursa. Zigzagoon",
+        "Name": "Pickup"
+    },
+    "plus": {
+        "Description": "This Pokemon's Special Attack receives a 50% boost in double battles if its partner has the Minus ability.",
+        "Learnt By": "Plusle",
+        "Name": "Plus"
+    },
+    "poisonpoint": {
+        "Description": "If an opponent directly attacks this Pokemon. there is a 30% chance that the opponent will become poisoned.",
+        "Learnt By": "Nidoking. Nidoqueen. Nidoran F. Nidoran M. Nidorina. Nidorino. Qwilfish. Roselia. Seadra",
+        "Name": "Poison Point"
+    },
+    "pressure": {
+        "Description": "When an opponent uses a move that affects this Pokemon. an additional PP is required for the opponent to use that move.",
+        "Learnt By": "Absol. Aerodactyl. Articuno. Deoxys. Deoxys (Attack). Deoxys (Defense). Deoxys (Speed). Dusclops. Entei. Ho-oh. Lugia. Mewtwo. Moltres. Raikou. Suicune. Zapdos",
+        "Name": "Pressure"
+    },
+    "purepower": {
+        "Description": "This Pokemon's Attack stat is doubled. Therefore. if this Pokemon's Attack stat on the status screen is 200. it effectively has an Attack stat of 400, this stat is then subject to the full range of stat boosts and reductions.",
+        "Learnt By": "Medicham. Meditite",
+        "Name": "Pure Power"
+    },
+    "raindish": {
+        "Description": "If active while Rain Dance is in effect. this Pokemon recovers one-sixteenth of its max HP after each turn.",
+        "Learnt By": "Lombre. Lotad. Ludicolo",
+        "Name": "Rain Dish"
+    },
+    "rockhead": {
+        "Description": "This Pokemon does not receive recoil damage unless it uses Struggle or it misses with Jump Kick or Hi Jump Kick.",
+        "Learnt By": "Aerodactyl. Aggron. Aron. Bagon. Cubone. Geodude. Golem. Graveler. Lairon. Marowak. Onix. Relicanth. Rhydon. Rhyhorn. Shelgon. Steelix. Sudowoodo",
+        "Name": "Rock Head"
+    },
+    "roughskin": {
+        "Description": "When this Pokemon is directly attacked. the opponent receives damage equal to 1/8 of its max HP.",
+        "Learnt By": "Carvanha. Sharpedo",
+        "Name": "Rough Skin"
+    },
+    "runaway": {
+        "Description": "Unless this Pokemon is under the effects of a trapping move or ability. such as Mean Look or Shadow Tag. it will escape from wild Pokemon battles without fail.",
+        "Learnt By": "Aipom. Dodrio. Doduo. Dunsparce. Eevee. Furret. Ponyta. Poochyena. Rapidash. Raticate. Rattata. Sentret. Snubbull",
+        "Name": "Run Away"
+    },
+    "sandstream": {
+        "Description": "When this Pokemon enters the battlefield. it causes a permanent Sandstorm that can only be stopped by Air Lock. Cloud Nine or another weather condition.",
+        "Learnt By": "Tyranitar",
+        "Name": "Sand Stream"
+    },
+    "sandveil": {
+        "Description": "If active while Sandstorm is in effect. this Pokemon's Evasion receives a 20% boost, if this Pokemon has a typing that would normally take damage from Sandstorm. this Pokemon is also immune to Sandstorm's damage.",
+        "Learnt By": "Cacnea. Cacturne. Diglett. Dugtrio. Gligar. Sandshrew. Sandslash",
+        "Name": "Sand Veil"
+    },
+    "serenegrace": {
+        "Description": "The side effects of this Pokemon's attack occur twice as often. For example. if this Pokemon uses Ice Beam. it will have a 20% chance to freeze its target.",
+        "Learnt By": "Blissey. Chansey. Dunsparce. Jirachi. Togepi. Togetic",
+        "Name": "Serene Grace"
+    },
+    "shadowtag": {
+        "Description": "When this Pokemon enters the field. its opponents cannot switch or flee the battle unless they use the move Baton Pass.",
+        "Learnt By": "Wobbuffet. Wynaut",
+        "Name": "Shadow Tag"
+    },
+    "shedskin": {
+        "Description": "After each turn. this Pokemon has a 33% chance to heal itself from poison (including Toxic). paralysis. burn. freeze or sleep (including self-induced Rest).",
+        "Learnt By": "Arbok. Cascoon. Dragonair. Dratini. Ekans. Kakuna. Metapod. Pupitar. Seviper. Silcoon",
+        "Name": "Shed Skin"
+    },
+    "shellarmor": {
+        "Description": "Critical Hits cannot strike this Pokemon.",
+        "Learnt By": "Clamperl. Cloyster. Corphish. Crawdaunt. Kingler. Krabby. Lapras. Omanyte. Omastar. Shellder",
+        "Name": "Shell Armor"
+    },
+    "shielddust": {
+        "Description": "If the opponent uses a move that has secondary effects that affect this Pokemon in addition to damage. the move's secondary effects will not trigger. (For example. an Ice Beam will lose its 10% chance to freeze this Pokemon.)",
+        "Learnt By": "Caterpie. Dustox. Venomoth. Weedle. Wurmple",
+        "Name": "Shield Dust"
+    },
+    "soundproof": {
+        "Description": "This Pokemon is immune to the effects of the sound-related moves Grasswhistle. Growl. Heal Bell. Hyper Voice. Metal Sound. Perish Song. Sing. Sonicboom. Supersonic. Screech. Snore and Uproar.",
+        "Learnt By": "Electrode. Exploud. Loudred. Mr. Mime. Voltorb. Whismur",
+        "Name": "Soundproof"
+    },
+    "speedboost": {
+        "Description": "While this Pokemon is active. its Speed increased by one stage at the end of every turn, the six stage maximum for stat boosts is still in effect.",
+        "Learnt By": "Ninjask. Yanma",
+        "Name": "Speed Boost"
+    },
+    "static": {
+        "Description": "If an opponent directly attacks this Pokemon. there is a 30% chance that the opponent will become paralyzed.",
+        "Learnt By": "Ampharos. Electabuzz. Electrike. Electrode. Elekid. Flaaffy. Manectric. Mareep. Pichu. Pikachu. Raichu. Voltorb",
+        "Name": "Static"
+    },
+    "stench": {
+        "Description": "When this Pokemon is in the first slot of the player's party. it halves the rate of wild encounters.",
+        "Learnt By": "Grimer. Muk",
+        "Name": "Stench"
+    },
+    "stickyhold": {
+        "Description": "Opponents cannot remove items from this Pokemon.",
+        "Learnt By": "Grimer. Gulpin. Muk. Swalot",
+        "Name": "Sticky Hold"
+    },
+    "sturdy": {
+        "Description": "The one-hit KO moves Fissure. Guillotine. Horn Drill and Sheer Cold do not affect this Pokemon.",
+        "Learnt By": "Aggron. Aron. Donphan. Forretress. Geodude. Golem. Graveler. Lairon. Magnemite. Magneton. Nosepass. Onix. Pineco. Shuckle. Skarmory. Steelix. Sudowoodo",
+        "Name": "Sturdy"
+    },
+    "suctioncups": {
+        "Description": "Roar and Whirlwind do not affect this Pokemon.",
+        "Learnt By": "Cradily. Lileep. Octillery",
+        "Name": "Suction Cups"
+    },
+    "swarm": {
+        "Description": "When its health reaches one-third or less of its max HP. this Pokemon's Bug-type attacks receive a 50% boost in power.",
+        "Learnt By": "Ariados. Beautifly. Beedrill. Heracross. Ledian. Ledyba. Scizor. Scyther. Spinarak. Volbeat",
+        "Name": "Swarm"
+    },
+    "swiftswim": {
+        "Description": "If this Pokemon is active while Rain Dance is in effect. its speed is temporarily doubled.",
+        "Learnt By": "Feebas. Goldeen. Gorebyss. Horsea. Huntail. Kabuto. Kabutops. Kingdra. Lombre. Lotad. Ludicolo. Luvdisc. Magikarp. Mantine. Omanyte. Omastar. Qwilfish. Relicanth. Seaking. Surskit",
+        "Name": "Swift Swim"
+    },
+    "synchronize": {
+        "Description": "If an opponent burns. poisons or paralyzes this Pokemon. the same condition inflicts the opponent.",
+        "Learnt By": "Abra. Alakazam. Espeon. Gardevoir. Kadabra. Kirlia. Mew. Natu. Ralts. Umbreon. Xatu",
+        "Name": "Synchronize"
+    },
+    "thickfat": {
+        "Description": "This Pokemon receives halved damage from Ice-type and Fire-type attacks.",
+        "Learnt By": "Azumarill. Azurill. Dewgong. Grumpig. Hariyama. Makuhita. Marill. Miltank. Sealeo. Seel. Snorlax. Spheal. Spoink. Walrein",
+        "Name": "Thick Fat"
+    },
+    "torrent": {
+        "Description": "When its health reaches one-third or less of its max HP. this Pokemon's Water-type attacks receive a 50% boost in power.",
+        "Learnt By": "Blastoise. Croconaw. Feraligatr. Marshtomp. Mudkip. Squirtle. Swampert. Totodile. Wartortle",
+        "Name": "Torrent"
+    },
+    "trace": {
+        "Description": "When this Pokemon enters the field. it temporarily copies an opponent's ability. This ability remains with this Pokemon until it leaves the field.",
+        "Learnt By": "Gardevoir. Kirlia. Porygon. Porygon2. Ralts",
+        "Name": "Trace"
+    },
+    "truant": {
+        "Description": "After this Pokemon is switched into battle. it skips every other turn.",
+        "Learnt By": "Slaking. Slakoth",
+        "Name": "Truant"
+    },
+    "vitalspirit": {
+        "Description": "This Pokemon cannot be put to sleep, this includes both opponent-induced sleep as well as user-induced sleep via Rest.",
+        "Learnt By": "Delibird. Mankey. Primeape. Vigoroth",
+        "Name": "Vital Spirit"
+    },
+    "voltabsorb": {
+        "Description": "When an Electric-type attack hits this Pokemon. it recovers health equal to the damage that it would have taken, this Pokemon can recover up to 25% of its max HP in this way.",
+        "Learnt By": "Chinchou. Jolteon. Lanturn",
+        "Name": "Volt Absorb"
+    },
+    "waterabsorb": {
+        "Description": "When a Water-type attack hits this Pokemon. it recovers health equal to the damage that it would have taken, this Pokemon can recover up to 25% of its max HP in this way.",
+        "Learnt By": "Lapras. Mantine. Politoed. Poliwag. Poliwhirl. Poliwrath. Quagsire. Vaporeon. Wooper",
+        "Name": "Water Absorb"
+    },
+    "waterveil": {
+        "Description": "This Pokemon cannot become burned.",
+        "Learnt By": "Goldeen. Seaking. Wailmer. Wailord",
+        "Name": "Water Veil"
+    },
+    "whitesmoke": {
+        "Description": "Opponents cannot reduce this Pokemon's stats, they can. however. inflict stat boosts with Swagger and Flatter. This ability does not prevent self-inflicted stat reductions.",
+        "Learnt By": "Torkoal",
+        "Name": "White Smoke"
+    },
+    "wonderguard": {
+        "Description": "This Pokemon only receives damage from attacks belonging to types that cause Super Effective to this Pokemon. Wonder Guard does not protect a Pokemon from status ailments (burn. freeze. paralysis. poison. sleep. Toxic or any of their side effects or damage). recoil damage nor the moves Beat Up. Bide. Doom Desire. Future Sight. Hail. Leech Seed. Sandstorm. Spikes and Struggle. Wonder Guard cannot be Skill Swapped nor Role Played. Trace. however. does copy Wonder Guard.",
+        "Learnt By": "Shedinja",
+        "Name": "Wonder Guard"
+    }
 }
