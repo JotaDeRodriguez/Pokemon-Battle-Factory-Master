@@ -4,7 +4,7 @@ import os
 from colorama import Fore, Back, Style
 
 
-from poke_env.player import Player, RandomPlayer, cross_evaluate
+from poke_env.player import Player, RandomPlayer, cross_evaluate, MaxBasePowerPlayer, SimpleHeuristicsPlayer
 from poke_env.environment.pokemon import Pokemon
 from poke_env.environment.observation import Observation
 from poke_env.environment import abstract_battle
@@ -374,8 +374,9 @@ class gpt_player(Player):
 if __name__ == "__main__":
 
     clear_memory()
-    random_player = RandomPlayer(battle_format="gen3randombattle")
-    real_time_player = gpt_player(battle_format="gen3randombattle")
-    players = [real_time_player, random_player]
+    HeuristicsPlayer = SimpleHeuristicsPlayer(battle_format="gen3randombattle")
+    MaxPowerPlayer = MaxBasePowerPlayer(battle_format="gen3randombattle")
+    GPT_Player = gpt_player(battle_format="gen3randombattle")
+    players = [GPT_Player, HeuristicsPlayer]
 
     asyncio.get_event_loop().run_until_complete(cross_evaluate(players, n_challenges=1))

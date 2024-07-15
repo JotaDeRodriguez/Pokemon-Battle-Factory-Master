@@ -293,7 +293,7 @@ def build_battle_prompt(player_pokemon, opponent_pokemon, player_moves, bench, o
                     Your {player_pokemon.capitalize()} was fainted by the rival's {opponent_pokemon.capitalize()}.
                     {opponent_type_info}
                     Ability:
-                    {opponent_ability.capitalize()}: {player_ability_description}
+                    {"".join(opponent_ability)}
 
                     Choose between {bench_info} to send out to the field. 
                     
@@ -301,9 +301,9 @@ def build_battle_prompt(player_pokemon, opponent_pokemon, player_moves, bench, o
 
         return prompt.strip()
 
-#
+
 # # Usage
-# info = ['lapras', 'magnemite', [],
+# info = ['lapras', 'hitmonchan', [],
 #         ['jynx', 'magneton', 'gligar', 'manectric', 'volbeat'], ['truant']]
 #
 # prompt = build_battle_prompt(*info)
