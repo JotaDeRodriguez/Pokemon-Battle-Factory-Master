@@ -252,34 +252,58 @@ def build_battle_prompt(player_pokemon, opponent_pokemon, player_moves, bench, o
 
         return f"{pokemon.capitalize()} is {'. It '.join(type_info)}"
 
-    player_type_info = get_type_effectiveness(player_pokemon)
-    player_ability = ' '.join(own_ability)
-    player_ability_description = get_ability_description(player_ability)
 
-    opponent_type_info = get_type_effectiveness(opponent_pokemon)
-    opponent_ability = get_pokemon_ability(opponent_pokemon)
+    if player_moves:
+        player_type_info = get_type_effectiveness(player_pokemon)
+        player_ability = ' '.join(own_ability)
+        player_ability_description = get_ability_description(player_ability)
 
-    bench_info = ', '.join(pokemon.capitalize() for pokemon in bench)
+        opponent_type_info = get_type_effectiveness(opponent_pokemon)
+        opponent_ability = get_pokemon_ability(opponent_pokemon)
 
-    moves_info = ', '.join(move.capitalize() for move in player_moves)
+        bench_info = ', '.join(pokemon.capitalize() for pokemon in bench)
 
-    prompt = f"""
-        Battle situation:
-        - You are using {player_pokemon.capitalize()} with the ability {player_ability.capitalize()}: {player_ability_description}
-            - Your moves: {moves_info}
-            - Remember that {player_type_info}
+        moves_info = ', '.join(move.capitalize() for move in player_moves)
 
-        - Your opponent is using a {opponent_pokemon.capitalize()} (ability: {opponent_ability}).
-        - {opponent_type_info}
+        prompt = f"""
+            Battle situation:
+            - You are using {player_pokemon.capitalize()} with the ability {player_ability.capitalize()}: {player_ability_description}
+                - Your moves: {moves_info}
+                - Remember that {player_type_info}
+    
+            - Your opponent is using a {opponent_pokemon.capitalize()} (ability: {"".join(opponent_ability)}).
+            - {opponent_type_info}
+    
+            - The pokemon on your bench are: {bench_info}
+            """
 
-        - Your bench: {bench_info}
-        """
+        return prompt.strip()
+    else:
+        player_type_info = get_type_effectiveness(player_pokemon)
+        player_ability = ' '.join(own_ability)
+        player_ability_description = get_ability_description(player_ability)
 
-    return prompt.strip()
+        opponent_type_info = get_type_effectiveness(opponent_pokemon)
+        opponent_ability = get_pokemon_ability(opponent_pokemon)
 
+        bench_info = ', '.join(pokemon.capitalize() for pokemon in bench)
 
+        prompt = f"""
+                    Battle situation:
+                    Your {player_pokemon.capitalize()} was fainted by the rival's {opponent_pokemon.capitalize()}.
+                    {opponent_type_info}
+                    Ability:
+                    {opponent_ability.capitalize()}: {player_ability_description}
+
+                    Choose between {bench_info} to send out to the field. 
+                    
+                    """
+
+        return prompt.strip()
+
+#
 # # Usage
-# info = ['lapras', 'magnemite', ['shadowball', 'sludgebomb', 'icebeam', 'yawn'],
+# info = ['lapras', 'magnemite', [],
 #         ['jynx', 'magneton', 'gligar', 'manectric', 'volbeat'], ['truant']]
 #
 # prompt = build_battle_prompt(*info)

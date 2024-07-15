@@ -19,7 +19,7 @@ def supervisor(battle_info):
             the optimal play. 
              """
              },
-            {"role": "user", "content": f"{battle_info}. Choose the most advantageous move!"},
+            {"role": "user", "content": f"{battle_info}. Choose the most advantageous move! Also say which turn we're on please."},
         ]
     )
     return response.choices[0].message.content

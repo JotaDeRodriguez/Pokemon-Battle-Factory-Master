@@ -1,14 +1,18 @@
 import asyncio
 import json
 import os
-from colorama import Fore, Style
+from colorama import Fore, Back, Style
 
 
 from poke_env.player import Player, RandomPlayer, cross_evaluate
 from poke_env.environment.pokemon import Pokemon
+from poke_env.environment.observation import Observation
+from poke_env.environment import abstract_battle
+
 
 from supervisor import supervisor
 from utils import build_battle_prompt
+from agents.function_calling_agent import function_calling
 
 def clear_memory():
     file_path = "battle_context/battle_context.json"
@@ -22,7 +26,7 @@ def clear_memory():
         print(f"Error clearing memory: {e}")
 
 
-class RealTimePlayer(Player):
+class gpt_player(Player):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
 
@@ -77,6 +81,7 @@ class RealTimePlayer(Player):
 
         lines = raw_message.strip().split('\n')
         for line in lines:
+            print(Fore.YELLOW + line + Style.RESET_ALL)
             line = line.strip()  # Ensure no leading/trailing whitespace
             # print(line)
             if not line:  # Skip empty lines
@@ -91,24 +96,38 @@ class RealTimePlayer(Player):
                 player = replace_player(player.rstrip('a:'))
                 output_messages.append(f"{player.capitalize()} sent out {pokemon}!")
 
-            elif parts[0] == "move":
+            elif parts[0] == "move" and "singleturn" not in line:
                 if len(parts) == 6:
                     attacker = replace_player(parts[1].rstrip(':'))
                     pokemon = parts[2]
                     move = replace_player(parts[3])
                     output_messages.append(f"{attacker}'s {pokemon} used {move}!")
+
                 else:
                     attacker = replace_player(parts[1].rstrip(':'))
                     pokemon = parts[2]
                     move = replace_player(" ".join(parts[3:5]))
                     output_messages.append(f"{attacker}'s {pokemon} used {move}!")
 
-            elif parts[0] == "-damage" and "fnt" not in line:
-                player = replace_player(parts[1].rstrip(':'))
+            elif parts[0] == "singleturn":
+                attacker = replace_player(parts[1].rstrip(':'))
                 pokemon = parts[2]
-                health = parts[3]
-                reason = " ".join(parts[4:]) if len(parts) > 4 else "the attack"
-                output_messages.append(f"{player}'s {pokemon} took damage from {reason}! It's now at {health} HP.")
+                move = replace_player(" ".join(parts[4:]))
+                output_messages.append(f"{attacker}'s {pokemon} is charging the move {move}!")
+
+            elif parts[0] == "-damage" and "fnt" not in line and "psn" not in line:
+                if "Leech Seed" not in line:
+                    player = replace_player(parts[1].rstrip(':'))
+                    pokemon = parts[2]
+                    health = parts[3]
+                    reason = " ".join(parts[4:]) if len(parts) > 4 else "the attack"
+                    output_messages.append(f"{player}'s {pokemon} is now at {health} HP.")
+                else:
+                    player = replace_player(parts[1].rstrip(':'))
+                    pokemon = parts[2]
+                    health = parts[3]
+                    reason = " ".join(parts[6:7])
+                    output_messages.append(f"{player}'s {pokemon} lost health because of {reason}. It's now at {health} HP.")
 
             elif parts[0] == "-resisted":
                 player = replace_player(parts[1].rstrip(':'))
@@ -118,7 +137,7 @@ class RealTimePlayer(Player):
             elif parts[0] == "-supereffective":
                 player = replace_player(parts[1].rstrip(':'))
                 pokemon = parts[2]
-                output_messages.append(f"Super-effective hit on {player}'s {pokemon}")
+                output_messages.append(f"Super-effective hit on {player}'s {pokemon}!")
 
             elif parts[0] == "-crit":
                 player = replace_player(parts[1].rstrip(':'))
@@ -140,7 +159,18 @@ class RealTimePlayer(Player):
                     'slp': 'sleep',
                     'frz': 'freeze'
                 }.get(status, status)
-                output_messages.append(f"{pokemon} was afflicted by {status_full}!")
+                output_messages.append(f"{pokemon} was afflicted by {status_full.capitalize()}!")
+
+            elif parts[0] == "damage" and "tox" in line:
+                player = replace_player(parts[1].rstrip(':'))
+                pokemon = parts[2]
+                health = parts[3]
+                output_messages.append(f"A{player}'s {pokemon} took damage from Poison! It's now at {health} hp.")
+
+            elif parts[0] == "cant" and "slp" in line:
+                player = replace_player(parts[1].rstrip(':'))
+                pokemon = parts[2]
+                output_messages.append(f"{player}'s {pokemon} is fast asleep. It can't move.")
 
             elif parts[0] == "-boost":
                 players = replace_player(parts[1].rstrip(':'))
@@ -167,11 +197,24 @@ class RealTimePlayer(Player):
                 pokemon = replace_player(parts[1].rstrip(':'))
                 output_messages.append(f"{pokemon} was immune to the attack!")
 
-            elif parts[0] == "-heal":
+            elif (parts[0] == "cant" or parts[0] == "-fail") and "slp" not in line:
+                player = replace_player(parts[1].rstrip(':'))
                 pokemon = parts[2]
-                health = parts[3]
-                reason = parts[6] if len(parts) > 5 else " ".join(parts[4:5])
-                output_messages.append(f"{pokemon} recovered health from {reason}. It's now at {health} HP.")
+                output_messages.append(f"{player}'s {pokemon} move failed!")
+
+            elif parts[0] == "-heal":
+                if "tox" not in line:
+                    player = replace_player(parts[1].rstrip(':'))
+                    pokemon = parts[2]
+                    health = parts[3]
+                    reason = parts[6] if len(parts) > 6 else " ".join(parts[4:5])
+                    output_messages.append(f"{player}'s {pokemon} recovered health from {reason}. It's now at {health} HP.")
+                else:
+                    player = replace_player(parts[1].rstrip(':'))
+                    pokemon = parts[2]
+                    health = parts[3]
+                    reason = parts[7]
+                    output_messages.append(f"{player}'s {pokemon} recovered health from {reason}. It's now at {health} HP.")
 
             elif parts[0] == "-weather":
                 if "Rain Dance" in line:
@@ -182,7 +225,7 @@ class RealTimePlayer(Player):
 
             elif parts[0] == "turn":
                 turn_number = parts[1]
-                output_messages.append(f"Turn {turn_number} begins.")
+                output_messages.insert(-1, f"Turn {turn_number} coming up.")
 
             elif parts[0] == "-miss":
                 player = replace_player(parts[1].rstrip(':'))
@@ -283,27 +326,47 @@ class RealTimePlayer(Player):
 
         context_list = get_context()
 
-        # Check if context_list is None or empty
-        if context_list:
-            context = " ".join(context_list)
-            battle_context = build_battle_prompt(*current_pokemon_and_moves)
-            full_context = context + "\n" + battle_context
-            print(full_context)
-            call_gpt = supervisor(full_context)
-            print(Fore.GREEN + call_gpt + Style.RESET_ALL)
-        else:
-            # Handle the case when there's no context
-            print("No battle context available. Starting with initial strategy.")
-            battle_context = build_battle_prompt(*current_pokemon_and_moves)
-            call_gpt = supervisor(battle_context)
-            print(Fore.GREEN + call_gpt + Style.RESET_ALL)
+        context = " ".join(context_list)
+        battle_context = build_battle_prompt(*current_pokemon_and_moves)
+        full_context = "Summary of the battle: " + context + "\n" + "Prompt Context: " + battle_context
+        print(full_context)
+        call_gpt = supervisor(full_context)
+        print(Fore.GREEN + call_gpt + Style.RESET_ALL)
+        call = function_calling(call_gpt)
+        print(Fore.MAGENTA + call + Style.RESET_ALL)
 
-        if battle.available_moves:
-            best_move = max(battle.available_moves, key=lambda move: move.base_power)
-            # print(f"Chose {best_move}!")
-            return self.create_order(best_move)
-        else:
-            # print("No available moves, switching")
+        try:
+            # Existing logic
+            if battle.available_moves:
+                chosen_order = None
+                for mon in battle.available_switches:
+                    if mon.species == call:
+                        print(f"Bot chose to switch to {mon.species}")
+                        chosen_order = self.create_order(mon)
+                        break
+
+                if not chosen_order:
+                    for move in battle.available_moves:
+                        if move.id == call:
+                            print(f"Bot chose to use {move.id}")
+                            chosen_order = self.create_order(move)
+                            break
+
+                if not chosen_order:  # Ensure that if no order was chosen, choose randomly
+                    print("A random move was chosen!")
+                    return self.choose_random_move(battle)
+
+            else:
+                # If no available moves or switches are found
+                print("A random move was chosen!")
+                return self.choose_random_move(battle)
+
+            return chosen_order
+
+        except Exception as e:
+            # Handle any unexpected exceptions that occur during the battle handling
+            print(f"An error occurred: {e}")
+            print("A random move was chosen!")
             return self.choose_random_move(battle)
 
 
@@ -312,7 +375,7 @@ if __name__ == "__main__":
 
     clear_memory()
     random_player = RandomPlayer(battle_format="gen3randombattle")
-    real_time_player = RealTimePlayer(battle_format="gen3randombattle")
+    real_time_player = gpt_player(battle_format="gen3randombattle")
     players = [real_time_player, random_player]
 
     asyncio.get_event_loop().run_until_complete(cross_evaluate(players, n_challenges=1))
