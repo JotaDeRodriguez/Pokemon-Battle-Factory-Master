@@ -16,27 +16,37 @@ from agents.function_calling_agent import function_calling
 
 
 def clear_memory():
-    file_path = "battle_context/battle_context.json"
+    file_path_context = "battle_context/battle_context.json"
     try:
         # Open the file in write mode, which will clear its contents
-        with open(file_path, "w") as battle_context:
+        with open(file_path_context, "w") as battle_context:
             # Write an empty list to the file
             json.dump({"battle_messages": []}, battle_context)
 
     except Exception as e:
         print(f"Error clearing memory: {e}")
 
-    file_path = "battle_context/memory.json"
+    file_path_memory = "battle_context/memory.json"
     try:
         # Open the file in write mode, which will clear its contents
-        with open(file_path, "w") as memory:
+        with open(file_path_memory, "w") as memory:
             # Write an empty list to the file
             json.dump([], memory)
 
     except Exception as e:
         print(f"Error clearing memory: {e}")
 
-    print(Fore.CYAN + "Debug: Battle context and memory cleared. Files have been reset." + Style.RESET_ALL)
+    file_path_team_info = "battle_context/team_info.json"
+    try:
+        # Open the file in write mode, which will clear its contents
+        with open(file_path_team_info, "w") as battle_context:
+            # Write an empty list to the file
+            json.dump({}, battle_context)
+
+    except Exception as e:
+        print(f"Error clearing memory: {e}")
+
+    print(Fore.CYAN + "Debug: Battle Context, Team Info and Memory cleared. Files have been reset." + Style.RESET_ALL)
 
 
 class gpt_player(Player):
@@ -57,6 +67,20 @@ class gpt_player(Player):
 
         output_messages = []
         debug_messages = []
+
+        def write_to_team_info(request_message):
+            """Save memory to a JSON file."""
+            try:
+                with open("battle_context/team_info.json", "r") as file:
+                    existing_data = json.load(file)
+            except (FileNotFoundError, json.JSONDecodeError):
+                existing_data = {}
+
+            # Update the existing data with new data from request_message
+            existing_data.update(request_message)
+
+            with open("battle_context/team_info.json", "w") as file:
+                json.dump(existing_data, file, indent=4)
 
         def write_as_context(battle_message_history):
             file_path = "battle_context/battle_context.json"
@@ -251,6 +275,10 @@ class gpt_player(Player):
                 pokemon = parts[2]
                 ability_message = " ".join(parts[3:])
                 output_messages.append(f"{player}'s {pokemon} ability activated: {ability_message}")
+
+            elif parts[0] == "request" and "{" in line and "}" in line:
+                team_info_json = line.strip("request ")
+                write_to_team_info(json.loads(team_info_json))
 
             else:
                 # Debug: Print any lines not caught by the above conditions

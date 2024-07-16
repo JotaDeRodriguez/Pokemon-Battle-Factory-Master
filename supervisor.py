@@ -103,11 +103,3 @@ def supervisor(battle_info):
 
     save_memory_to_file("battle_context/memory.json", new_memory)
     return supervisor_response
-
-
-prompt = ''
-test = supervisor(prompt)
-
-print(test)
-
-

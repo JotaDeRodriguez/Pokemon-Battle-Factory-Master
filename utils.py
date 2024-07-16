@@ -289,13 +289,13 @@ def build_battle_prompt(player_pokemon, opponent_pokemon, player_moves, bench, o
         bench_info = ', '.join(pokemon.capitalize() for pokemon in bench)
 
         prompt = f"""
-                    Battle situation:
-                    Your {player_pokemon.capitalize()} was fainted by the rival's {opponent_pokemon.capitalize()}.
+                    On the last turn, your {player_pokemon.capitalize()} was fainted by the rival's {opponent_pokemon.capitalize()}.
                     {opponent_type_info}
                     Ability:
                     {"".join(opponent_ability)}
 
-                    Choose between {bench_info} to send out to the field. 
+                    At this moment you can only choose between {bench_info} to send out to the field. 
+                    Choose a Pokemon considering type advantages and your strategy.
                     
                     """
 
