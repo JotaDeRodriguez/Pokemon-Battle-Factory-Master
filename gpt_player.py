@@ -14,6 +14,7 @@ from supervisor import supervisor
 from utils import build_battle_prompt
 from agents.function_calling_agent import function_calling
 
+
 def clear_memory():
     file_path = "battle_context/battle_context.json"
     try:
@@ -21,9 +22,21 @@ def clear_memory():
         with open(file_path, "w") as battle_context:
             # Write an empty list to the file
             json.dump({"battle_messages": []}, battle_context)
-        print(Fore.CYAN + "Debug: Battle context cleared. File has been reset." + Style.RESET_ALL)
+
     except Exception as e:
         print(f"Error clearing memory: {e}")
+
+    file_path = "battle_context/memory.json"
+    try:
+        # Open the file in write mode, which will clear its contents
+        with open(file_path, "w") as memory:
+            # Write an empty list to the file
+            json.dump([], memory)
+
+    except Exception as e:
+        print(f"Error clearing memory: {e}")
+
+    print(Fore.CYAN + "Debug: Battle context and memory cleared. Files have been reset." + Style.RESET_ALL)
 
 
 class gpt_player(Player):
@@ -328,7 +341,7 @@ class gpt_player(Player):
 
         context = " ".join(context_list)
         battle_context = build_battle_prompt(*current_pokemon_and_moves)
-        full_context = "Summary of the battle: " + context + "\n" + "Prompt Context: " + battle_context
+        full_context = "Summary of the last three turns: " + context + "\n" + "Prompt Context: " + battle_context
         print(full_context)
         call_gpt = supervisor(full_context)
         print(Fore.GREEN + call_gpt + Style.RESET_ALL)
