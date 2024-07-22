@@ -6,7 +6,7 @@
         "Power": 20,
         "Accuracy": "100%",
         "id": "absorb",
-        "name": "Absorb"
+        "Name": "Absorb"
     },
     "acid": {
         "Effect": "Has a 10% chance to lower the target's Defense by 1 stage.",
@@ -15,7 +15,7 @@
         "Power": 40,
         "Accuracy": "100%",
         "id": "acid",
-        "name": "Acid"
+        "Name": "Acid"
     },
     "acidarmor": {
         "Effect": "Raises the user's Defense by 2 stages.",
@@ -24,7 +24,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "acidarmor",
-        "name": "Acid Armor"
+        "Name": "Acid Armor"
     },
     "aerialace": {
         "Effect": "Ignores Evasion and Accuracyuracy modifiers and never misses except against Protect Detect or a target in the middle of Dig Fly Dive or Bounce.",
@@ -33,7 +33,7 @@
         "Power": 60,
         "Accuracy": "100%",
         "id": "aerialace",
-        "name": "Aerial Ace"
+        "Name": "Aerial Ace"
     },
     "aeroblast": {
         "Effect": "Has a high critical hit ratio.",
@@ -42,7 +42,7 @@
         "Power": 100,
         "Accuracy": "95%",
         "id": "aeroblast",
-        "name": "Aeroblast"
+        "Name": "Aeroblast"
     },
     "agility": {
         "Effect": "Raises the user's Speed by 2 stages.",
@@ -51,7 +51,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "agility",
-        "name": "Agility"
+        "Name": "Agility"
     },
     "aircutter": {
         "Effect": "Has a high critical hit ratio.",
@@ -60,7 +60,7 @@
         "Power": 55,
         "Accuracy": "95%",
         "id": "aircutter",
-        "name": "Air Cutter"
+        "Name": "Air Cutter"
     },
     "amnesia": {
         "Effect": "Raises the user's Special Defense by 2 stages.",
@@ -69,7 +69,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "amnesia",
-        "name": "Amnesia"
+        "Name": "Amnesia"
     },
     "ancientpower": {
         "Effect": "Has a 10% chance to raise all of the user's stats by 1 stage.",
@@ -78,7 +78,7 @@
         "Power": 60,
         "Accuracy": "100%",
         "id": "ancientpower",
-        "name": "Ancientpower"
+        "Name": "Ancientpower"
     },
     "armthrust": {
         "Effect": "Attacks 2-5 times in one turn. if one of these attacks breaks a target's Substitute the target will take damage for the rest of the hits. This move has a 3/8 chance to hit twice a 3/8 chance to hit three times a 1/8 chance to hit four times and a 1/8 chance to hit five times.",
@@ -87,7 +87,7 @@
         "Power": 15,
         "Accuracy": "100%",
         "id": "armthrust",
-        "name": "Arm Thrust"
+        "Name": "Arm Thrust"
     },
     "aromatherapy": {
         "Effect": "Every Pokemon in the user's party is cured of status conditions.",
@@ -96,7 +96,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "aromatherapy",
-        "name": "Aromatherapy"
+        "Name": "Aromatherapy"
     },
     "assist": {
         "Effect": "The user performs a random move from any of the Pokemon on its team. Assist cannot generate itself Counter Covet Destiny Bond Detect Endure Focus Punch Follow Me Helping Hand Metronome Mimic Mirror Coat Mirror Move Protect Sketch Sleep Talk Snatch Struggle Thief or Trick.",
@@ -105,7 +105,7 @@
         "Power": "Copy",
         "Accuracy": "100%",
         "id": "assist",
-        "name": "Assist"
+        "Name": "Assist"
     },
     "astonish": {
         "Effect": "Has a 30% chance to make the target flinch.",
@@ -114,7 +114,7 @@
         "Power": 30,
         "Accuracy": "100%",
         "id": "astonish",
-        "name": "Astonish"
+        "Name": "Astonish"
     },
     "attract": {
         "Effect": "Infatuates Pokemon of the opposite gender even if they have a Substitute causing a 50% chance for the target's attack to fail.",
@@ -123,7 +123,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "attract",
-        "name": "Attract"
+        "Name": "Attract"
     },
     "aurorabeam": {
         "Effect": "Has a 10% chance to lower the target's Attack by 1 stage.",
@@ -132,7 +132,7 @@
         "Power": 65,
         "Accuracy": "100%",
         "id": "aurorabeam",
-        "name": "Aurora Beam"
+        "Name": "Aurora Beam"
     },
     "barrage": {
         "Effect": "Attacks 2-5 times in one turn. if one of these attacks breaks a target's Substitute the target will take damage for the rest of the hits. This move has a 3/8 chance to hit twice a 3/8 chance to hit three times a 1/8 chance to hit four times and a 1/8 chance to hit five times.",
@@ -141,7 +141,7 @@
         "Power": 15,
         "Accuracy": "85%",
         "id": "barrage",
-        "name": "Barrage"
+        "Name": "Barrage"
     },
     "barrier": {
         "Effect": "Raises the user's Defense by 2 stages.",
@@ -150,7 +150,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "barrier",
-        "name": "Barrier"
+        "Name": "Barrier"
     },
     "batonpass": {
         "Effect": "The user returns to its party bypassing any trapping moves and Pursuit. it passes all stat modifiers (positive or negative) as well as confusion Focus Energy Ingrain Stockpiles Perish Song count Leech Seed Ghost Curses Mind Reader Lock-On Block Mean Look Spider Web and Substitute to the replacement Pokemon.",
@@ -159,7 +159,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "batonpass",
-        "name": "Baton Pass"
+        "Name": "Baton Pass"
     },
     "beatup": {
         "Effect": "Each healthy (i.e. not fainted nor inflicted with a status condition) Pokemon in your party contributes a typeless 10 base power hit determined solely by their base Attack and Defense stats.",
@@ -168,7 +168,7 @@
         "Power": 10,
         "Accuracy": "100%",
         "id": "beatup",
-        "name": "Beat Up"
+        "Name": "Beat Up"
     },
     "bellydrum": {
         "Effect": "The user maximizes its Attack but sacrifices 50% of its max HP.",
@@ -177,7 +177,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "bellydrum",
-        "name": "Belly Drum"
+        "Name": "Belly Drum"
     },
     "bide": {
         "Effect": "The user absorbs all damage for 2-3 turns and then inflicts twice the absorbed damage on its target. This move ignores the target's type but still cannot hit Ghost-type Pokemon.",
@@ -186,7 +186,7 @@
         "Power": "Var Dmg",
         "Accuracy": "100%",
         "id": "bide",
-        "name": "Bide"
+        "Name": "Bide"
     },
     "bind": {
         "Effect": "Traps the target for 2-5 turns causing damage equal to 1/16 of its max HP each turn. this trapped effect can be broken by Rapid Spin. The target can still switch out if it uses Baton Pass.",
@@ -195,7 +195,7 @@
         "Power": 15,
         "Accuracy": "75%",
         "id": "bind",
-        "name": "Bind"
+        "Name": "Bind"
     },
     "bite": {
         "Effect": "Has a 30% chance to make the target flinch.",
@@ -204,7 +204,7 @@
         "Power": 60,
         "Accuracy": "100%",
         "id": "bite",
-        "name": "Bite"
+        "Name": "Bite"
     },
     "blastburn": {
         "Effect": "The user recharges during its next turn. as a result until the end of the next turn the user becomes uncontrollable.",
@@ -213,7 +213,7 @@
         "Power": 150,
         "Accuracy": "90%",
         "id": "blastburn",
-        "name": "Blast Burn"
+        "Name": "Blast Burn"
     },
     "blazekick": {
         "Effect": "Has a high critical hit ratio and a 10% chance to burn the target.",
@@ -222,7 +222,7 @@
         "Power": 85,
         "Accuracy": "90%",
         "id": "blazekick",
-        "name": "Blaze Kick"
+        "Name": "Blaze Kick"
     },
     "blizzard": {
         "Effect": "Has a 10% chance to freeze the target.",
@@ -231,7 +231,7 @@
         "Power": 120,
         "Accuracy": "70%",
         "id": "blizzard",
-        "name": "Blizzard"
+        "Name": "Blizzard"
     },
     "block": {
         "Effect": "As long as the user remains in battle the target cannot switch out unless it uses Baton Pass. The target will still be trapped if the user switches out by using Baton Pass.",
@@ -240,7 +240,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "block",
-        "name": "Block"
+        "Name": "Block"
     },
     "bodyslam": {
         "Effect": "Has a 30% chance to paralyze the target.",
@@ -249,7 +249,7 @@
         "Power": 85,
         "Accuracy": "100%",
         "id": "bodyslam",
-        "name": "Body Slam"
+        "Name": "Body Slam"
     },
     "boneclub": {
         "Effect": "Has a 10% chance to make the target flinch.",
@@ -258,7 +258,7 @@
         "Power": 65,
         "Accuracy": "85%",
         "id": "boneclub",
-        "name": "Bone Club"
+        "Name": "Bone Club"
     },
     "bonerush": {
         "Effect": "Attacks 2-5 times in one turn. if one of these attacks breaks a target's Substitute the target will take damage for the rest of the hits. This move has a 3/8 chance to hit twice a 3/8 chance to hit three times a 1/8 chance to hit four times and a 1/8 chance to hit five times.",
@@ -267,7 +267,7 @@
         "Power": 25,
         "Accuracy": "80%",
         "id": "bonerush",
-        "name": "Bone Rush"
+        "Name": "Bone Rush"
     },
     "bonemerang": {
         "Effect": "Strikes twice. if the first hit breaks the target's Substitute the real Pokemon will take damage from the second hit.",
@@ -276,7 +276,7 @@
         "Power": 50,
         "Accuracy": "90%",
         "id": "bonemerang",
-        "name": "Bonemerang"
+        "Name": "Bonemerang"
     },
     "bounce": {
         "Effect": "On the first turn the user bounces into the air becoming uncontrollable and evades most attacks. Gust Twister Thunder and Sky Uppercut have normal Accuracyuracy against a mid-air Pokemon with Gust and Twister also gaining doubled power. The user may also be hit in mid-air if it was previously targeted by Lock-On or Mind Reader. On the second turn the user descends and has a 30% chance to paralyze the target.",
@@ -285,7 +285,7 @@
         "Power": 85,
         "Accuracy": "85%",
         "id": "bounce",
-        "name": "Bounce"
+        "Name": "Bounce"
     },
     "brickbreak": {
         "Effect": "Reflect and Light Screen are removed from the target's field even if the attack misses. However if the target is a Ghost-type this will not occur.",
@@ -294,7 +294,7 @@
         "Power": 75,
         "Accuracy": "100%",
         "id": "brickbreak",
-        "name": "Brick Break"
+        "Name": "Brick Break"
     },
     "bubble": {
         "Effect": "Has a 10% chance to lower the target's Speed by 1 stage.",
@@ -303,7 +303,7 @@
         "Power": 20,
         "Accuracy": "100%",
         "id": "bubble",
-        "name": "Bubble"
+        "Name": "Bubble"
     },
     "bubblebeam": {
         "Effect": "Has a 10% chance to lower the target's Speed by 1 stage.",
@@ -312,7 +312,7 @@
         "Power": 65,
         "Accuracy": "100%",
         "id": "bubblebeam",
-        "name": "Bubblebeam"
+        "Name": "Bubblebeam"
     },
     "bulkup": {
         "Effect": "Raises the user's Attack and Defense by 1 stage each.",
@@ -321,7 +321,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "bulkup",
-        "name": "Bulk Up"
+        "Name": "Bulk Up"
     },
     "bulletseed": {
         "Effect": "Attacks 2-5 times in one turn. if one of these attacks breaks a target's Substitute the target will take damage for the rest of the hits. This move has a 3/8 chance to hit twice a 3/8 chance to hit three times a 1/8 chance to hit four times and a 1/8 chance to hit five times.",
@@ -330,7 +330,7 @@
         "Power": 10,
         "Accuracy": "100%",
         "id": "bulletseed",
-        "name": "Bullet Seed"
+        "Name": "Bullet Seed"
     },
     "calmmind": {
         "Effect": "Raises the user's Special Attack and Special Defense by 1 stage each.",
@@ -339,7 +339,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "calmmind",
-        "name": "Calm Mind"
+        "Name": "Calm Mind"
     },
     "camouflage": {
         "Effect": "The user's type changes Accuracyording to the current terrain. It becomes Grass-type in tall grass and very tall grass (as well as in puddles and very shallow water) Water-type while surfing on or diving under any body of water Rock-type while inside any caves (including Shoal Cave) or on any rocky terrain Ground-type on beach and desert sands and Normal-type everywhere else. The user will always become Normal-type during link battles.",
@@ -348,7 +348,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "camouflage",
-        "name": "Camouflage"
+        "Name": "Camouflage"
     },
     "charge": {
         "Effect": "Doubles the power of the user's Electric attacks on the next turn.",
@@ -357,7 +357,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "charge",
-        "name": "Charge"
+        "Name": "Charge"
     },
     "charm": {
         "Effect": "Lowers the target's Attack by 2 stages.",
@@ -366,7 +366,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "charm",
-        "name": "Charm"
+        "Name": "Charm"
     },
     "clamp": {
         "Effect": "Traps the target for 2-5 turns causing damage equal to 1/16 of its max HP each turn. this trapped effect can be broken by Rapid Spin. The target can still switch out if it uses Baton Pass.",
@@ -375,7 +375,7 @@
         "Power": 35,
         "Accuracy": "75%",
         "id": "clamp",
-        "name": "Clamp"
+        "Name": "Clamp"
     },
     "cometpunch": {
         "Effect": "Attacks 2-5 times in one turn. if one of these attacks breaks a target's Substitute the target will take damage for the rest of the hits. This move has a 3/8 chance to hit twice a 3/8 chance to hit three times a 1/8 chance to hit four times and a 1/8 chance to hit five times.",
@@ -384,7 +384,7 @@
         "Power": 18,
         "Accuracy": "85%",
         "id": "cometpunch",
-        "name": "Comet Punch"
+        "Name": "Comet Punch"
     },
     "confuseray": {
         "Effect": "Confuses the target.",
@@ -393,7 +393,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "confuseray",
-        "name": "Confuse Ray"
+        "Name": "Confuse Ray"
     },
     "confusion": {
         "Effect": "Has a 10% chance to confuse the target.",
@@ -402,7 +402,7 @@
         "Power": 50,
         "Accuracy": "100%",
         "id": "confusion",
-        "name": "Confusion"
+        "Name": "Confusion"
     },
     "constrict": {
         "Effect": "Has a 10% chance to lower the target's Speed by 1 stage.",
@@ -411,7 +411,7 @@
         "Power": 10,
         "Accuracy": "100%",
         "id": "constrict",
-        "name": "Constrict"
+        "Name": "Constrict"
     },
     "conversion": {
         "Effect": "The user's type changes to match the type of one of its four attacks. This move fails if the user cannot change its type under this condition.",
@@ -420,7 +420,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "conversion",
-        "name": "Conversion"
+        "Name": "Conversion"
     },
     "conversion2": {
         "Effect": "The user's type changes to one that resists the type of the last attack that hit the user. In double battles this situation holds even when the user is last hit by an attack from its partner.",
@@ -429,7 +429,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "conversion2",
-        "name": "Conversion 2"
+        "Name": "Conversion 2"
     },
     "cosmicpower": {
         "Effect": "Raises the user's Defense and Special Defense by 1 stage each.",
@@ -438,7 +438,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "cosmicpower",
-        "name": "Cosmic Power"
+        "Name": "Cosmic Power"
     },
     "cottonspore": {
         "Effect": "Lowers the target's Speed by 2 stages.",
@@ -447,7 +447,7 @@
         "Power": 0,
         "Accuracy": "85%",
         "id": "cottonspore",
-        "name": "Cotton Spore"
+        "Name": "Cotton Spore"
     },
     "counter": {
         "Effect": "Almost always goes last. if an opponent strikes with a Physical attack before the user's turn the user retaliates for twice the damage it had endured. In double battles this attack targets the last opponent to hit the user with a Physical attack and cannot hit the user's teammate.",
@@ -456,7 +456,7 @@
         "Power": "Var Dmg",
         "Accuracy": "100%",
         "id": "counter",
-        "name": "Counter"
+        "Name": "Counter"
     },
     "covet": {
         "Effect": "Steals the target's held item unless the user is already holding an item or the target has Sticky Hold. Recycle cannot recover the stolen item.",
@@ -465,7 +465,7 @@
         "Power": 40,
         "Accuracy": "100%",
         "id": "covet",
-        "name": "Covet"
+        "Name": "Covet"
     },
     "crabhammer": {
         "Effect": "Has a high critical hit ratio.",
@@ -474,7 +474,7 @@
         "Power": 90,
         "Accuracy": "85%",
         "id": "crabhammer",
-        "name": "Crabhammer"
+        "Name": "Crabhammer"
     },
     "crosschop": {
         "Effect": "Has a high critical hit ratio.",
@@ -483,7 +483,7 @@
         "Power": 100,
         "Accuracy": "80%",
         "id": "crosschop",
-        "name": "Cross Chop"
+        "Name": "Cross Chop"
     },
     "crunch": {
         "Effect": "Has a 20% chance to lower the target's Special Defense by 1 stage.",
@@ -492,7 +492,7 @@
         "Power": 80,
         "Accuracy": "100%",
         "id": "crunch",
-        "name": "Crunch"
+        "Name": "Crunch"
     },
     "crushclaw": {
         "Effect": "Has a 50% chance to lower the target's Defense by 1 stage.",
@@ -501,7 +501,7 @@
         "Power": 75,
         "Accuracy": "95%",
         "id": "crushclaw",
-        "name": "Crush Claw"
+        "Name": "Crush Claw"
     },
     "curse": {
         "Effect": "When used by a Ghost-type the user sacrifices half of its max HP to sap the target by 1/4 of its max HP per turn. When used by anything else the user's Speed is decreased by 1 stage and its Attack and Defense are increased by 1 stage.",
@@ -510,7 +510,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "curse",
-        "name": "Curse"
+        "Name": "Curse"
     },
     "cut": {
         "Effect": "Damages the target.",
@@ -519,7 +519,7 @@
         "Power": 50,
         "Accuracy": "95%",
         "id": "cut",
-        "name": "Cut"
+        "Name": "Cut"
     },
     "defensecurl": {
         "Effect": "Raises the user's Defense by 1 stage. after one use of this move the user's starting base power is doubled for every use of Rollout or Ice Ball.",
@@ -528,7 +528,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "defensecurl",
-        "name": "Defense Curl"
+        "Name": "Defense Curl"
     },
     "destinybond": {
         "Effect": "Causes an opponent to faint if its next attack KOs the user.",
@@ -537,7 +537,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "destinybond",
-        "name": "Destiny Bond"
+        "Name": "Destiny Bond"
     },
     "detect": {
         "Effect": "Almost always goes first. The user is protected from all attacks for one turn but the move's success rate halves with each consecutive use of Protect Detect or Endure.",
@@ -546,7 +546,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "detect",
-        "name": "Detect"
+        "Name": "Detect"
     },
     "dig": {
         "Effect": "On the first turn the user digs underground becoming uncontrollable and evades all attacks. Earthquake and Magnitude can hit underground and gain doubled power. The user may also be hit underground if it was previously targeted by Lock-On or Mind Reader or if it is attacked by a Pokemon with No Guard. On the second turn the user attacks.",
@@ -555,7 +555,7 @@
         "Power": 60,
         "Accuracy": "100%",
         "id": "dig",
-        "name": "Dig"
+        "Name": "Dig"
     },
     "disable": {
         "Effect": "The target cannot choose its last move for 4-7 turns. Disable only works on one move at a time and fails if the target has not yet used a move or if its move has run out of PP. The target does nothing if it is about to use a move that becomes disabled.",
@@ -564,7 +564,7 @@
         "Power": 0,
         "Accuracy": "55%",
         "id": "disable",
-        "name": "Disable"
+        "Name": "Disable"
     },
     "dive": {
         "Effect": "On the first turn the user dives underwater becoming uncontrollable and evades all attacks except for Surf and Whirlpool which have doubled power. the user may also be hit underwater if it was previously targeted by Lock-On or Mind Reader. On the second turn the user attacks.",
@@ -573,7 +573,7 @@
         "Power": 60,
         "Accuracy": "100%",
         "id": "dive",
-        "name": "Dive"
+        "Name": "Dive"
     },
     "dizzypunch": {
         "Effect": "Has a 20% chance to confuse the target.",
@@ -582,7 +582,7 @@
         "Power": 70,
         "Accuracy": "100%",
         "id": "dizzypunch",
-        "name": "Dizzy Punch"
+        "Name": "Dizzy Punch"
     },
     "doomdesire": {
         "Effect": "This move even if the user and/or the target switch out will strike the active target at the end of the second turn after its use. This move cannot cause a critical hit and its damage is calculated by using the original user's Special Attack and the original target's Special Defense. The move's damage is typeless so it never receives STAB and ignores weaknesses resistances and immunities against this move's type. Only one instance of Doom Desire or Future Sight may be active at a time. because Doom Desire is typeless and occurs at the end of the round it also hits through Protect Detect Endure and Wonder Guard.",
@@ -591,7 +591,7 @@
         "Power": 120,
         "Accuracy": "85%",
         "id": "doomdesire",
-        "name": "Doom Desire"
+        "Name": "Doom Desire"
     },
     "doublekick": {
         "Effect": "Strikes twice. if the first hit breaks the target's Substitute the real Pokemon will take damage from the second hit.",
@@ -600,7 +600,7 @@
         "Power": 30,
         "Accuracy": "100%",
         "id": "doublekick",
-        "name": "Double Kick"
+        "Name": "Double Kick"
     },
     "doubleteam": {
         "Effect": "Raises the user's Evasion by 1 stage.",
@@ -609,7 +609,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "doubleteam",
-        "name": "Double Team"
+        "Name": "Double Team"
     },
     "doubleedge": {
         "Effect": "The user receives 1/3 recoil damage.",
@@ -618,7 +618,7 @@
         "Power": 120,
         "Accuracy": "100%",
         "id": "doubleedge",
-        "name": "Double-edge"
+        "Name": "Double-edge"
     },
     "doubleslap": {
         "Effect": "Attacks 2-5 times in one turn. if one of these attacks breaks a target's Substitute the target will take damage for the rest of the hits. This move has a 3/8 chance to hit twice a 3/8 chance to hit three times a 1/8 chance to hit four times and a 1/8 chance to hit five times.",
@@ -627,7 +627,7 @@
         "Power": 15,
         "Accuracy": "85%",
         "id": "doubleslap",
-        "name": "Doubleslap"
+        "Name": "Doubleslap"
     },
     "dragonclaw": {
         "Effect": "Damages the target.",
@@ -636,7 +636,7 @@
         "Power": 80,
         "Accuracy": "100%",
         "id": "dragonclaw",
-        "name": "Dragon Claw"
+        "Name": "Dragon Claw"
     },
     "dragondance": {
         "Effect": "Raises the user's Attack and Speed by 1 stage each.",
@@ -645,7 +645,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "dragondance",
-        "name": "Dragon Dance"
+        "Name": "Dragon Dance"
     },
     "dragonrage": {
         "Effect": "Always deals 40 points of damage.",
@@ -654,7 +654,7 @@
         "Power": "Set",
         "Accuracy": "100%",
         "id": "dragonrage",
-        "name": "Dragon Rage"
+        "Name": "Dragon Rage"
     },
     "dragonbreath": {
         "Effect": "Has a 30% chance to paralyze the target.",
@@ -663,7 +663,7 @@
         "Power": 60,
         "Accuracy": "100%",
         "id": "dragonbreath",
-        "name": "Dragonbreath"
+        "Name": "Dragonbreath"
     },
     "dreameater": {
         "Effect": "Restores the user's HP by 1/2 of the damage inflicted on the target but only works on a sleeping target.",
@@ -672,7 +672,7 @@
         "Power": 100,
         "Accuracy": "100%",
         "id": "dreameater",
-        "name": "Dream Eater"
+        "Name": "Dream Eater"
     },
     "drillpeck": {
         "Effect": "Damages the target.",
@@ -681,7 +681,7 @@
         "Power": 80,
         "Accuracy": "100%",
         "id": "drillpeck",
-        "name": "Drill Peck"
+        "Name": "Drill Peck"
     },
     "dynamicpunch": {
         "Effect": "Confuses the target.",
@@ -690,7 +690,7 @@
         "Power": 100,
         "Accuracy": "50%",
         "id": "dynamicpunch",
-        "name": "Dynamicpunch"
+        "Name": "Dynamicpunch"
     },
     "earthquake": {
         "Effect": "Power doubles when performed against Pokemon using Dig.",
@@ -699,7 +699,7 @@
         "Power": 100,
         "Accuracy": "100%",
         "id": "earthquake",
-        "name": "Earthquake"
+        "Name": "Earthquake"
     },
     "eggbomb": {
         "Effect": "Damages the target.",
@@ -708,7 +708,7 @@
         "Power": 100,
         "Accuracy": "75%",
         "id": "eggbomb",
-        "name": "Egg Bomb"
+        "Name": "Egg Bomb"
     },
     "ember": {
         "Effect": "Has a 10% chance to burn the target.",
@@ -717,7 +717,7 @@
         "Power": 40,
         "Accuracy": "100%",
         "id": "ember",
-        "name": "Ember"
+        "Name": "Ember"
     },
     "encore": {
         "Effect": "The target is forced to use its last attack for the next 2-6 turns. The effects of this move will end immediately if the target runs out of PP for the repeated attack. In double battles a Pokemon who has received an Encore will target a random opponent with single-target attacks.",
@@ -726,7 +726,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "encore",
-        "name": "Encore"
+        "Name": "Encore"
     },
     "endeavor": {
         "Effect": "Inflicts damage equal to the target's current HP - the user's current HP.",
@@ -735,7 +735,7 @@
         "Power": "Var Dmg",
         "Accuracy": "100%",
         "id": "endeavor",
-        "name": "Endeavor"
+        "Name": "Endeavor"
     },
     "endure": {
         "Effect": "Almost always goes first. The user is left with at least 1 HP following any attacks for one turn but the move's success rate halves with each consecutive use of Protect Detect or Endure.",
@@ -744,7 +744,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "endure",
-        "name": "Endure"
+        "Name": "Endure"
     },
     "eruption": {
         "Effect": "Base power decreases as the user's HP decreases.",
@@ -753,7 +753,7 @@
         "Power": "Variable",
         "Accuracy": "100%",
         "id": "eruption",
-        "name": "Eruption"
+        "Name": "Eruption"
     },
     "explosion": {
         "Effect": "The Defense stat of other Pokemon is halved against this attack essentially doubling the move's base power. causes the user to faint.",
@@ -762,7 +762,7 @@
         "Power": 250,
         "Accuracy": "100%",
         "id": "explosion",
-        "name": "Explosion"
+        "Name": "Explosion"
     },
     "extrasensory": {
         "Effect": "Has a 10% chance to make the target flinch.",
@@ -771,7 +771,7 @@
         "Power": 80,
         "Accuracy": "100%",
         "id": "extrasensory",
-        "name": "Extrasensory"
+        "Name": "Extrasensory"
     },
     "extremespeed": {
         "Effect": "Usually goes first.",
@@ -780,7 +780,7 @@
         "Power": 80,
         "Accuracy": "100%",
         "id": "extremespeed",
-        "name": "Extremespeed"
+        "Name": "Extremespeed"
     },
     "facade": {
         "Effect": "Power doubles if the user is inflicted with burn paralysis or poison.",
@@ -789,7 +789,7 @@
         "Power": 70,
         "Accuracy": "100%",
         "id": "facade",
-        "name": "Facade"
+        "Name": "Facade"
     },
     "faintattack": {
         "Effect": "Ignores Evasion and Accuracyuracy modifiers and never misses except against Protect Detect or a target in the middle of Dig Fly Dive or Bounce.",
@@ -798,7 +798,7 @@
         "Power": 60,
         "Accuracy": "100%",
         "id": "faintattack",
-        "name": "Faint Attack"
+        "Name": "Faint Attack"
     },
     "fakeout": {
         "Effect": "If this is the user's first move after being sent or switched into battle the target flinches. this move fails otherwise and against targets with Inner Focus.",
@@ -807,7 +807,7 @@
         "Power": 40,
         "Accuracy": "100%",
         "id": "fakeout",
-        "name": "Fake Out"
+        "Name": "Fake Out"
     },
     "faketears": {
         "Effect": "Lowers the target's Special Defense by 2 stages.",
@@ -816,7 +816,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "faketears",
-        "name": "Fake Tears"
+        "Name": "Fake Tears"
     },
     "falseswipe": {
         "Effect": "Leaves the target with at least 1 HP.",
@@ -825,7 +825,7 @@
         "Power": 40,
         "Accuracy": "100%",
         "id": "falseswipe",
-        "name": "False Swipe"
+        "Name": "False Swipe"
     },
     "featherdance": {
         "Effect": "Lowers the target's Attack by 2 stages.",
@@ -834,7 +834,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "featherdance",
-        "name": "Featherdance"
+        "Name": "Featherdance"
     },
     "fireblast": {
         "Effect": "Has a 10% chance to burn the target.",
@@ -843,7 +843,7 @@
         "Power": 120,
         "Accuracy": "85%",
         "id": "fireblast",
-        "name": "Fire Blast"
+        "Name": "Fire Blast"
     },
     "firepunch": {
         "Effect": "Has a 10% chance to burn the target.",
@@ -852,7 +852,7 @@
         "Power": 75,
         "Accuracy": "100%",
         "id": "firepunch",
-        "name": "Fire Punch"
+        "Name": "Fire Punch"
     },
     "firespin": {
         "Effect": "Traps the target for 2-5 turns causing damage equal to 1/16 of its max HP each turn. this trapped effect can be broken by Rapid Spin. The target can still switch out if it uses Baton Pass.",
@@ -861,7 +861,7 @@
         "Power": 15,
         "Accuracy": "70%",
         "id": "firespin",
-        "name": "Fire Spin"
+        "Name": "Fire Spin"
     },
     "fissure": {
         "Effect": "The target faints. doesn't work on higher-leveled Pokemon.",
@@ -870,7 +870,7 @@
         "Power": "KO",
         "Accuracy": "30%",
         "id": "fissure",
-        "name": "Fissure"
+        "Name": "Fissure"
     },
     "flail": {
         "Effect": "Base power increases as the user's HP decreases.",
@@ -879,7 +879,7 @@
         "Power": "Variable",
         "Accuracy": "100%",
         "id": "flail",
-        "name": "Flail"
+        "Name": "Flail"
     },
     "flamewheel": {
         "Effect": "Has a 10% chance to burn the target. can be used while frozen which both attacks the target normally and thaws the user.",
@@ -888,7 +888,7 @@
         "Power": 60,
         "Accuracy": "100%",
         "id": "flamewheel",
-        "name": "Flame Wheel"
+        "Name": "Flame Wheel"
     },
     "flamethrower": {
         "Effect": "Has a 10% chance to burn the target.",
@@ -897,7 +897,7 @@
         "Power": 95,
         "Accuracy": "100%",
         "id": "flamethrower",
-        "name": "Flamethrower"
+        "Name": "Flamethrower"
     },
     "flash": {
         "Effect": "Lowers the target's Accuracyuracy by 1 stage.",
@@ -906,7 +906,7 @@
         "Power": 0,
         "Accuracy": "70%",
         "id": "flash",
-        "name": "Flash"
+        "Name": "Flash"
     },
     "flatter": {
         "Effect": "Confuses the target and raises its Special Attack by 1 stage.",
@@ -915,7 +915,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "flatter",
-        "name": "Flatter"
+        "Name": "Flatter"
     },
     "fly": {
         "Effect": "On the first turn the user flies into the air becoming uncontrollable and evades most attacks. Gust Twister Thunder and Sky Uppercut have normal Accuracyuracy against a mid-air Pokemon with Gust and Twister also gaining doubled power. The user may also be hit in mid-air if it was previously targeted by Lock-On or Mind Reader. On the second turn the user attacks.",
@@ -924,7 +924,7 @@
         "Power": 70,
         "Accuracy": "95%",
         "id": "fly",
-        "name": "Fly"
+        "Name": "Fly"
     },
     "focusenergy": {
         "Effect": "Raises the user's chance for a critical hit by one domain.",
@@ -933,7 +933,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "focusenergy",
-        "name": "Focus Energy"
+        "Name": "Focus Energy"
     },
     "focuspunch": {
         "Effect": "At the beginning of the round the user tightens its focus. the attack itself usually goes last and will fail if the user is attacked by any other Pokemon during the turn.",
@@ -942,7 +942,7 @@
         "Power": 150,
         "Accuracy": "100%",
         "id": "focuspunch",
-        "name": "Focus Punch"
+        "Name": "Focus Punch"
     },
     "followme": {
         "Effect": "Almost always goes first. For the rest of the turn all attacks from the opponent's team that target the user's team are redirected toward the user. In double battles the user's teammate will not be protected from attacks that have more than one intended target.",
@@ -951,7 +951,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "followme",
-        "name": "Follow Me"
+        "Name": "Follow Me"
     },
     "foresight": {
         "Effect": "Until the target faints or switches the user's Accuracyuracy modifiers and the target's Evasion modifiers are ignored. Ghost-type targets also lose their immunities against Normal-type and Fighting-type moves.",
@@ -960,7 +960,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "foresight",
-        "name": "Foresight"
+        "Name": "Foresight"
     },
     "frenzyplant": {
         "Effect": "The user recharges during its next turn. as a result until the end of the next turn the user becomes uncontrollable.",
@@ -969,7 +969,7 @@
         "Power": 150,
         "Accuracy": "90%",
         "id": "frenzyplant",
-        "name": "Frenzy Plant"
+        "Name": "Frenzy Plant"
     },
     "frustration": {
         "Effect": "Power increases as user's happiness decreases. maximum 102 BP.",
@@ -978,7 +978,7 @@
         "Power": "Variable",
         "Accuracy": "100%",
         "id": "frustration",
-        "name": "Frustration"
+        "Name": "Frustration"
     },
     "furyattack": {
         "Effect": "Attacks 2-5 times in one turn. if one of these attacks breaks a target's Substitute the target will take damage for the rest of the hits. This move has a 3/8 chance to hit twice a 3/8 chance to hit three times a 1/8 chance to hit four times and a 1/8 chance to hit five times.",
@@ -987,7 +987,7 @@
         "Power": 15,
         "Accuracy": "85%",
         "id": "furyattack",
-        "name": "Fury Attack"
+        "Name": "Fury Attack"
     },
     "furycutter": {
         "Effect": "The base power of this move doubles with each consecutive hit. however power is capped at a maximum 160 BP and remains there for any subsequent uses. If this move misses or if the user selects another move base power will be reset to 10 BP on the next turn.",
@@ -996,7 +996,7 @@
         "Power": 10,
         "Accuracy": "95%",
         "id": "furycutter",
-        "name": "Fury Cutter"
+        "Name": "Fury Cutter"
     },
     "furyswipes": {
         "Effect": "Attacks 2-5 times in one turn. if one of these attacks breaks a target's Substitute the target will take damage for the rest of the hits. This move has a 3/8 chance to hit twice a 3/8 chance to hit three times a 1/8 chance to hit four times and a 1/8 chance to hit five times.",
@@ -1005,7 +1005,7 @@
         "Power": 10,
         "Accuracy": "80%",
         "id": "furyswipes",
-        "name": "Fury Swipes"
+        "Name": "Fury Swipes"
     },
     "futuresight": {
         "Effect": "This move even if the user and/or the target switch out will strike the active target at the end of the second turn after its use. This move cannot cause a critical hit and its damage is calculated by using the original user's Special Attack and the original target's Special Defense. The move's damage is typeless so it never receives STAB and ignores weaknesses resistances and immunities against this move's type. Only one instance of Future Sight or Doom Desire may be active at a time. because Future Sight is typeless and occurs at the end of the round it also hits through Protect Detect Endure and Wonder Guard.",
@@ -1014,7 +1014,7 @@
         "Power": 80,
         "Accuracy": "90%",
         "id": "futuresight",
-        "name": "Future Sight"
+        "Name": "Future Sight"
     },
     "gigadrain": {
         "Effect": "Restores the user's HP by 1/2 of the damage inflicted on the target.",
@@ -1023,7 +1023,7 @@
         "Power": 60,
         "Accuracy": "100%",
         "id": "gigadrain",
-        "name": "Giga Drain"
+        "Name": "Giga Drain"
     },
     "glare": {
         "Effect": "Paralyzes the target.",
@@ -1032,7 +1032,7 @@
         "Power": 0,
         "Accuracy": "75%",
         "id": "glare",
-        "name": "Glare"
+        "Name": "Glare"
     },
     "grasswhistle": {
         "Effect": "Puts the target to sleep.",
@@ -1041,7 +1041,7 @@
         "Power": 0,
         "Accuracy": "55%",
         "id": "grasswhistle",
-        "name": "Grasswhistle"
+        "Name": "Grasswhistle"
     },
     "growl": {
         "Effect": "Lowers the target's Attack by 1 stage.",
@@ -1050,7 +1050,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "growl",
-        "name": "Growl"
+        "Name": "Growl"
     },
     "growth": {
         "Effect": "Raises the user's Special Attack by 1 stage.",
@@ -1059,7 +1059,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "growth",
-        "name": "Growth"
+        "Name": "Growth"
     },
     "grudge": {
         "Effect": "The target's next move is set to 0 PP if it directly KOs the user.",
@@ -1068,7 +1068,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "grudge",
-        "name": "Grudge"
+        "Name": "Grudge"
     },
     "guillotine": {
         "Effect": "The target faints. doesn't work on higher-leveled Pokemon.",
@@ -1077,7 +1077,7 @@
         "Power": "KO",
         "Accuracy": "30%",
         "id": "guillotine",
-        "name": "Guillotine"
+        "Name": "Guillotine"
     },
     "gust": {
         "Effect": "Power doubles if the target is in mid-air via Fly or Bounce.",
@@ -1086,7 +1086,7 @@
         "Power": 40,
         "Accuracy": "100%",
         "id": "gust",
-        "name": "Gust"
+        "Name": "Gust"
     },
     "hail": {
         "Effect": "Cancels all other weather moves. For 5 turns: each active Pokemon even when protected by a Substitute loses 1/16 of its max HP unless it is an Ice-type the power of Solarbeam is halved and the healing power of Morning Sun Synthesis and Moonlight is halved.",
@@ -1095,7 +1095,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "hail",
-        "name": "Hail"
+        "Name": "Hail"
     },
     "harden": {
         "Effect": "Raises the user's Defense by 1 stage.",
@@ -1104,7 +1104,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "harden",
-        "name": "Harden"
+        "Name": "Harden"
     },
     "haze": {
         "Effect": "Eliminates any stat modifiers from all active Pokemon. The stat boost from Choice Band is not affected.",
@@ -1113,7 +1113,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "haze",
-        "name": "Haze"
+        "Name": "Haze"
     },
     "headbutt": {
         "Effect": "Has a 30% chance to make the target flinch.",
@@ -1122,7 +1122,7 @@
         "Power": 70,
         "Accuracy": "100%",
         "id": "headbutt",
-        "name": "Headbutt"
+        "Name": "Headbutt"
     },
     "healbell": {
         "Effect": "Every Pokemon in the user's party is cured of status conditions. Allied Pokemon who have Soundproof are not affected.",
@@ -1131,7 +1131,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "healbell",
-        "name": "Heal Bell"
+        "Name": "Heal Bell"
     },
     "heatwave": {
         "Effect": "Has a 10% chance to burn the target.",
@@ -1140,7 +1140,7 @@
         "Power": 100,
         "Accuracy": "90%",
         "id": "heatwave",
-        "name": "Heat Wave"
+        "Name": "Heat Wave"
     },
     "helpinghand": {
         "Effect": "Always goes first. In double battles the power of the user's partner's attacks is increased by 1.5x for that turn. does nothing in single battles.",
@@ -1149,7 +1149,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "helpinghand",
-        "name": "Helping Hand"
+        "Name": "Helping Hand"
     },
     "hijumpkick": {
         "Effect": "If this attack misses the target the user receives 1/8 \"recoil\" damage of what it would have inflicted.",
@@ -1158,7 +1158,7 @@
         "Power": 85,
         "Accuracy": "90%",
         "id": "hijumpkick",
-        "name": "Hi Jump Kick"
+        "Name": "Hi Jump Kick"
     },
     "hornattack": {
         "Effect": "Damages the target.",
@@ -1167,7 +1167,7 @@
         "Power": 65,
         "Accuracy": "100%",
         "id": "hornattack",
-        "name": "Horn Attack"
+        "Name": "Horn Attack"
     },
     "horndrill": {
         "Effect": "The target faints. doesn't work on higher-leveled Pokemon.",
@@ -1176,7 +1176,7 @@
         "Power": "KO",
         "Accuracy": "30%",
         "id": "horndrill",
-        "name": "Horn Drill"
+        "Name": "Horn Drill"
     },
     "howl": {
         "Effect": "Raises the user's Attack by 1 stage.",
@@ -1185,7 +1185,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "howl",
-        "name": "Howl"
+        "Name": "Howl"
     },
     "hydrocannon": {
         "Effect": "The user recharges during its next turn. as a result until the end of the next turn the user becomes uncontrollable.",
@@ -1194,7 +1194,7 @@
         "Power": 150,
         "Accuracy": "90%",
         "id": "hydrocannon",
-        "name": "Hydro Cannon"
+        "Name": "Hydro Cannon"
     },
     "hydropump": {
         "Effect": "Damages the target.",
@@ -1203,7 +1203,7 @@
         "Power": 120,
         "Accuracy": "80%",
         "id": "hydropump",
-        "name": "Hydro Pump"
+        "Name": "Hydro Pump"
     },
     "hyperbeam": {
         "Effect": "The user recharges during its next turn. as a result until the end of the next turn the user becomes uncontrollable.",
@@ -1212,7 +1212,7 @@
         "Power": 150,
         "Accuracy": "90%",
         "id": "hyperbeam",
-        "name": "Hyper Beam"
+        "Name": "Hyper Beam"
     },
     "hyperfang": {
         "Effect": "Has a 10% chance to make the target flinch.",
@@ -1221,7 +1221,7 @@
         "Power": 80,
         "Accuracy": "90%",
         "id": "hyperfang",
-        "name": "Hyper Fang"
+        "Name": "Hyper Fang"
     },
     "hypervoice": {
         "Effect": "Damages the target.",
@@ -1230,7 +1230,7 @@
         "Power": 90,
         "Accuracy": "100%",
         "id": "hypervoice",
-        "name": "Hyper Voice"
+        "Name": "Hyper Voice"
     },
     "hypnosis": {
         "Effect": "Puts the target to sleep.",
@@ -1239,7 +1239,7 @@
         "Power": 0,
         "Accuracy": "60%",
         "id": "hypnosis",
-        "name": "Hypnosis"
+        "Name": "Hypnosis"
     },
     "iceball": {
         "Effect": "The user attacks uncontrollably for five turns. this move's power doubles after each turn and also if Defense Curl was used beforehand. Its power resets after five turns have ended or if the attack misses.",
@@ -1248,7 +1248,7 @@
         "Power": 30,
         "Accuracy": "90%",
         "id": "iceball",
-        "name": "Ice Ball"
+        "Name": "Ice Ball"
     },
     "icebeam": {
         "Effect": "Has a 10% chance to freeze the target.",
@@ -1257,7 +1257,7 @@
         "Power": 95,
         "Accuracy": "100%",
         "id": "icebeam",
-        "name": "Ice Beam"
+        "Name": "Ice Beam"
     },
     "icepunch": {
         "Effect": "Has a 10% chance to freeze the target.",
@@ -1266,7 +1266,7 @@
         "Power": 75,
         "Accuracy": "100%",
         "id": "icepunch",
-        "name": "Ice Punch"
+        "Name": "Ice Punch"
     },
     "iciclespear": {
         "Effect": "Attacks 2-5 times in one turn. if one of these attacks breaks a target's Substitute the target will take damage for the rest of the hits. This move has a 3/8 chance to hit twice a 3/8 chance to hit three times a 1/8 chance to hit four times and a 1/8 chance to hit five times.",
@@ -1275,7 +1275,7 @@
         "Power": 10,
         "Accuracy": "100%",
         "id": "iciclespear",
-        "name": "Icicle Spear"
+        "Name": "Icicle Spear"
     },
     "icywind": {
         "Effect": "Lowers the target's Speed by 1 stage.",
@@ -1284,7 +1284,7 @@
         "Power": 55,
         "Accuracy": "95%",
         "id": "icywind",
-        "name": "Icy Wind"
+        "Name": "Icy Wind"
     },
     "imprison": {
         "Effect": "Until the user faints or switches out the opponent cannot select any moves that it has in common with the user. In double battles this move affects both opponents.",
@@ -1293,7 +1293,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "imprison",
-        "name": "Imprison"
+        "Name": "Imprison"
     },
     "ingrain": {
         "Effect": "The user recovers 1/16 of its max HP after each turn but it cannot be switched out or forced to switch out.",
@@ -1302,7 +1302,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "ingrain",
-        "name": "Ingrain"
+        "Name": "Ingrain"
     },
     "irondefense": {
         "Effect": "Raises the user's Defense by 2 stages.",
@@ -1311,7 +1311,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "irondefense",
-        "name": "Iron Defense"
+        "Name": "Iron Defense"
     },
     "irontail": {
         "Effect": "Has a 30% chance to lower the target's Defense by 1 stage.",
@@ -1320,7 +1320,7 @@
         "Power": 100,
         "Accuracy": "75%",
         "id": "irontail",
-        "name": "Iron Tail"
+        "Name": "Iron Tail"
     },
     "jumpkick": {
         "Effect": "If this attack misses the target the user receives 1/8 \"recoil\" damage of what it would have inflicted.",
@@ -1329,7 +1329,7 @@
         "Power": 70,
         "Accuracy": "95%",
         "id": "jumpkick",
-        "name": "Jump Kick"
+        "Name": "Jump Kick"
     },
     "karatechop": {
         "Effect": "Has a high critical hit ratio.",
@@ -1338,7 +1338,7 @@
         "Power": 55,
         "Accuracy": "100%",
         "id": "karatechop",
-        "name": "Karate Chop"
+        "Name": "Karate Chop"
     },
     "kinesis": {
         "Effect": "Lowers the target's Accuracyuracy by 1 stage.",
@@ -1347,7 +1347,7 @@
         "Power": 0,
         "Accuracy": "80%",
         "id": "kinesis",
-        "name": "Kinesis"
+        "Name": "Kinesis"
     },
     "knockoff": {
         "Effect": "Disables the target's held item unless it has Sticky Hold. Items lost to this move cannot be recovered by using Recycle.",
@@ -1356,7 +1356,7 @@
         "Power": 20,
         "Accuracy": "100%",
         "id": "knockoff",
-        "name": "Knock Off"
+        "Name": "Knock Off"
     },
     "leafblade": {
         "Effect": "Has a high critical hit ratio.",
@@ -1365,7 +1365,7 @@
         "Power": 70,
         "Accuracy": "100%",
         "id": "leafblade",
-        "name": "Leaf Blade"
+        "Name": "Leaf Blade"
     },
     "leechlife": {
         "Effect": "Restores the user's HP by 1/2 of the damage inflicted on the target.",
@@ -1374,7 +1374,7 @@
         "Power": 20,
         "Accuracy": "100%",
         "id": "leechlife",
-        "name": "Leech Life"
+        "Name": "Leech Life"
     },
     "leechseed": {
         "Effect": "The user steals 1/8 of the target's max HP until the target is switched out is KO'ed or uses Rapid Spin. does not work against Grass-type Pokemon or Pokemon behind Substitutes.",
@@ -1383,7 +1383,7 @@
         "Power": 0,
         "Accuracy": "90%",
         "id": "leechseed",
-        "name": "Leech Seed"
+        "Name": "Leech Seed"
     },
     "leer": {
         "Effect": "Lowers the target's Defense by 1 stage.",
@@ -1392,7 +1392,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "leer",
-        "name": "Leer"
+        "Name": "Leer"
     },
     "lick": {
         "Effect": "Has a 30% chance to paralyze the target.",
@@ -1401,7 +1401,7 @@
         "Power": 20,
         "Accuracy": "100%",
         "id": "lick",
-        "name": "Lick"
+        "Name": "Lick"
     },
     "lightscreen": {
         "Effect": "All Pokemon in the user's party receive 1/2 damage from Special attacks for 5 turns. Light Screen will be removed from the user's field if an opponent's Pokemon uses Brick Break. In double battles both Pokemon are shielded but damage protection is reduced from 1/2 to 1/3.",
@@ -1410,7 +1410,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "lightscreen",
-        "name": "Light Screen"
+        "Name": "Light Screen"
     },
     "lock-on": {
         "Effect": "This move ensures that the user's next attack will hit against its current target. This effect can be Baton Passed to another Pokemon. Lock-On fails against Pokemon in the middle of using Protect Detect Dig Fly Bounce or Dive as well as Pokemon behind a Substitute.",
@@ -1419,7 +1419,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "lock-on",
-        "name": "Lock-On"
+        "Name": "Lock-On"
     },
     "lovelykiss": {
         "Effect": "Puts the target to sleep.",
@@ -1428,7 +1428,7 @@
         "Power": 0,
         "Accuracy": "75%",
         "id": "lovelykiss",
-        "name": "Lovely Kiss"
+        "Name": "Lovely Kiss"
     },
     "lowkick": {
         "Effect": "Base power increases as the target's weight increases.",
@@ -1437,7 +1437,7 @@
         "Power": "Variable",
         "Accuracy": "100%",
         "id": "lowkick",
-        "name": "Low Kick"
+        "Name": "Low Kick"
     },
     "lusterpurge": {
         "Effect": "Has a 50% chance to lower the target's Special Defense by 1 stage.",
@@ -1446,7 +1446,7 @@
         "Power": 70,
         "Accuracy": "100%",
         "id": "lusterpurge",
-        "name": "Luster Purge"
+        "Name": "Luster Purge"
     },
     "machpunch": {
         "Effect": "Usually goes first.",
@@ -1455,7 +1455,7 @@
         "Power": 40,
         "Accuracy": "100%",
         "id": "machpunch",
-        "name": "Mach Punch"
+        "Name": "Mach Punch"
     },
     "magiccoat": {
         "Effect": "Almost always goes first. Until the end of the turn the user will reflect one non-damaging move back at its user (including allies). In Double Battles this move will only reflect the first applicable move before wearing off.",
@@ -1464,7 +1464,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "magiccoat",
-        "name": "Magic Coat"
+        "Name": "Magic Coat"
     },
     "magicalleaf": {
         "Effect": "Ignores Evasion and Accuracyuracy modifiers and never misses except against Protect Detect or a target in the middle of Dig Fly Dive or Bounce.",
@@ -1473,7 +1473,7 @@
         "Power": 60,
         "Accuracy": "100%",
         "id": "magicalleaf",
-        "name": "Magical Leaf"
+        "Name": "Magical Leaf"
     },
     "magnitude": {
         "Effect": "Deals variable damage between 10 base power and 130 base power as well as double damage against Digging Pokemon.",
@@ -1482,7 +1482,7 @@
         "Power": "Variable",
         "Accuracy": "100%",
         "id": "magnitude",
-        "name": "Magnitude"
+        "Name": "Magnitude"
     },
     "meanlook": {
         "Effect": "As long as the user remains in battle the target cannot switch out unless it uses Baton Pass. The target will still be trapped if the user switches out by using Baton Pass.",
@@ -1491,7 +1491,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "meanlook",
-        "name": "Mean Look"
+        "Name": "Mean Look"
     },
     "meditate": {
         "Effect": "Raises the user's Attack by 1 stage.",
@@ -1500,7 +1500,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "meditate",
-        "name": "Meditate"
+        "Name": "Meditate"
     },
     "megadrain": {
         "Effect": "Restores the user's HP by 1/2 of the damage inflicted on the target.",
@@ -1509,7 +1509,7 @@
         "Power": 40,
         "Accuracy": "100%",
         "id": "megadrain",
-        "name": "Mega Drain"
+        "Name": "Mega Drain"
     },
     "megakick": {
         "Effect": "Damages the target.",
@@ -1518,7 +1518,7 @@
         "Power": 120,
         "Accuracy": "75%",
         "id": "megakick",
-        "name": "Mega Kick"
+        "Name": "Mega Kick"
     },
     "megapunch": {
         "Effect": "Damages the target.",
@@ -1527,7 +1527,7 @@
         "Power": 80,
         "Accuracy": "85%",
         "id": "megapunch",
-        "name": "Mega Punch"
+        "Name": "Mega Punch"
     },
     "megahorn": {
         "Effect": "Damages the target.",
@@ -1536,7 +1536,7 @@
         "Power": 120,
         "Accuracy": "85%",
         "id": "megahorn",
-        "name": "Megahorn"
+        "Name": "Megahorn"
     },
     "memento": {
         "Effect": "The user sacrifices itself to lower the target's Attack and Special Attack by 2 stages each.",
@@ -1545,7 +1545,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "memento",
-        "name": "Memento"
+        "Name": "Memento"
     },
     "metalclaw": {
         "Effect": "Has a 10% chance to raise the user's Attack by 1 stage.",
@@ -1554,7 +1554,7 @@
         "Power": 50,
         "Accuracy": "95%",
         "id": "metalclaw",
-        "name": "Metal Claw"
+        "Name": "Metal Claw"
     },
     "metalsound": {
         "Effect": "Lowers the target's Special Defense by 2 stages.",
@@ -1563,7 +1563,7 @@
         "Power": 0,
         "Accuracy": "85%",
         "id": "metalsound",
-        "name": "Metal Sound"
+        "Name": "Metal Sound"
     },
     "meteormash": {
         "Effect": "Has a 20% chance to raise the user's Attack by 1 stage.",
@@ -1572,7 +1572,7 @@
         "Power": 100,
         "Accuracy": "85%",
         "id": "meteormash",
-        "name": "Meteor Mash"
+        "Name": "Meteor Mash"
     },
     "metronome": {
         "Effect": "The user performs a randomly selected move. almost any move in the game could be picked. Metronome cannot generate itself Assist Counter Covet Destiny Bond Detect Endure Focus Punch Follow Me Helping Hand Mimic Mirror Coat Mirror Move Protect Sketch Sleep Talk Snatch Struggle Thief Trick or any move that the user already knows.",
@@ -1581,7 +1581,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "metronome",
-        "name": "Metronome"
+        "Name": "Metronome"
     },
     "milkdrink": {
         "Effect": "Restores 1/2 of the user's max HP.",
@@ -1590,7 +1590,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "milkdrink",
-        "name": "Milk Drink"
+        "Name": "Milk Drink"
     },
     "mimic": {
         "Effect": "This move is temporarily replaced by the target's last move. the replacement move will have 5 PP and become part of the user's moveset until the user switches out or the battle ends. Mimic copies attacks even if they miss or the user has immunity toward their type. it cannot copy itself Struggle Transform Sketch Metronome or moves that the user already knows and it will fail if the target has yet to use a move.",
@@ -1599,7 +1599,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "mimic",
-        "name": "Mimic"
+        "Name": "Mimic"
     },
     "mindreader": {
         "Effect": "This move ensures that the user's next attack will hit against its current target. This effect can be Baton Passed to another Pokemon. Mind Reader fails against Pokemon in the middle of using Protect Detect Dig Fly Bounce or Dive as well as Pokemon behind a Substitute.",
@@ -1608,7 +1608,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "mindreader",
-        "name": "Mind Reader"
+        "Name": "Mind Reader"
     },
     "minimize": {
         "Effect": "Raises the user's Evasion by 1 stage. however Stomp retains its normal Accuracyuracy and gains doubled power against Minimized Pokemon.",
@@ -1617,7 +1617,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "minimize",
-        "name": "Minimize"
+        "Name": "Minimize"
     },
     "mirrorcoat": {
         "Effect": "Almost always goes last. if an opponent strikes with a Special attack before the user's turn the user retaliates for twice the damage it had endured. In double battles this attack targets the last opponent to hit the user with a Special attack and cannot hit the user's teammate.",
@@ -1626,7 +1626,7 @@
         "Power": "Var Dmg",
         "Accuracy": "100%",
         "id": "mirrorcoat",
-        "name": "Mirror Coat"
+        "Name": "Mirror Coat"
     },
     "mirrormove": {
         "Effect": "The user performs the last move executed by its target. if applicable an attack's damage is calculated with the user's stats level and type(s). This moves fails if the target has not yet used a move. Mirror Move cannot copy Encore Struggle global moves affecting all Pokemon on the field (such as Hail Rain Dance Sandstorm and Sunny Day) moves that can bypass Protect (Doom Desire Future Sight Imprison Perish Song Psych Up Role Play and Transform) and moves that do not have a specific target (such as Light Screen Reflect Safeguard and Spikes).",
@@ -1635,7 +1635,7 @@
         "Power": "Copy",
         "Accuracy": "100%",
         "id": "mirrormove",
-        "name": "Mirror Move"
+        "Name": "Mirror Move"
     },
     "mist": {
         "Effect": "Protects every Pokemon on the user's team from negative stat modifiers caused by other Pokemon (including teammates) but not by itself for five turns. The team's Accuracyuracy and Evasion stats are also protected. Moves that cause negative stat modifiers as a secondary effect such as Psychic still deal their regular damage.",
@@ -1644,7 +1644,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "mist",
-        "name": "Mist"
+        "Name": "Mist"
     },
     "mistball": {
         "Effect": "Has a 50% chance to lower the target's Special Attack by 1 stage.",
@@ -1653,7 +1653,7 @@
         "Power": 70,
         "Accuracy": "100%",
         "id": "mistball",
-        "name": "Mist Ball"
+        "Name": "Mist Ball"
     },
     "moonlight": {
         "Effect": "Restores a fraction of the user's max HP depending on the weather: 2/3 during Sunny Day 1/2 during regular weather and 1/4 during Rain Dance Hail and Sandstorm.",
@@ -1662,7 +1662,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "moonlight",
-        "name": "Moonlight"
+        "Name": "Moonlight"
     },
     "morningsun": {
         "Effect": "Restores a fraction of the user's max HP depending on the weather: 2/3 during Sunny Day 1/2 during regular weather and 1/4 during Rain Dance Hail and Sandstorm.",
@@ -1671,7 +1671,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "morningsun",
-        "name": "Morning Sun"
+        "Name": "Morning Sun"
     },
     "mudshot": {
         "Effect": "Lowers the target's Speed by 1 stage.",
@@ -1680,7 +1680,7 @@
         "Power": 55,
         "Accuracy": "95%",
         "id": "mudshot",
-        "name": "Mud Shot"
+        "Name": "Mud Shot"
     },
     "mudsport": {
         "Effect": "All Electric-type moves are 50% weaker until the user switches out.",
@@ -1689,7 +1689,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "mudsport",
-        "name": "Mud Sport"
+        "Name": "Mud Sport"
     },
     "mud-slap": {
         "Effect": "Lowers the target's Accuracyuracy by 1 stage.",
@@ -1698,7 +1698,7 @@
         "Power": 20,
         "Accuracy": "100%",
         "id": "mud-slap",
-        "name": "Mud-Slap"
+        "Name": "Mud-Slap"
     },
     "muddywater": {
         "Effect": "Has a 30% chance to lower the target's Accuracyuracy by 1 stage.",
@@ -1707,7 +1707,7 @@
         "Power": 95,
         "Accuracy": "85%",
         "id": "muddywater",
-        "name": "Muddy Water"
+        "Name": "Muddy Water"
     },
     "naturepower": {
         "Effect": "The user generates another move depending on the battle's current terrain. It generates Stun Spore in grass and tall grass (as well as in puddles and very shallow water) Razor Leaf in very tall grass Surf while surfing on top of river and ocean water Bubblebeam while surfing on top of pond water Hydro Pump while diving underwater Rock Slide on any rocky outdoor terrain Shadow Ball inside of caves Earthquake on beach and desert sand and Swift everywhere else (including link battles).",
@@ -1716,7 +1716,7 @@
         "Power": "Copy",
         "Accuracy": "95%",
         "id": "naturepower",
-        "name": "Nature Power"
+        "Name": "Nature Power"
     },
     "needlearm": {
         "Effect": "Has a 30% chance to make the target flinch.",
@@ -1725,7 +1725,7 @@
         "Power": 60,
         "Accuracy": "100%",
         "id": "needlearm",
-        "name": "Needle Arm"
+        "Name": "Needle Arm"
     },
     "nightshade": {
         "Effect": "Does damage equal to user's level.",
@@ -1734,7 +1734,7 @@
         "Power": "Var Dmg",
         "Accuracy": "100%",
         "id": "nightshade",
-        "name": "Night Shade"
+        "Name": "Night Shade"
     },
     "nightmare": {
         "Effect": "This move only works on a sleeping target. as long as the target remains asleep and in battle 1/4 of its max HP is sapped after each turn.",
@@ -1743,7 +1743,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "nightmare",
-        "name": "Nightmare"
+        "Name": "Nightmare"
     },
     "octazooka": {
         "Effect": "Has a 50% chance to lower the target's Accuracyuracy by 1 stage.",
@@ -1752,7 +1752,7 @@
         "Power": 65,
         "Accuracy": "85%",
         "id": "octazooka",
-        "name": "Octazooka"
+        "Name": "Octazooka"
     },
     "odorsleuth": {
         "Effect": "Until the target faints or switches the user's Accuracyuracy modifiers and the target's Evasion modifiers are ignored. Ghost-type targets also lose their immunities against Normal-type and Fighting-type moves.",
@@ -1761,7 +1761,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "odorsleuth",
-        "name": "Odor Sleuth"
+        "Name": "Odor Sleuth"
     },
     "outrage": {
         "Effect": "The user attacks uncontrollably for 2-3 turns and then gets confused.",
@@ -1770,7 +1770,7 @@
         "Power": 90,
         "Accuracy": "100%",
         "id": "outrage",
-        "name": "Outrage"
+        "Name": "Outrage"
     },
     "overheat": {
         "Effect": "Lowers the user's Special Attack by 2 stages after use.",
@@ -1779,7 +1779,7 @@
         "Power": 140,
         "Accuracy": "90%",
         "id": "overheat",
-        "name": "Overheat"
+        "Name": "Overheat"
     },
     "painsplit": {
         "Effect": "Calculates the average of the user's current HP and the target's HP. the HP of both Pokemon is set to this average.",
@@ -1788,7 +1788,7 @@
         "Power": "Var Dmg",
         "Accuracy": "100%",
         "id": "painsplit",
-        "name": "Pain Split"
+        "Name": "Pain Split"
     },
     "payday": {
         "Effect": "The player picks up extra money after in-game battles. the money received is equal to: [user's level * 5 * number of times Pay Day is used]. The player does not lose money if the opponent uses Pay Day but the player wins the battle.",
@@ -1797,7 +1797,7 @@
         "Power": 40,
         "Accuracy": "100%",
         "id": "payday",
-        "name": "Pay Day"
+        "Name": "Pay Day"
     },
     "peck": {
         "Effect": "Damages the target.",
@@ -1806,7 +1806,7 @@
         "Power": 35,
         "Accuracy": "100%",
         "id": "peck",
-        "name": "Peck"
+        "Name": "Peck"
     },
     "perishsong": {
         "Effect": "All active Pokemon will faint in 3 turns unless they are switched out.",
@@ -1815,7 +1815,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "perishsong",
-        "name": "Perish Song"
+        "Name": "Perish Song"
     },
     "petaldance": {
         "Effect": "The user attacks uncontrollably for 2-3 turns and then gets confused.",
@@ -1824,7 +1824,7 @@
         "Power": 70,
         "Accuracy": "100%",
         "id": "petaldance",
-        "name": "Petal Dance"
+        "Name": "Petal Dance"
     },
     "pinmissile": {
         "Effect": "Attacks 2-5 times in one turn. if one of these attacks breaks a target's Substitute the target will take damage for the rest of the hits. This move has a 3/8 chance to hit twice a 3/8 chance to hit three times a 1/8 chance to hit four times and a 1/8 chance to hit five times.",
@@ -1833,7 +1833,7 @@
         "Power": 14,
         "Accuracy": "85%",
         "id": "pinmissile",
-        "name": "Pin Missile"
+        "Name": "Pin Missile"
     },
     "poisonfang": {
         "Effect": "Has a 30% chance to inflict Toxic poison on the target.",
@@ -1842,7 +1842,7 @@
         "Power": 50,
         "Accuracy": "100%",
         "id": "poisonfang",
-        "name": "Poison Fang"
+        "Name": "Poison Fang"
     },
     "poisongas": {
         "Effect": "Poisons the target.",
@@ -1851,7 +1851,7 @@
         "Power": 0,
         "Accuracy": "55%",
         "id": "poisongas",
-        "name": "Poison Gas"
+        "Name": "Poison Gas"
     },
     "poisonsting": {
         "Effect": "Has a 30% chance to poison the target.",
@@ -1860,7 +1860,7 @@
         "Power": 15,
         "Accuracy": "100%",
         "id": "poisonsting",
-        "name": "Poison Sting"
+        "Name": "Poison Sting"
     },
     "poisontail": {
         "Effect": "Has a high critical hit ratio and a 10% chance to poison the target.",
@@ -1869,7 +1869,7 @@
         "Power": 50,
         "Accuracy": "100%",
         "id": "poisontail",
-        "name": "Poison Tail"
+        "Name": "Poison Tail"
     },
     "poisonpowder": {
         "Effect": "Poisons the target.",
@@ -1878,7 +1878,7 @@
         "Power": 0,
         "Accuracy": "75%",
         "id": "poisonpowder",
-        "name": "Poisonpowder"
+        "Name": "Poisonpowder"
     },
     "pound": {
         "Effect": "Damages the target.",
@@ -1887,7 +1887,7 @@
         "Power": 40,
         "Accuracy": "100%",
         "id": "pound",
-        "name": "Pound"
+        "Name": "Pound"
     },
     "powdersnow": {
         "Effect": "Has a 10% chance to freeze the target.",
@@ -1896,7 +1896,7 @@
         "Power": 40,
         "Accuracy": "100%",
         "id": "powdersnow",
-        "name": "Powder Snow"
+        "Name": "Powder Snow"
     },
     "present": {
         "Effect": "Randomly either attacks with a variable power between 40 base power and 120 base power or heals the target by 80 HP.",
@@ -1905,7 +1905,7 @@
         "Power": "Variable",
         "Accuracy": "90%",
         "id": "present",
-        "name": "Present"
+        "Name": "Present"
     },
     "protect": {
         "Effect": "Almost always goes first. The user is protected from all attacks for one turn but the move's success rate halves with each consecutive use of Protect Detect or Endure.",
@@ -1914,7 +1914,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "protect",
-        "name": "Protect"
+        "Name": "Protect"
     },
     "psybeam": {
         "Effect": "Has a 10% chance to confuse the target.",
@@ -1923,7 +1923,7 @@
         "Power": 65,
         "Accuracy": "100%",
         "id": "psybeam",
-        "name": "Psybeam"
+        "Name": "Psybeam"
     },
     "psychup": {
         "Effect": "The user copies all seven of the target's current stat modifiers.",
@@ -1932,7 +1932,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "psychup",
-        "name": "Psych Up"
+        "Name": "Psych Up"
     },
     "psychic": {
         "Effect": "Has a 10% chance to lower the target's Special Defense by 1 stage.",
@@ -1941,7 +1941,7 @@
         "Power": 90,
         "Accuracy": "100%",
         "id": "psychic",
-        "name": "Psychic"
+        "Name": "Psychic"
     },
     "psychoboost": {
         "Effect": "Lowers the user's Special Attack by 2 stages after use.",
@@ -1950,7 +1950,7 @@
         "Power": 140,
         "Accuracy": "90%",
         "id": "psychoboost",
-        "name": "Psycho Boost"
+        "Name": "Psycho Boost"
     },
     "psywave": {
         "Effect": "Randomly inflicts set damage equal to .5x .6x .7x .8x .9x 1.0x 1.1x 1.2x 1.3x 1.4x or 1.5x the user's level.",
@@ -1959,7 +1959,7 @@
         "Power": "Var Dmg",
         "Accuracy": "80%",
         "id": "psywave",
-        "name": "Psywave"
+        "Name": "Psywave"
     },
     "pursuit": {
         "Effect": "If the target switches out on the current turn this move strikes with doubled power before the switch. Baton Passers still escape safely.",
@@ -1968,7 +1968,7 @@
         "Power": 40,
         "Accuracy": "100%",
         "id": "pursuit",
-        "name": "Pursuit"
+        "Name": "Pursuit"
     },
     "quickattack": {
         "Effect": "Usually goes first.",
@@ -1977,7 +1977,7 @@
         "Power": 40,
         "Accuracy": "100%",
         "id": "quickattack",
-        "name": "Quick Attack"
+        "Name": "Quick Attack"
     },
     "rage": {
         "Effect": "The user's Attack rises by 1 stage if attacked before its next move.",
@@ -1986,7 +1986,7 @@
         "Power": 20,
         "Accuracy": "100%",
         "id": "rage",
-        "name": "Rage"
+        "Name": "Rage"
     },
     "raindance": {
         "Effect": "Cancels all other weather moves. For 5 turns: the power of Water attacks is increased by 50% the power of Fire attacks is decreased by 50% Thunder becomes 100% Accuracyurate the power of Solarbeam is halved and the healing power of Morning Sun Synthesis and Moonlight is decreased from 1/2 to 1/4 of the user's max HP.",
@@ -1995,7 +1995,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "raindance",
-        "name": "Rain Dance"
+        "Name": "Rain Dance"
     },
     "rapidspin": {
         "Effect": "Removes Spikes and Leech Seed from the user's side of the field. also frees the user from Bind Clamp Fire Spin Sand Tomb Whirlpool and Wrap. These effects do not occur if the move misses or is used against Ghost-type Pokemon.",
@@ -2004,7 +2004,7 @@
         "Power": 20,
         "Accuracy": "100%",
         "id": "rapidspin",
-        "name": "Rapid Spin"
+        "Name": "Rapid Spin"
     },
     "razorleaf": {
         "Effect": "Has a high critical hit ratio.",
@@ -2013,7 +2013,7 @@
         "Power": 55,
         "Accuracy": "95%",
         "id": "razorleaf",
-        "name": "Razor Leaf"
+        "Name": "Razor Leaf"
     },
     "razorwind": {
         "Effect": "The user prepares on turn one becoming uncontrollable and then attacks on turn two. Has a high critical hit ratio.",
@@ -2022,7 +2022,7 @@
         "Power": 80,
         "Accuracy": "100%",
         "id": "razorwind",
-        "name": "Razor Wind"
+        "Name": "Razor Wind"
     },
     "recover": {
         "Effect": "Restores 1/2 of the user's max HP.",
@@ -2031,7 +2031,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "recover",
-        "name": "Recover"
+        "Name": "Recover"
     },
     "recycle": {
         "Effect": "The user's lost item is recovered. Items lost to Trick Thief Covet or Knock Off cannot be recovered.",
@@ -2040,7 +2040,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "recycle",
-        "name": "Recycle"
+        "Name": "Recycle"
     },
     "reflect": {
         "Effect": "All Pokemon in the user's party receive 1/2 damage from Physical attacks for 5 turns. Reflect will be removed from the user's field if an opponent's Pokemon uses Brick Break. In double battles both Pokemon are shielded but damage protection is reduced from 1/2 to 1/3.",
@@ -2049,7 +2049,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "reflect",
-        "name": "Reflect"
+        "Name": "Reflect"
     },
     "refresh": {
         "Effect": "The user recovers from burn poison and paralysis.",
@@ -2058,7 +2058,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "refresh",
-        "name": "Refresh"
+        "Name": "Refresh"
     },
     "rest": {
         "Effect": "The user is cured of status effects (and confusion) and recovers full HP but falls asleep for 2 turns. Pokemon who have Early Bird will wake up one turn early.",
@@ -2067,16 +2067,16 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "rest",
-        "name": "Rest"
+        "Name": "Rest"
     },
-    "return": {
+    "return102": {
         "Effect": "Power increases as user's happiness increases. maximum 102 BP.",
         "Type": "Normal",
         "PP": 20,
         "Power": "Variable",
         "Accuracy": "100%",
-        "id": "return",
-        "name": "Return"
+        "id": "return102",
+        "Name": "Return"
     },
     "revenge": {
         "Effect": "Almost always goes last even after another Pokemon's Focus Punch. this move's base power doubles if the user is damaged before its turn.",
@@ -2085,7 +2085,7 @@
         "Power": 60,
         "Accuracy": "100%",
         "id": "revenge",
-        "name": "Revenge"
+        "Name": "Revenge"
     },
     "reversal": {
         "Effect": "Base power increases as the user's HP decreases.",
@@ -2094,7 +2094,7 @@
         "Power": "Variable",
         "Accuracy": "100%",
         "id": "reversal",
-        "name": "Reversal"
+        "Name": "Reversal"
     },
     "roar": {
         "Effect": "Almost always goes last. in trainer battles the target is switched out for a random member of its team. Escapes from wild battles. Has no effect if the target has Suction Cups Soundproof or used Ingrain.",
@@ -2103,7 +2103,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "roar",
-        "name": "Roar"
+        "Name": "Roar"
     },
     "rockblast": {
         "Effect": "Attacks 2-5 times in one turn. if one of these attacks breaks a target's Substitute the target will take damage for the rest of the hits. This move has a 3/8 chance to hit twice a 3/8 chance to hit three times a 1/8 chance to hit four times and a 1/8 chance to hit five times.",
@@ -2112,7 +2112,7 @@
         "Power": 25,
         "Accuracy": "80%",
         "id": "rockblast",
-        "name": "Rock Blast"
+        "Name": "Rock Blast"
     },
     "rockslide": {
         "Effect": "Has a 30% chance to make the target flinch.",
@@ -2121,7 +2121,7 @@
         "Power": 75,
         "Accuracy": "90%",
         "id": "rockslide",
-        "name": "Rock Slide"
+        "Name": "Rock Slide"
     },
     "rocksmash": {
         "Effect": "Has a 50% chance to lower the target's Defense by 1 stage.",
@@ -2130,7 +2130,7 @@
         "Power": 20,
         "Accuracy": "100%",
         "id": "rocksmash",
-        "name": "Rock Smash"
+        "Name": "Rock Smash"
     },
     "rockthrow": {
         "Effect": "Damages the target.",
@@ -2139,7 +2139,7 @@
         "Power": 50,
         "Accuracy": "90%",
         "id": "rockthrow",
-        "name": "Rock Throw"
+        "Name": "Rock Throw"
     },
     "rocktomb": {
         "Effect": "Lowers the target's Speed by 1 stage.",
@@ -2148,7 +2148,7 @@
         "Power": 50,
         "Accuracy": "80%",
         "id": "rocktomb",
-        "name": "Rock Tomb"
+        "Name": "Rock Tomb"
     },
     "roleplay": {
         "Effect": "The user's own ability is overwritten with the target's ability. does nothing if the target's ability is Wonder Guard.",
@@ -2157,7 +2157,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "roleplay",
-        "name": "Role Play"
+        "Name": "Role Play"
     },
     "rollingkick": {
         "Effect": "Has a 30% chance to make the target flinch.",
@@ -2166,7 +2166,7 @@
         "Power": 60,
         "Accuracy": "85%",
         "id": "rollingkick",
-        "name": "Rolling Kick"
+        "Name": "Rolling Kick"
     },
     "rollout": {
         "Effect": "The user attacks uncontrollably for five turns. this move's power doubles after each turn and also if Defense Curl was used beforehand. Its power resets after five turns have ended or if the attack misses.",
@@ -2175,7 +2175,7 @@
         "Power": 30,
         "Accuracy": "90%",
         "id": "rollout",
-        "name": "Rollout"
+        "Name": "Rollout"
     },
     "sacredfire": {
         "Effect": "Has a 50% chance to burn the target. can be used while frozen which both attacks the target normally and thaws the user.",
@@ -2184,7 +2184,7 @@
         "Power": 100,
         "Accuracy": "95%",
         "id": "sacredfire",
-        "name": "Sacred Fire"
+        "Name": "Sacred Fire"
     },
     "safeguard": {
         "Effect": "Protects the user's entire team from status conditions for five turns.",
@@ -2193,7 +2193,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "safeguard",
-        "name": "Safeguard"
+        "Name": "Safeguard"
     },
     "sandtomb": {
         "Effect": "Traps the target for 2-5 turns causing damage equal to 1/16 of its max HP each turn. this trapped effect can be broken by Rapid Spin. The target can still switch out if it uses Baton Pass.",
@@ -2202,7 +2202,7 @@
         "Power": 15,
         "Accuracy": "70%",
         "id": "sandtomb",
-        "name": "Sand Tomb"
+        "Name": "Sand Tomb"
     },
     "sand-attack": {
         "Effect": "Lowers the target's Accuracyuracy by 1 stage.",
@@ -2211,7 +2211,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "sand-attack",
-        "name": "Sand-Attack"
+        "Name": "Sand-Attack"
     },
     "sandstorm": {
         "Effect": "Cancels all other weather moves. For 5 turns: each active Pokemon even when protected by a Substitute loses 1/16 of its max HP unless it is a Ground- Rock- or Steel-type the power of Solarbeam is halved and the healing power of Morning Sun Synthesis and Moonlight is halved.",
@@ -2220,7 +2220,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "sandstorm",
-        "name": "Sandstorm"
+        "Name": "Sandstorm"
     },
     "scaryface": {
         "Effect": "Lowers the target's Speed by 2 stages.",
@@ -2229,7 +2229,7 @@
         "Power": 0,
         "Accuracy": "90%",
         "id": "scaryface",
-        "name": "Scary Face"
+        "Name": "Scary Face"
     },
     "scratch": {
         "Effect": "Damages the target.",
@@ -2238,7 +2238,7 @@
         "Power": 40,
         "Accuracy": "100%",
         "id": "scratch",
-        "name": "Scratch"
+        "Name": "Scratch"
     },
     "screech": {
         "Effect": "Lowers the target's Defense by 2 stages.",
@@ -2247,7 +2247,7 @@
         "Power": 0,
         "Accuracy": "85%",
         "id": "screech",
-        "name": "Screech"
+        "Name": "Screech"
     },
     "secretpower": {
         "Effect": "This move has a 30% chance to inflict a side effect depending on the battle's current terrain. The target may be put to sleep in any type of grass (or in puddles and very shallow water) its Attack may be lowered by 1 stage while surfing on river or ocean water its Defense may be lowered by 1 stage while diving underwater its Speed may be lowered by 1 stage while surfing on pond water its Accuracyuracy may be lowered by 1 stage on beach and desert sand it may flinch in caves it may become confused on rocky outdoor terrain it may be poisoned on ashy terrain and it may become paralyzed everywhere else (including link battles).",
@@ -2256,7 +2256,7 @@
         "Power": 70,
         "Accuracy": "100%",
         "id": "secretpower",
-        "name": "Secret Power"
+        "Name": "Secret Power"
     },
     "seismictoss": {
         "Effect": "Does damage equal to user's level.",
@@ -2265,7 +2265,7 @@
         "Power": "Var Dmg",
         "Accuracy": "100%",
         "id": "seismictoss",
-        "name": "Seismic Toss"
+        "Name": "Seismic Toss"
     },
     "self-destruct": {
         "Effect": "The Defense stat of other Pokemon is halved against this attack essentially doubling the move's base power. causes the user to faint.",
@@ -2274,7 +2274,7 @@
         "Power": 200,
         "Accuracy": "100%",
         "id": "self-destruct",
-        "name": "Self-Destruct"
+        "Name": "Self-Destruct"
     },
     "shadowball": {
         "Effect": "Has a 20% chance to lower the target's Special Defense by 1 stage.",
@@ -2283,7 +2283,7 @@
         "Power": 80,
         "Accuracy": "100%",
         "id": "shadowball",
-        "name": "Shadow Ball"
+        "Name": "Shadow Ball"
     },
     "shadowpunch": {
         "Effect": "Ignores Evasion and Accuracyuracy modifiers and never misses except against Protect Detect or a target in the middle of Dig Fly Dive or Bounce.",
@@ -2292,7 +2292,7 @@
         "Power": 60,
         "Accuracy": "100%",
         "id": "shadowpunch",
-        "name": "Shadow Punch"
+        "Name": "Shadow Punch"
     },
     "sharpen": {
         "Effect": "Raises the user's Attack by 1 stage.",
@@ -2301,7 +2301,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "sharpen",
-        "name": "Sharpen"
+        "Name": "Sharpen"
     },
     "sheercold": {
         "Effect": "The target faints. doesn't work on higher-leveled Pokemon.",
@@ -2310,7 +2310,7 @@
         "Power": "KO",
         "Accuracy": "30%",
         "id": "sheercold",
-        "name": "Sheer Cold"
+        "Name": "Sheer Cold"
     },
     "shockwave": {
         "Effect": "Ignores Evasion and Accuracyuracy modifiers and never misses except against Protect Detect or a target in the middle of Dig Fly Dive or Bounce.",
@@ -2319,7 +2319,7 @@
         "Power": 60,
         "Accuracy": "100%",
         "id": "shockwave",
-        "name": "Shock Wave"
+        "Name": "Shock Wave"
     },
     "signalbeam": {
         "Effect": "Has a 10% chance to confuse the target.",
@@ -2328,7 +2328,7 @@
         "Power": 75,
         "Accuracy": "100%",
         "id": "signalbeam",
-        "name": "Signal Beam"
+        "Name": "Signal Beam"
     },
     "silverwind": {
         "Effect": "Has a 10% chance to raise all of the user's stats by 1 stage.",
@@ -2337,7 +2337,7 @@
         "Power": 60,
         "Accuracy": "100%",
         "id": "silverwind",
-        "name": "Silver Wind"
+        "Name": "Silver Wind"
     },
     "sing": {
         "Effect": "Puts the target to sleep.",
@@ -2346,7 +2346,7 @@
         "Power": 0,
         "Accuracy": "55%",
         "id": "sing",
-        "name": "Sing"
+        "Name": "Sing"
     },
     "sketch": {
         "Effect": "The user permanently replaces Sketch with the last move used by the target. Sketch cannot copy itself Memento or Struggle. Transform and moves that generate other moves can be Sketched successfully as can Explosion and Selfdestruct if a Pokemon with Damp is present. This move fails automatically when selected in link or wireless battles.",
@@ -2355,7 +2355,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "sketch",
-        "name": "Sketch"
+        "Name": "Sketch"
     },
     "skillswap": {
         "Effect": "The user exchanges abilities with the target. does not work if Wonder Guard is the ability of either the user or the target.",
@@ -2364,7 +2364,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "skillswap",
-        "name": "Skill Swap"
+        "Name": "Skill Swap"
     },
     "skullbash": {
         "Effect": "The user prepares on turn one raising its Defense by 1 stage and becoming uncontrollable and then attacks on turn two.",
@@ -2373,7 +2373,7 @@
         "Power": 100,
         "Accuracy": "100%",
         "id": "skullbash",
-        "name": "Skull Bash"
+        "Name": "Skull Bash"
     },
     "skyattack": {
         "Effect": "The user prepares on turn one becoming uncontrollable and then attacks on turn two. Also has a 30% chance to make the target flinch.",
@@ -2382,7 +2382,7 @@
         "Power": 140,
         "Accuracy": "90%",
         "id": "skyattack",
-        "name": "Sky Attack"
+        "Name": "Sky Attack"
     },
     "skyuppercut": {
         "Effect": "Also hits targets in mid-air via Fly or Bounce.",
@@ -2391,7 +2391,7 @@
         "Power": 85,
         "Accuracy": "90%",
         "id": "skyuppercut",
-        "name": "Sky Uppercut"
+        "Name": "Sky Uppercut"
     },
     "slackoff": {
         "Effect": "Restores 1/2 of the user's max HP.",
@@ -2400,7 +2400,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "slackoff",
-        "name": "Slack Off"
+        "Name": "Slack Off"
     },
     "slam": {
         "Effect": "Damages the target.",
@@ -2409,7 +2409,7 @@
         "Power": 80,
         "Accuracy": "75%",
         "id": "slam",
-        "name": "Slam"
+        "Name": "Slam"
     },
     "slash": {
         "Effect": "Has a high critical hit ratio.",
@@ -2418,7 +2418,7 @@
         "Power": 70,
         "Accuracy": "100%",
         "id": "slash",
-        "name": "Slash"
+        "Name": "Slash"
     },
     "sleeppowder": {
         "Effect": "Puts the target to sleep.",
@@ -2427,7 +2427,7 @@
         "Power": 0,
         "Accuracy": "75%",
         "id": "sleeppowder",
-        "name": "Sleep Powder"
+        "Name": "Sleep Powder"
     },
     "sleeptalk": {
         "Effect": "Does nothing if the user is awake. If the user asleep it randomly performs one of its attacks. Rest will fail if it is selected. Sleep Talk's generated attacks do not cost PP but it cannot generate moves with 0 PP itself Assist Bide Disabled attacks Focus Punch Metronome Mirror Move Uproar or attacks with a charge-up turn like Fly or Skull Bash. (Moves with a recharge turn like Hyper Beam can be generated.)",
@@ -2436,7 +2436,7 @@
         "Power": "Copy",
         "Accuracy": "100%",
         "id": "sleeptalk",
-        "name": "Sleep Talk"
+        "Name": "Sleep Talk"
     },
     "sludge": {
         "Effect": "Has a 30% chance to poison the target.",
@@ -2445,7 +2445,7 @@
         "Power": 65,
         "Accuracy": "100%",
         "id": "sludge",
-        "name": "Sludge"
+        "Name": "Sludge"
     },
     "sludgebomb": {
         "Effect": "Has a 30% chance to poison the target.",
@@ -2454,7 +2454,7 @@
         "Power": 90,
         "Accuracy": "100%",
         "id": "sludgebomb",
-        "name": "Sludge Bomb"
+        "Name": "Sludge Bomb"
     },
     "smellingsalt": {
         "Effect": "If the target is paralyzed power is doubled but the target will be cured.",
@@ -2463,7 +2463,7 @@
         "Power": 60,
         "Accuracy": "100%",
         "id": "smellingsalt",
-        "name": "Smellingsalt"
+        "Name": "Smellingsalt"
     },
     "smog": {
         "Effect": "Has a 40% chance to poison the target.",
@@ -2472,7 +2472,7 @@
         "Power": 40,
         "Accuracy": "100%",
         "id": "smog",
-        "name": "Smog"
+        "Name": "Smog"
     },
     "smokescreen": {
         "Effect": "Lowers the target's Accuracyuracy by 1 stage.",
@@ -2481,7 +2481,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "smokescreen",
-        "name": "Smokescreen"
+        "Name": "Smokescreen"
     },
     "snatch": {
         "Effect": "Almost always goes first. Until the end of the turn the user will steal a supporting move from another Pokemon (including teammates). In Double Battles Snatch only steals the first applicable move performed by another Pokemon before wearing off.",
@@ -2490,7 +2490,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "snatch",
-        "name": "Snatch"
+        "Name": "Snatch"
     },
     "snore": {
         "Effect": "Has a 30% chance to make the target flinch. fails if user is awake.",
@@ -2499,7 +2499,7 @@
         "Power": 40,
         "Accuracy": "100%",
         "id": "snore",
-        "name": "Snore"
+        "Name": "Snore"
     },
     "softboiled": {
         "Effect": "Restores 1/2 of the user's max HP.",
@@ -2508,7 +2508,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "softboiled",
-        "name": "Softboiled"
+        "Name": "Softboiled"
     },
     "solarbeam": {
         "Effect": "The user prepares on turn one becoming uncontrollable and then attacks on turn two. During Sunny Day this move fires immediately. during Rain Dance Sandstorm and Hail this move has half power.",
@@ -2517,7 +2517,7 @@
         "Power": 120,
         "Accuracy": "100%",
         "id": "solarbeam",
-        "name": "Solarbeam"
+        "Name": "Solarbeam"
     },
     "sonicboom": {
         "Effect": "Always deals 20 points of damage.",
@@ -2526,7 +2526,7 @@
         "Power": "Set",
         "Accuracy": "90%",
         "id": "sonicboom",
-        "name": "Sonicboom"
+        "Name": "Sonicboom"
     },
     "spark": {
         "Effect": "Has a 30% chance to paralyze the target.",
@@ -2535,7 +2535,7 @@
         "Power": 65,
         "Accuracy": "100%",
         "id": "spark",
-        "name": "Spark"
+        "Name": "Spark"
     },
     "spiderweb": {
         "Effect": "As long as the user remains in battle the target cannot switch out unless it uses Baton Pass. The target will still be trapped if the user switches out by using Baton Pass.",
@@ -2544,7 +2544,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "spiderweb",
-        "name": "Spider Web"
+        "Name": "Spider Web"
     },
     "spikecannon": {
         "Effect": "Attacks 2-5 times in one turn. if one of these attacks breaks a target's Substitute the target will take damage for the rest of the hits. This move has a 3/8 chance to hit twice a 3/8 chance to hit three times a 1/8 chance to hit four times and a 1/8 chance to hit five times.",
@@ -2553,7 +2553,7 @@
         "Power": 20,
         "Accuracy": "100%",
         "id": "spikecannon",
-        "name": "Spike Cannon"
+        "Name": "Spike Cannon"
     },
     "spikes": {
         "Effect": "Damages opponents unless they are Flying-type or have Levitate every time they are switched in. hits through Wonder Guard. Can be used up to three times: saps 1/8 of max HP with one layer 3/16 of max HP with two layers and 1/4 of max HP for three layers.",
@@ -2562,7 +2562,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "spikes",
-        "name": "Spikes"
+        "Name": "Spikes"
     },
     "spitup": {
         "Effect": "Power increases with user's Stockpile count. fails with zero Stockpiles.",
@@ -2571,7 +2571,7 @@
         "Power": "Variable",
         "Accuracy": "100%",
         "id": "spitup",
-        "name": "Spit Up"
+        "Name": "Spit Up"
     },
     "spite": {
         "Effect": "The target's most recent move is reduced by 2-5 PP. this fails if the target has not yet performed a move if the target's last move has run out of PP or if the target can only use Struggle.",
@@ -2580,7 +2580,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "spite",
-        "name": "Spite"
+        "Name": "Spite"
     },
     "splash": {
         "Effect": "Doesn't do anything (but we still love it).",
@@ -2589,7 +2589,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "splash",
-        "name": "Splash"
+        "Name": "Splash"
     },
     "spore": {
         "Effect": "Puts the target to sleep.",
@@ -2598,7 +2598,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "spore",
-        "name": "Spore"
+        "Name": "Spore"
     },
     "steelwing": {
         "Effect": "Has a 10% chance to raise the user's Defense by 1 stage.",
@@ -2607,7 +2607,7 @@
         "Power": 70,
         "Accuracy": "95%",
         "id": "steelwing",
-        "name": "Steel Wing"
+        "Name": "Steel Wing"
     },
     "stockpile": {
         "Effect": "Can be used up to three times to power Spit Up or Swallow. Stockpiles are lost when these moves are used.",
@@ -2616,7 +2616,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "stockpile",
-        "name": "Stockpile"
+        "Name": "Stockpile"
     },
     "stomp": {
         "Effect": "Has a 30% chance to make the target flinch. also retains its normal Accuracyuracy and gains doubled power against Minimized Pokemon.",
@@ -2625,7 +2625,7 @@
         "Power": 65,
         "Accuracy": "100%",
         "id": "stomp",
-        "name": "Stomp"
+        "Name": "Stomp"
     },
     "strength": {
         "Effect": "Damages the target.",
@@ -2634,7 +2634,7 @@
         "Power": 80,
         "Accuracy": "100%",
         "id": "strength",
-        "name": "Strength"
+        "Name": "Strength"
     },
     "stringshot": {
         "Effect": "Lowers the target's Speed by 1 stage.",
@@ -2643,7 +2643,7 @@
         "Power": 0,
         "Accuracy": "95%",
         "id": "stringshot",
-        "name": "String Shot"
+        "Name": "String Shot"
     },
     "struggle": {
         "Effect": "Used automatically when all of the user's other moves have run out of PP or are otherwise inAccuracyessible. The user receives 1/4 recoil damage. Struggle is classified as a typeless move and will hit any Pokemon including Rock- Steel- and Ghost-type Pokemon for normal damage.",
@@ -2652,7 +2652,7 @@
         "Power": 50,
         "Accuracy": "100%",
         "id": "struggle",
-        "name": "Struggle"
+        "Name": "Struggle"
     },
     "stunspore": {
         "Effect": "Paralyzes the target.",
@@ -2661,7 +2661,7 @@
         "Power": 0,
         "Accuracy": "75%",
         "id": "stunspore",
-        "name": "Stun Spore"
+        "Name": "Stun Spore"
     },
     "submission": {
         "Effect": "The user receives 1/4 recoil damage.",
@@ -2670,7 +2670,7 @@
         "Power": 80,
         "Accuracy": "80%",
         "id": "submission",
-        "name": "Submission"
+        "Name": "Submission"
     },
     "substitute": {
         "Effect": "The user takes one-fourth of its maximum HP to create a substitute. this move fails if the user does not have enough HP for this. Until the substitute is broken it receives damage from all attacks made by other Pokemon and shields the user from status effects and stat modifiers caused by other Pokemon. The user is still affected by Tickle Hail Sandstorm and Attract from behind its Substitute. If a Substitute breaks from a hit during a multistrike move such as Fury Attack the user takes damage from the remaining strikes.",
@@ -2679,7 +2679,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "substitute",
-        "name": "Substitute"
+        "Name": "Substitute"
     },
     "sunnyday": {
         "Effect": "Cancels all other weather moves. For 5 turns: freezing is prevented the power of Fire attacks is increased by 50% the power of Water attacks is decreased by 50% Solarbeam fires immediately Thunder becomes 50% Accuracyurate and the healing power of Morning Sun Synthesis and Moonlight is increased from 1/2 to 2/3 of the user's max HP.",
@@ -2688,7 +2688,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "sunnyday",
-        "name": "Sunny Day"
+        "Name": "Sunny Day"
     },
     "superfang": {
         "Effect": "This move halves the target's current HP.",
@@ -2697,7 +2697,7 @@
         "Power": "Var Dmg",
         "Accuracy": "90%",
         "id": "superfang",
-        "name": "Super Fang"
+        "Name": "Super Fang"
     },
     "superpower": {
         "Effect": "Lowers the user's Attack and Defense by 1 stage each after use.",
@@ -2706,7 +2706,7 @@
         "Power": 120,
         "Accuracy": "100%",
         "id": "superpower",
-        "name": "Superpower"
+        "Name": "Superpower"
     },
     "supersonic": {
         "Effect": "Confuses the target.",
@@ -2715,7 +2715,7 @@
         "Power": 0,
         "Accuracy": "55%",
         "id": "supersonic",
-        "name": "Supersonic"
+        "Name": "Supersonic"
     },
     "surf": {
         "Effect": "Power doubles against a target who is in the middle of using Dive.",
@@ -2724,7 +2724,7 @@
         "Power": 95,
         "Accuracy": "100%",
         "id": "surf",
-        "name": "Surf"
+        "Name": "Surf"
     },
     "swagger": {
         "Effect": "Confuses the target and raises its Attack by 2 stages.",
@@ -2733,7 +2733,7 @@
         "Power": 0,
         "Accuracy": "90%",
         "id": "swagger",
-        "name": "Swagger"
+        "Name": "Swagger"
     },
     "swallow": {
         "Effect": "This move only works if the user has at least one Stockpile. Restores 1/4 of user's max HP with one Stockpile 1/2 of user's max HP with two Stockpiles and fully restores the user's HP with three Stockpiles.",
@@ -2742,7 +2742,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "swallow",
-        "name": "Swallow"
+        "Name": "Swallow"
     },
     "sweetkiss": {
         "Effect": "Confuses the target.",
@@ -2751,7 +2751,7 @@
         "Power": 0,
         "Accuracy": "75%",
         "id": "sweetkiss",
-        "name": "Sweet Kiss"
+        "Name": "Sweet Kiss"
     },
     "sweetscent": {
         "Effect": "Lowers the target's Evasion by 1 stage.",
@@ -2760,7 +2760,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "sweetscent",
-        "name": "Sweet Scent"
+        "Name": "Sweet Scent"
     },
     "swift": {
         "Effect": "Ignores Evasion and Accuracyuracy modifiers and never misses except against Protect Detect or a target in the middle of Dig Fly Dive or Bounce.",
@@ -2769,7 +2769,7 @@
         "Power": 60,
         "Accuracy": "100%",
         "id": "swift",
-        "name": "Swift"
+        "Name": "Swift"
     },
     "swordsdance": {
         "Effect": "Raises the user's Attack by 2 stages.",
@@ -2778,7 +2778,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "swordsdance",
-        "name": "Swords Dance"
+        "Name": "Swords Dance"
     },
     "synthesis": {
         "Effect": "Restores a fraction of the user's max HP depending on the weather: 2/3 during Sunny Day 1/2 during regular weather and 1/4 during Rain Dance Hail and Sandstorm.",
@@ -2787,7 +2787,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "synthesis",
-        "name": "Synthesis"
+        "Name": "Synthesis"
     },
     "tackle": {
         "Effect": "Damages the target.",
@@ -2796,7 +2796,7 @@
         "Power": 35,
         "Accuracy": "95%",
         "id": "tackle",
-        "name": "Tackle"
+        "Name": "Tackle"
     },
     "tailglow": {
         "Effect": "Raises the user's Special Attack by 2 stages.",
@@ -2805,7 +2805,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "tailglow",
-        "name": "Tail Glow"
+        "Name": "Tail Glow"
     },
     "tailwhip": {
         "Effect": "Lowers the target's Defense by 1 stage.",
@@ -2814,7 +2814,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "tailwhip",
-        "name": "Tail Whip"
+        "Name": "Tail Whip"
     },
     "takedown": {
         "Effect": "The user receives 1/4 recoil damage.",
@@ -2823,7 +2823,7 @@
         "Power": 90,
         "Accuracy": "85%",
         "id": "takedown",
-        "name": "Take Down"
+        "Name": "Take Down"
     },
     "taunt": {
         "Effect": "Prevents the target from using non-damaging moves for two turns. Assist Metronome Mirror Move and Sleep Talk are prevented during this time but Bide Counter Endeavor and Mirror Coat are not prevented.",
@@ -2832,7 +2832,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "taunt",
-        "name": "Taunt"
+        "Name": "Taunt"
     },
     "teeterdance": {
         "Effect": "Each active Pokemon except the user becomes confused.",
@@ -2841,7 +2841,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "teeterdance",
-        "name": "Teeter Dance"
+        "Name": "Teeter Dance"
     },
     "teleport": {
         "Effect": "Escapes from wild battles. fails automatically in trainer and link battles.",
@@ -2850,7 +2850,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "teleport",
-        "name": "Teleport"
+        "Name": "Teleport"
     },
     "thief": {
         "Effect": "Steals the target's held item unless the user is already holding an item or the target has Sticky Hold.",
@@ -2859,7 +2859,7 @@
         "Power": 40,
         "Accuracy": "100%",
         "id": "thief",
-        "name": "Thief"
+        "Name": "Thief"
     },
     "thrash": {
         "Effect": "The user attacks uncontrollably for 2-3 turns and then gets confused.",
@@ -2868,7 +2868,7 @@
         "Power": 90,
         "Accuracy": "100%",
         "id": "thrash",
-        "name": "Thrash"
+        "Name": "Thrash"
     },
     "thunder": {
         "Effect": "Has a 30% chance to paralyze the target. Has 50% Accuracyuracy during Sunny Day and 100% Accuracyuracy during Rain Dance. Also has normal Accuracyuracy against mid-air Pokemon have used Fly or Bounce.",
@@ -2877,7 +2877,7 @@
         "Power": 120,
         "Accuracy": "70%",
         "id": "thunder",
-        "name": "Thunder"
+        "Name": "Thunder"
     },
     "thunderwave": {
         "Effect": "Paralyzes the target.",
@@ -2886,7 +2886,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "thunderwave",
-        "name": "Thunder Wave"
+        "Name": "Thunder Wave"
     },
     "thunderbolt": {
         "Effect": "Has a 10% chance to paralyze the target.",
@@ -2895,7 +2895,7 @@
         "Power": 95,
         "Accuracy": "100%",
         "id": "thunderbolt",
-        "name": "Thunderbolt"
+        "Name": "Thunderbolt"
     },
     "thunderpunch": {
         "Effect": "Has a 10% chance to paralyze the target.",
@@ -2904,7 +2904,7 @@
         "Power": 75,
         "Accuracy": "100%",
         "id": "thunderpunch",
-        "name": "Thunderpunch"
+        "Name": "Thunderpunch"
     },
     "thundershock": {
         "Effect": "Has a 10% chance to paralyze the target.",
@@ -2913,7 +2913,7 @@
         "Power": 40,
         "Accuracy": "100%",
         "id": "thundershock",
-        "name": "Thundershock"
+        "Name": "Thundershock"
     },
     "tickle": {
         "Effect": "Lowers the target's Attack and Defense by 1 stage each.",
@@ -2922,7 +2922,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "tickle",
-        "name": "Tickle"
+        "Name": "Tickle"
     },
     "torment": {
         "Effect": "Prevents the target from using the same move for two turns in a row until the target is switched out. The target will use Struggle every other turn if it cannot attack without using the same move.",
@@ -2931,7 +2931,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "torment",
-        "name": "Torment"
+        "Name": "Torment"
     },
     "toxic": {
         "Effect": "The target is badly poisoned with the damage caused by poison doubling after each turn. Toxic poisoning will remain with the Pokemon during the battle even after switching out.",
@@ -2940,7 +2940,7 @@
         "Power": 0,
         "Accuracy": "85%",
         "id": "toxic",
-        "name": "Toxic"
+        "Name": "Toxic"
     },
     "transform": {
         "Effect": "The user morphs into a near-exact copy of the target. Stats stat modifiers type moves Hidden Power data and appearance are changed. the user's level and HP remain the same and each copied move receives only 5 PP. (If Transform is used by Ditto the effects of Metal Powder stop working after transformation.)",
@@ -2949,7 +2949,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "transform",
-        "name": "Transform"
+        "Name": "Transform"
     },
     "triattack": {
         "Effect": "Has a 20% chance to burn paralyze or freeze the target.",
@@ -2958,7 +2958,7 @@
         "Power": 80,
         "Accuracy": "100%",
         "id": "triattack",
-        "name": "Tri Attack"
+        "Name": "Tri Attack"
     },
     "trick": {
         "Effect": "Exchanges items with the target unless it has Sticky Hold. Items lost to this move cannot be recovered by using Recycle.",
@@ -2967,7 +2967,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "trick",
-        "name": "Trick"
+        "Name": "Trick"
     },
     "triplekick": {
         "Effect": "Attacks three times in one turn adding 10 BP for each kick. If a kick misses the move ends instantly. if one of the kicks breaks a target's Substitute the real Pokemon will take damage for the remaining kicks.",
@@ -2976,7 +2976,7 @@
         "Power": 10,
         "Accuracy": "90%",
         "id": "triplekick",
-        "name": "Triple Kick"
+        "Name": "Triple Kick"
     },
     "twineedle": {
         "Effect": "Strikes twice. if the first hit breaks the target's Substitute the real Pokemon will take damage from the second hit. Has a 20% chance to poison the target .",
@@ -2985,7 +2985,7 @@
         "Power": 25,
         "Accuracy": "100%",
         "id": "twineedle",
-        "name": "Twineedle"
+        "Name": "Twineedle"
     },
     "twister": {
         "Effect": "Has a 20% chance to make the target flinch. power doubles while the target is in mid-air via Fly or Bounce.",
@@ -2994,7 +2994,7 @@
         "Power": 40,
         "Accuracy": "100%",
         "id": "twister",
-        "name": "Twister"
+        "Name": "Twister"
     },
     "uproar": {
         "Effect": "The user causes an Uproar and attacks uncontrollably for 2-5 turns. During the effects of the Uproar active Pokemon cannot fall asleep and sleeping Pokemon sent into battle will wake up.",
@@ -3003,7 +3003,7 @@
         "Power": 50,
         "Accuracy": "100%",
         "id": "uproar",
-        "name": "Uproar"
+        "Name": "Uproar"
     },
     "vicegrip": {
         "Effect": "Damages the target.",
@@ -3012,7 +3012,7 @@
         "Power": 55,
         "Accuracy": "100%",
         "id": "vicegrip",
-        "name": "Vicegrip"
+        "Name": "Vicegrip"
     },
     "vinewhip": {
         "Effect": "Damages the target.",
@@ -3021,7 +3021,7 @@
         "Power": 35,
         "Accuracy": "100%",
         "id": "vinewhip",
-        "name": "Vine Whip"
+        "Name": "Vine Whip"
     },
     "vitalthrow": {
         "Effect": "This move usually goes last. It ignores Evasion and Accuracyuracy modifiers and never misses except against Protect Detect or a target in the middle of Dig Fly Dive or Bounce.",
@@ -3030,7 +3030,7 @@
         "Power": 70,
         "Accuracy": "100%",
         "id": "vitalthrow",
-        "name": "Vital Throw"
+        "Name": "Vital Throw"
     },
     "volttackle": {
         "Effect": "The user receives 1/3 recoil damage.",
@@ -3039,7 +3039,7 @@
         "Power": 120,
         "Accuracy": "100%",
         "id": "volttackle",
-        "name": "Volt Tackle"
+        "Name": "Volt Tackle"
     },
     "watergun": {
         "Effect": "Damages the target.",
@@ -3048,7 +3048,7 @@
         "Power": 40,
         "Accuracy": "100%",
         "id": "watergun",
-        "name": "Water Gun"
+        "Name": "Water Gun"
     },
     "waterpulse": {
         "Effect": "Has a 20% chance to confuse the target.",
@@ -3057,7 +3057,7 @@
         "Power": 60,
         "Accuracy": "100%",
         "id": "waterpulse",
-        "name": "Water Pulse"
+        "Name": "Water Pulse"
     },
     "watersport": {
         "Effect": "All Fire-type moves are 50% weaker until the user switches out.",
@@ -3066,7 +3066,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "watersport",
-        "name": "Water Sport"
+        "Name": "Water Sport"
     },
     "waterspout": {
         "Effect": "Base power decreases as the user's HP decreases.",
@@ -3075,7 +3075,7 @@
         "Power": "Variable",
         "Accuracy": "100%",
         "id": "waterspout",
-        "name": "Water Spout"
+        "Name": "Water Spout"
     },
     "waterfall": {
         "Effect": "Damages the target.",
@@ -3084,7 +3084,7 @@
         "Power": 80,
         "Accuracy": "100%",
         "id": "waterfall",
-        "name": "Waterfall"
+        "Name": "Waterfall"
     },
     "weatherball": {
         "Effect": "Base power doubles and move's type changes during weather effects: becomes Fire-type during Sunny Day Water-type during Rain Dance Ice-type during Hail and Rock-type during Sandstorm.",
@@ -3093,7 +3093,7 @@
         "Power": 50,
         "Accuracy": "100%",
         "id": "weatherball",
-        "name": "Weather Ball"
+        "Name": "Weather Ball"
     },
     "whirlpool": {
         "Effect": "Traps the target for 2-5 turns causing damage equal to 1/16 of its max HP each turn. this trapped effect can be broken by Rapid Spin. The target can still switch out if it uses Baton Pass. Base power also doubles when performed against a Pokemon in the middle of using Dive.",
@@ -3102,7 +3102,7 @@
         "Power": 15,
         "Accuracy": "70%",
         "id": "whirlpool",
-        "name": "Whirlpool"
+        "Name": "Whirlpool"
     },
     "whirlwind": {
         "Effect": "Almost always goes last. in trainer battles the target is switched out for a random member of its team. Escapes from wild battles. Has no effect if the target has Suction Cups or used Ingrain.",
@@ -3111,7 +3111,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "whirlwind",
-        "name": "Whirlwind"
+        "Name": "Whirlwind"
     },
     "will-o-wisp": {
         "Effect": "Burns the target. This move will not activate Flash Fire.",
@@ -3120,7 +3120,7 @@
         "Power": 0,
         "Accuracy": "75%",
         "id": "will-o-wisp",
-        "name": "Will-O-Wisp"
+        "Name": "Will-O-Wisp"
     },
     "wingattack": {
         "Effect": "Damages the target.",
@@ -3129,7 +3129,7 @@
         "Power": 60,
         "Accuracy": "100%",
         "id": "wingattack",
-        "name": "Wing Attack"
+        "Name": "Wing Attack"
     },
     "wish": {
         "Effect": "At the end of the next turn the active Pokemon from the user's team is healed by 1/2 of its max HP. this can be any member of the user's team.",
@@ -3138,7 +3138,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "wish",
-        "name": "Wish"
+        "Name": "Wish"
     },
     "withdraw": {
         "Effect": "Raises the user's Defense by 1 stage.",
@@ -3147,7 +3147,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "withdraw",
-        "name": "Withdraw"
+        "Name": "Withdraw"
     },
     "wrap": {
         "Effect": "Traps the target for 2-5 turns causing damage equal to 1/16 of its max HP each turn. this trapped effect can be broken by Rapid Spin. The target can still switch out if it uses Baton Pass.",
@@ -3156,7 +3156,7 @@
         "Power": 15,
         "Accuracy": "85%",
         "id": "wrap",
-        "name": "Wrap"
+        "Name": "Wrap"
     },
     "yawn": {
         "Effect": "If the target stays in battle it falls asleep at the end of the next turn.",
@@ -3165,7 +3165,7 @@
         "Power": 0,
         "Accuracy": "100%",
         "id": "yawn",
-        "name": "Yawn"
+        "Name": "Yawn"
     },
     "zapcannon": {
         "Effect": "Paralyzes the target.",
@@ -3174,7 +3174,7 @@
         "Power": 100,
         "Accuracy": "50%",
         "id": "zapcannon",
-        "name": "Zap Cannon"
+        "Name": "Zap Cannon"
 	},
     "hiddenpowerfighting": {
         "Effect": "Varies in power and type depending on the user's IVs. maximum 70 BP. Will hit as a Fighting-type move.",
@@ -3183,7 +3183,7 @@
         "Power": "70",
         "Accuracy": "100%",
         "id": "hiddenpowerfighting",
-        "name": "Hidden Power Fighting"
+        "Name": "Hidden Power Fighting"
     },
     "hiddenpowerflying": {
         "Effect": "Varies in power and type depending on the user's IVs. maximum 70 BP. Will hit as a Flying-type move.",
@@ -3192,7 +3192,7 @@
         "Power": "70",
         "Accuracy": "100%",
         "id": "hiddenpowerflying",
-        "name": "Hidden Power Flying"
+        "Name": "Hidden Power Flying"
     },
     "hiddenpowerpoison": {
         "Effect": "Varies in power and type depending on the user's IVs. maximum 70 BP. Will hit as a Poison-type move.",
@@ -3201,7 +3201,7 @@
         "Power": "70",
         "Accuracy": "100%",
         "id": "hiddenpowerpoison",
-        "name": "Hidden Power Poison"
+        "Name": "Hidden Power Poison"
     },
     "hiddenpowerground": {
         "Effect": "Varies in power and type depending on the user's IVs. maximum 70 BP. Will hit as a Ground-type move.",
@@ -3210,7 +3210,7 @@
         "Power": "70",
         "Accuracy": "100%",
         "id": "hiddenpowerground",
-        "name": "Hidden Power Ground"
+        "Name": "Hidden Power Ground"
     },
     "hiddenpowerrock": {
         "Effect": "Varies in power and type depending on the user's IVs. maximum 70 BP. Will hit as a Rock-type move.",
@@ -3219,7 +3219,7 @@
         "Power": "70",
         "Accuracy": "100%",
         "id": "hiddenpowerrock",
-        "name": "Hidden Power Rock"
+        "Name": "Hidden Power Rock"
     },
     "hiddenpowerbug": {
         "Effect": "Varies in power and type depending on the user's IVs. maximum 70 BP. Will hit as a Bug-type move.",
@@ -3228,7 +3228,7 @@
         "Power": "70",
         "Accuracy": "100%",
         "id": "hiddenpowerbug",
-        "name": "Hidden Power Bug"
+        "Name": "Hidden Power Bug"
     },
     "hiddenpowerghost": {
         "Effect": "Varies in power and type depending on the user's IVs. maximum 70 BP. Will hit as a Ghost-type move.",
@@ -3237,7 +3237,7 @@
         "Power": "70",
         "Accuracy": "100%",
         "id": "hiddenpowerghost",
-        "name": "Hidden Power Ghost"
+        "Name": "Hidden Power Ghost"
     },
     "hiddenpowersteel": {
         "Effect": "Varies in power and type depending on the user's IVs. maximum 70 BP. Will hit as a Steel-type move.",
@@ -3246,7 +3246,7 @@
         "Power": "70",
         "Accuracy": "100%",
         "id": "hiddenpowersteel",
-        "name": "Hidden Power Steel"
+        "Name": "Hidden Power Steel"
     },
     "hiddenpowerfire": {
         "Effect": "Varies in power and type depending on the user's IVs. maximum 70 BP. Will hit as a Fire-type move.",
@@ -3255,7 +3255,7 @@
         "Power": "70",
         "Accuracy": "100%",
         "id": "hiddenpowerfire",
-        "name": "Hidden Power Fire"
+        "Name": "Hidden Power Fire"
     },
     "hiddenpowerwater": {
         "Effect": "Varies in power and type depending on the user's IVs. maximum 70 BP. Will hit as a Water-type move.",
@@ -3264,7 +3264,7 @@
         "Power": "70",
         "Accuracy": "100%",
         "id": "hiddenpowerwater",
-        "name": "Hidden Power Water"
+        "Name": "Hidden Power Water"
     },
     "hiddenpowergrass": {
         "Effect": "Varies in power and type depending on the user's IVs. maximum 70 BP. Will hit as a Grass-type move.",
@@ -3273,7 +3273,7 @@
         "Power": "70",
         "Accuracy": "100%",
         "id": "hiddenpowergrass",
-        "name": "Hidden Power Grass"
+        "Name": "Hidden Power Grass"
     },
     "hiddenpowerelectric": {
         "Effect": "Varies in power and type depending on the user's IVs. maximum 70 BP. Will hit as a Electric-type move.",
@@ -3282,7 +3282,7 @@
         "Power": "70",
         "Accuracy": "100%",
         "id": "hiddenpowerelectric",
-        "name": "Hidden Power Electric"
+        "Name": "Hidden Power Electric"
     },
     "hiddenpowerpsychic": {
         "Effect": "Varies in power and type depending on the user's IVs. maximum 70 BP. Will hit as a Psychic-type move.",
@@ -3291,7 +3291,7 @@
         "Power": "70",
         "Accuracy": "100%",
         "id": "hiddenpowerpsychic",
-        "name": "Hidden Power Psychic"
+        "Name": "Hidden Power Psychic"
     },
     "hiddenpowerice": {
         "Effect": "Varies in power and type depending on the user's IVs. maximum 70 BP. Will hit as a Ice-type move.",
@@ -3300,7 +3300,7 @@
         "Power": "70",
         "Accuracy": "100%",
         "id": "hiddenpowerice",
-        "name": "Hidden Power Ice"
+        "Name": "Hidden Power Ice"
     },
     "hiddenpowerdragon": {
         "Effect": "Varies in power and type depending on the user's IVs. maximum 70 BP. Will hit as a Dragon-type move.",
@@ -3309,7 +3309,7 @@
         "Power": "70",
         "Accuracy": "100%",
         "id": "hiddenpowerdragon",
-        "name": "Hidden Power Dragon"
+        "Name": "Hidden Power Dragon"
     },
     "hiddenpowerdark": {
         "Effect": "Varies in power and type depending on the user's IVs. maximum 70 BP. Will hit as a Dark-type move.",
@@ -3318,6 +3318,6 @@
         "Power": "70",
         "Accuracy": "100%",
         "id": "hiddenpowerdark",
-        "name": "Hidden Power Dark"
+        "Name": "Hidden Power Dark"
     }
 }

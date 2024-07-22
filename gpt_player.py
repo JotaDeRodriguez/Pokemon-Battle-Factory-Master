@@ -11,8 +11,10 @@ from poke_env.environment import abstract_battle
 
 
 from supervisor import supervisor
-from utils import build_battle_prompt
+# from utils import build_battle_prompt
 from agents.function_calling_agent import function_calling
+
+from claudes_refactored_prompt_builder import build_battle_prompt
 
 
 def clear_memory():
@@ -321,21 +323,21 @@ class gpt_player(Player):
                 for mon in battle.available_switches:
                     switches_data.append(mon.species)
 
-        current_pokemon_and_moves = []
+        current_pokemon = []
         moves_data = []
         switches_data = []
         own_ability = []
 
-        current_pokemon_and_moves.append(battle.active_pokemon.species)
+        current_pokemon.append(battle.active_pokemon.species)
 
-        current_pokemon_and_moves.append(battle.opponent_active_pokemon.species)
+        current_pokemon.append(battle.opponent_active_pokemon.species)
 
         own_ability.append(battle.active_pokemon.ability)
 
         battle_info()
-        current_pokemon_and_moves.extend([moves_data, switches_data, own_ability])
+        current_pokemon.extend([own_ability])
 
-        print(current_pokemon_and_moves)
+        print(current_pokemon)
 
         def get_context():
             with open("battle_context/battle_context.json", "r") as file:
@@ -368,7 +370,7 @@ class gpt_player(Player):
         context_list = get_context()
 
         context = " ".join(context_list)
-        battle_context = build_battle_prompt(*current_pokemon_and_moves)
+        battle_context = build_battle_prompt(str(current_pokemon[0]), str(current_pokemon[1]), str("".join(current_pokemon[2])))
         full_context = "Summary of the last three turns: " + context + "\n" + "Prompt Context: " + battle_context
         print(full_context)
         call_gpt = supervisor(full_context)
