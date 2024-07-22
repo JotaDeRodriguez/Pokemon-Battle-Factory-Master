@@ -59,6 +59,12 @@ def get_ability_description(ability_id):
 
     return description
 
+def get_ability_name(ability_id):
+    ability_name = load_type_data("information/Gen III - Abilities.json")
+    name = ability_name[ability_id]['Name']
+
+    return name
+
 
 def get_moves_info(move):
     # Load the moves data from the JSON file

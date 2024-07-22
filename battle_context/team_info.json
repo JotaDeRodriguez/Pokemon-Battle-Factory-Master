@@ -24,15 +24,15 @@
                     "pp": 24,
                     "maxpp": 24,
                     "target": "normal",
-                    "disabled": true
+                    "disabled": false
                 },
                 {
                     "move": "Hidden Power Bug 70",
                     "id": "hiddenpower",
-                    "pp": 23,
+                    "pp": 3,
                     "maxpp": 24,
                     "target": "normal",
-                    "disabled": true
+                    "disabled": false
                 }
             ]
         }
@@ -88,7 +88,7 @@
             {
                 "ident": "p1: Aggron",
                 "details": "Aggron, L85, F",
-                "condition": "0 fnt",
+                "condition": "110/200",
                 "active": false,
                 "stats": {
                     "atk": 236,
@@ -132,7 +132,7 @@
             {
                 "ident": "p1: Solrock",
                 "details": "Solrock, L84",
-                "condition": "0 fnt",
+                "condition": "134/195",
                 "active": false,
                 "stats": {
                     "atk": 208,

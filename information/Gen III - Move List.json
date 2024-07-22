@@ -611,13 +611,13 @@
         "id": "doubleteam",
         "name": "Double Team"
     },
-    "double-edge": {
+    "doubleedge": {
         "Effect": "The user receives 1/3 recoil damage.",
         "Type": "Normal",
         "PP": 15,
         "Power": 120,
         "Accuracy": "100%",
-        "id": "double-edge",
+        "id": "doubleedge",
         "name": "Double-edge"
     },
     "doubleslap": {
@@ -750,7 +750,7 @@
         "Effect": "Base power decreases as the user's HP decreases.",
         "Type": "Fire",
         "PP": 5,
-        "Power": "Var BP",
+        "Power": "Variable",
         "Accuracy": "100%",
         "id": "eruption",
         "name": "Eruption"
@@ -876,7 +876,7 @@
         "Effect": "Base power increases as the user's HP decreases.",
         "Type": "Normal",
         "PP": 15,
-        "Power": "Var BP",
+        "Power": "Variable",
         "Accuracy": "100%",
         "id": "flail",
         "name": "Flail"
@@ -975,7 +975,7 @@
         "Effect": "Power increases as user's happiness decreases. maximum 102 BP.",
         "Type": "Normal",
         "PP": 20,
-        "Power": "Var BP",
+        "Power": "Variable",
         "Accuracy": "100%",
         "id": "frustration",
         "name": "Frustration"
@@ -1434,7 +1434,7 @@
         "Effect": "Base power increases as the target's weight increases.",
         "Type": "Fighting",
         "PP": 20,
-        "Power": "Var BP",
+        "Power": "Variable",
         "Accuracy": "100%",
         "id": "lowkick",
         "name": "Low Kick"
@@ -1479,7 +1479,7 @@
         "Effect": "Deals variable damage between 10 base power and 130 base power as well as double damage against Digging Pokemon.",
         "Type": "Ground",
         "PP": 30,
-        "Power": "Var BP",
+        "Power": "Variable",
         "Accuracy": "100%",
         "id": "magnitude",
         "name": "Magnitude"
@@ -1902,7 +1902,7 @@
         "Effect": "Randomly either attacks with a variable power between 40 base power and 120 base power or heals the target by 80 HP.",
         "Type": "Normal",
         "PP": 15,
-        "Power": "Var BP",
+        "Power": "Variable",
         "Accuracy": "90%",
         "id": "present",
         "name": "Present"
@@ -2073,7 +2073,7 @@
         "Effect": "Power increases as user's happiness increases. maximum 102 BP.",
         "Type": "Normal",
         "PP": 20,
-        "Power": "Var BP",
+        "Power": "Variable",
         "Accuracy": "100%",
         "id": "return",
         "name": "Return"
@@ -2091,7 +2091,7 @@
         "Effect": "Base power increases as the user's HP decreases.",
         "Type": "Fighting",
         "PP": 15,
-        "Power": "Var BP",
+        "Power": "Variable",
         "Accuracy": "100%",
         "id": "reversal",
         "name": "Reversal"
@@ -2568,7 +2568,7 @@
         "Effect": "Power increases with user's Stockpile count. fails with zero Stockpiles.",
         "Type": "Normal",
         "PP": 10,
-        "Power": "Var BP",
+        "Power": "Variable",
         "Accuracy": "100%",
         "id": "spitup",
         "name": "Spit Up"
@@ -3072,7 +3072,7 @@
         "Effect": "Base power decreases as the user's HP decreases.",
         "Type": "Water",
         "PP": 5,
-        "Power": "Var BP",
+        "Power": "Variable",
         "Accuracy": "100%",
         "id": "waterspout",
         "name": "Water Spout"
@@ -3177,145 +3177,145 @@
         "name": "Zap Cannon"
 	},
     "hiddenpowerfighting": {
-        "Effect": "Varies in power and type depending on the user's IVs. maximum 70 BP. Will hit as a Fighting-type move",
+        "Effect": "Varies in power and type depending on the user's IVs. maximum 70 BP. Will hit as a Fighting-type move.",
         "Type": "Fighting",
         "PP": 15,
-        "Power": "Var BP",
+        "Power": "70",
         "Accuracy": "100%",
         "id": "hiddenpowerfighting",
         "name": "Hidden Power Fighting"
     },
     "hiddenpowerflying": {
-        "Effect": "Varies in power and type depending on the user's IVs. maximum 70 BP. Will hit as a Flying-type move",
+        "Effect": "Varies in power and type depending on the user's IVs. maximum 70 BP. Will hit as a Flying-type move.",
         "Type": "Flying",
         "PP": 15,
-        "Power": "Var BP",
+        "Power": "70",
         "Accuracy": "100%",
         "id": "hiddenpowerflying",
         "name": "Hidden Power Flying"
     },
     "hiddenpowerpoison": {
-        "Effect": "Varies in power and type depending on the user's IVs. maximum 70 BP. Will hit as a Poison-type move",
+        "Effect": "Varies in power and type depending on the user's IVs. maximum 70 BP. Will hit as a Poison-type move.",
         "Type": "Poison",
         "PP": 15,
-        "Power": "Var BP",
+        "Power": "70",
         "Accuracy": "100%",
         "id": "hiddenpowerpoison",
         "name": "Hidden Power Poison"
     },
     "hiddenpowerground": {
-        "Effect": "Varies in power and type depending on the user's IVs. maximum 70 BP. Will hit as a Ground-type move",
+        "Effect": "Varies in power and type depending on the user's IVs. maximum 70 BP. Will hit as a Ground-type move.",
         "Type": "Ground",
         "PP": 15,
-        "Power": "Var BP",
+        "Power": "70",
         "Accuracy": "100%",
         "id": "hiddenpowerground",
         "name": "Hidden Power Ground"
     },
     "hiddenpowerrock": {
-        "Effect": "Varies in power and type depending on the user's IVs. maximum 70 BP. Will hit as a Rock-type move",
+        "Effect": "Varies in power and type depending on the user's IVs. maximum 70 BP. Will hit as a Rock-type move.",
         "Type": "Rock",
         "PP": 15,
-        "Power": "Var BP",
+        "Power": "70",
         "Accuracy": "100%",
         "id": "hiddenpowerrock",
         "name": "Hidden Power Rock"
     },
     "hiddenpowerbug": {
-        "Effect": "Varies in power and type depending on the user's IVs. maximum 70 BP. Will hit as a Bug-type move",
+        "Effect": "Varies in power and type depending on the user's IVs. maximum 70 BP. Will hit as a Bug-type move.",
         "Type": "Bug",
         "PP": 15,
-        "Power": "Var BP",
+        "Power": "70",
         "Accuracy": "100%",
         "id": "hiddenpowerbug",
         "name": "Hidden Power Bug"
     },
     "hiddenpowerghost": {
-        "Effect": "Varies in power and type depending on the user's IVs. maximum 70 BP. Will hit as a Ghost-type move",
+        "Effect": "Varies in power and type depending on the user's IVs. maximum 70 BP. Will hit as a Ghost-type move.",
         "Type": "Ghost",
         "PP": 15,
-        "Power": "Var BP",
+        "Power": "70",
         "Accuracy": "100%",
         "id": "hiddenpowerghost",
         "name": "Hidden Power Ghost"
     },
     "hiddenpowersteel": {
-        "Effect": "Varies in power and type depending on the user's IVs. maximum 70 BP. Will hit as a Steel-type move",
+        "Effect": "Varies in power and type depending on the user's IVs. maximum 70 BP. Will hit as a Steel-type move.",
         "Type": "Steel",
         "PP": 15,
-        "Power": "Var BP",
+        "Power": "70",
         "Accuracy": "100%",
         "id": "hiddenpowersteel",
         "name": "Hidden Power Steel"
     },
     "hiddenpowerfire": {
-        "Effect": "Varies in power and type depending on the user's IVs. maximum 70 BP. Will hit as a Fire-type move",
+        "Effect": "Varies in power and type depending on the user's IVs. maximum 70 BP. Will hit as a Fire-type move.",
         "Type": "Fire",
         "PP": 15,
-        "Power": "Var BP",
+        "Power": "70",
         "Accuracy": "100%",
         "id": "hiddenpowerfire",
         "name": "Hidden Power Fire"
     },
     "hiddenpowerwater": {
-        "Effect": "Varies in power and type depending on the user's IVs. maximum 70 BP. Will hit as a Water-type move",
+        "Effect": "Varies in power and type depending on the user's IVs. maximum 70 BP. Will hit as a Water-type move.",
         "Type": "Water",
         "PP": 15,
-        "Power": "Var BP",
+        "Power": "70",
         "Accuracy": "100%",
         "id": "hiddenpowerwater",
         "name": "Hidden Power Water"
     },
     "hiddenpowergrass": {
-        "Effect": "Varies in power and type depending on the user's IVs. maximum 70 BP. Will hit as a Grass-type move",
+        "Effect": "Varies in power and type depending on the user's IVs. maximum 70 BP. Will hit as a Grass-type move.",
         "Type": "Grass",
         "PP": 15,
-        "Power": "Var BP",
+        "Power": "70",
         "Accuracy": "100%",
         "id": "hiddenpowergrass",
         "name": "Hidden Power Grass"
     },
     "hiddenpowerelectric": {
-        "Effect": "Varies in power and type depending on the user's IVs. maximum 70 BP. Will hit as a Electric-type move",
+        "Effect": "Varies in power and type depending on the user's IVs. maximum 70 BP. Will hit as a Electric-type move.",
         "Type": "Electric",
         "PP": 15,
-        "Power": "Var BP",
+        "Power": "70",
         "Accuracy": "100%",
         "id": "hiddenpowerelectric",
         "name": "Hidden Power Electric"
     },
     "hiddenpowerpsychic": {
-        "Effect": "Varies in power and type depending on the user's IVs. maximum 70 BP. Will hit as a Psychic-type move",
+        "Effect": "Varies in power and type depending on the user's IVs. maximum 70 BP. Will hit as a Psychic-type move.",
         "Type": "Psychic",
         "PP": 15,
-        "Power": "Var BP",
+        "Power": "70",
         "Accuracy": "100%",
         "id": "hiddenpowerpsychic",
         "name": "Hidden Power Psychic"
     },
     "hiddenpowerice": {
-        "Effect": "Varies in power and type depending on the user's IVs. maximum 70 BP. Will hit as a Ice-type move",
+        "Effect": "Varies in power and type depending on the user's IVs. maximum 70 BP. Will hit as a Ice-type move.",
         "Type": "Ice",
         "PP": 15,
-        "Power": "Var BP",
+        "Power": "70",
         "Accuracy": "100%",
         "id": "hiddenpowerice",
         "name": "Hidden Power Ice"
     },
     "hiddenpowerdragon": {
-        "Effect": "Varies in power and type depending on the user's IVs. maximum 70 BP. Will hit as a Dragon-type move",
+        "Effect": "Varies in power and type depending on the user's IVs. maximum 70 BP. Will hit as a Dragon-type move.",
         "Type": "Dragon",
         "PP": 15,
-        "Power": "Var BP",
+        "Power": "70",
         "Accuracy": "100%",
         "id": "hiddenpowerdragon",
         "name": "Hidden Power Dragon"
     },
     "hiddenpowerdark": {
-        "Effect": "Varies in power and type depending on the user's IVs. maximum 70 BP. Will hit as a Dark-type move",
+        "Effect": "Varies in power and type depending on the user's IVs. maximum 70 BP. Will hit as a Dark-type move.",
         "Type": "Dark",
         "PP": 15,
-        "Power": "Var BP",
+        "Power": "70",
         "Accuracy": "100%",
         "id": "hiddenpowerdark",
         "name": "Hidden Power Dark"
