@@ -3,34 +3,34 @@
         {
             "moves": [
                 {
-                    "move": "Bulk Up",
-                    "id": "bulkup",
+                    "move": "Thunderbolt",
+                    "id": "thunderbolt",
+                    "pp": 21,
+                    "maxpp": 24,
+                    "target": "normal",
+                    "disabled": false
+                },
+                {
+                    "move": "Baton Pass",
+                    "id": "batonpass",
+                    "pp": 64,
+                    "maxpp": 64,
+                    "target": "self",
+                    "disabled": false
+                },
+                {
+                    "move": "Tail Glow",
+                    "id": "tailglow",
                     "pp": 32,
                     "maxpp": 32,
                     "target": "self",
                     "disabled": false
                 },
                 {
-                    "move": "Hidden Power Ghost 70",
-                    "id": "hiddenpower",
-                    "pp": 24,
+                    "move": "Ice Punch",
+                    "id": "icepunch",
+                    "pp": 21,
                     "maxpp": 24,
-                    "target": "normal",
-                    "disabled": false
-                },
-                {
-                    "move": "Mach Punch",
-                    "id": "machpunch",
-                    "pp": 48,
-                    "maxpp": 48,
-                    "target": "normal",
-                    "disabled": false
-                },
-                {
-                    "move": "High Jump Kick",
-                    "id": "highjumpkick",
-                    "pp": 32,
-                    "maxpp": 32,
                     "target": "normal",
                     "disabled": false
                 }
@@ -42,97 +42,31 @@
         "id": "p1",
         "pokemon": [
             {
-                "ident": "p1: Hitmontop",
-                "details": "Hitmontop, L86, M",
-                "condition": "226/226",
+                "ident": "p1: Volbeat",
+                "details": "Volbeat, L93, M",
+                "condition": "254/272",
                 "active": true,
                 "stats": {
-                    "atk": 213,
-                    "def": 212,
-                    "spa": 109,
-                    "spd": 238,
-                    "spe": 170
+                    "atk": 140,
+                    "def": 155,
+                    "spa": 140,
+                    "spd": 192,
+                    "spe": 211
                 },
                 "moves": [
-                    "bulkup",
-                    "hiddenpowerghost",
-                    "machpunch",
-                    "highjumpkick"
-                ],
-                "baseAbility": "intimidate",
-                "item": "leftovers",
-                "pokeball": "pokeball"
-            },
-            {
-                "ident": "p1: Manectric",
-                "details": "Manectric, L82, M",
-                "condition": "248/248",
-                "active": false,
-                "stats": {
-                    "atk": 129,
-                    "def": 145,
-                    "spa": 219,
-                    "spd": 146,
-                    "spe": 219
-                },
-                "moves": [
-                    "hiddenpowerice",
                     "thunderbolt",
-                    "crunch",
-                    "substitute"
+                    "batonpass",
+                    "tailglow",
+                    "icepunch"
                 ],
-                "baseAbility": "static",
-                "item": "petayaberry",
-                "pokeball": "pokeball"
-            },
-            {
-                "ident": "p1: Starmie",
-                "details": "Starmie, L75",
-                "condition": "214/214",
-                "active": false,
-                "stats": {
-                    "atk": 117,
-                    "def": 171,
-                    "spa": 194,
-                    "spd": 171,
-                    "spe": 216
-                },
-                "moves": [
-                    "psychic",
-                    "recover",
-                    "icebeam",
-                    "surf"
-                ],
-                "baseAbility": "naturalcure",
+                "baseAbility": "swarm",
                 "item": "leftovers",
-                "pokeball": "pokeball"
-            },
-            {
-                "ident": "p1: Ludicolo",
-                "details": "Ludicolo, L84, M",
-                "condition": "272/272",
-                "active": false,
-                "stats": {
-                    "atk": 124,
-                    "def": 166,
-                    "spa": 199,
-                    "spd": 216,
-                    "spe": 166
-                },
-                "moves": [
-                    "hiddenpowergrass",
-                    "icebeam",
-                    "surf",
-                    "raindance"
-                ],
-                "baseAbility": "swiftswim",
-                "item": "petayaberry",
                 "pokeball": "pokeball"
             },
             {
                 "ident": "p1: Venusaur",
-                "details": "Venusaur, L82, F",
-                "condition": "265/265",
+                "details": "Venusaur, L82, M",
+                "condition": "0 fnt",
                 "active": false,
                 "stats": {
                     "atk": 182,
@@ -142,9 +76,9 @@
                     "spe": 178
                 },
                 "moves": [
-                    "sleeppowder",
-                    "sludgebomb",
+                    "synthesis",
                     "swordsdance",
+                    "sludgebomb",
                     "earthquake"
                 ],
                 "baseAbility": "overgrow",
@@ -152,28 +86,99 @@
                 "pokeball": "pokeball"
             },
             {
-                "ident": "p1: Seviper",
-                "details": "Seviper, L88, F",
-                "condition": "272/272",
+                "ident": "p1: Manectric",
+                "details": "Manectric, L82, M",
+                "condition": "0 fnt",
                 "active": false,
                 "stats": {
-                    "atk": 226,
-                    "def": 156,
-                    "spa": 226,
-                    "spd": 156,
-                    "spe": 165
+                    "atk": 129,
+                    "def": 145,
+                    "spa": 219,
+                    "spd": 146,
+                    "spe": 219
                 },
                 "moves": [
+                    "thunderbolt",
                     "crunch",
-                    "earthquake",
-                    "flamethrower",
+                    "substitute",
+                    "hiddenpowerice"
+                ],
+                "baseAbility": "static",
+                "item": "petayaberry",
+                "pokeball": "pokeball"
+            },
+            {
+                "ident": "p1: Muk",
+                "details": "Muk, L84, F",
+                "condition": "0 fnt",
+                "active": false,
+                "stats": {
+                    "atk": 225,
+                    "def": 174,
+                    "spa": 157,
+                    "spd": 215,
+                    "spe": 132
+                },
+                "moves": [
+                    "toxic",
+                    "hiddenpowerground",
+                    "fireblast",
                     "sludgebomb"
                 ],
-                "baseAbility": "shedskin",
+                "baseAbility": "stickyhold",
+                "item": "leftovers",
+                "pokeball": "pokeball"
+            },
+            {
+                "ident": "p1: Gligar",
+                "details": "Gligar, L84, F",
+                "condition": "0 fnt",
+                "active": false,
+                "stats": {
+                    "atk": 173,
+                    "def": 224,
+                    "spa": 106,
+                    "spd": 157,
+                    "spe": 191
+                },
+                "moves": [
+                    "quickattack",
+                    "hiddenpowerflying",
+                    "earthquake",
+                    "swordsdance"
+                ],
+                "baseAbility": "hypercutter",
+                "item": "leftovers",
+                "pokeball": "pokeball"
+            },
+            {
+                "ident": "p1: Ho-Oh",
+                "details": "Ho-Oh, L70",
+                "condition": "0 fnt",
+                "active": false,
+                "stats": {
+                    "atk": 223,
+                    "def": 167,
+                    "spa": 195,
+                    "spd": 257,
+                    "spe": 167
+                },
+                "moves": [
+                    "earthquake",
+                    "sacredfire",
+                    "recover",
+                    "toxic"
+                ],
+                "baseAbility": "pressure",
                 "item": "leftovers",
                 "pokeball": "pokeball"
             }
         ]
     },
-    "rqid": 2
+    "rqid": 78,
+    "forceSwitch": [
+        true
+    ],
+    "noCancel": true,
+    "wait": true
 }

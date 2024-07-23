@@ -63,13 +63,14 @@ def supervisor(battle_info):
         Action: [Your chosen action]
         Reasoning: [Brief explanation]
         Your aim is to make optimal plays to outmaneuver and outsmart your opponent, ensuring victory in each Pokémon battle.
+        When describing the action, only say whatever one is first. Dont give two consecutive actions. Be brief.
         """},
         *memory,  # Unpack the memory list directly into messages
         {"role": "user", "content": battle_info},
     ]
 
     response = client.chat.completions.create(
-        model="gpt-4o-mini",
+        model="gpt-4-turbo",
         messages=messages
     )
 

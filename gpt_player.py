@@ -14,8 +14,7 @@ from supervisor import supervisor
 # from utils import build_battle_prompt
 from agents.function_calling_agent import function_calling
 
-from claudes_refactored_prompt_builder import build_battle_prompt
-
+from claudes_refactored_prompt_builder import build_battle_prompt, load_team_data, format_pokemon_info, get_pokemon_type
 
 def clear_memory():
     file_path_context = "battle_context/battle_context.json"
@@ -264,7 +263,7 @@ class gpt_player(Player):
 
             elif parts[0] == "turn":
                 turn_number = parts[1]
-                output_messages.insert(-1, f"Turn {turn_number} coming up.")
+                output_messages.insert(-1, f"Turn {turn_number}:")
 
             elif parts[0] == "-miss":
                 player = replace_player(parts[1].rstrip(':'))
@@ -337,7 +336,7 @@ class gpt_player(Player):
         battle_info()
         current_pokemon.extend([own_ability])
 
-        print(current_pokemon)
+        print(current_pokemon, moves_data)
 
         def get_context():
             with open("battle_context/battle_context.json", "r") as file:
@@ -353,7 +352,7 @@ class gpt_player(Player):
                 for i in range(len(messages) - 1, -1, -1):
                     if messages[i].startswith("Turn"):
                         turns.append(i)
-                        if len(turns) == 3:
+                        if len(turns) == 4:
                             break
 
                 # Check if there are fewer than three turns
@@ -369,9 +368,21 @@ class gpt_player(Player):
 
         context_list = get_context()
 
-        context = " ".join(context_list)
+        context = "\n".join(context_list)
+
         battle_context = build_battle_prompt(str(current_pokemon[0]), str(current_pokemon[1]), str("".join(current_pokemon[2])))
-        full_context = "Summary of the last three turns: " + context + "\n" + "Prompt Context: " + battle_context
+        if not moves_data:
+            team_data = load_team_data('battle_context/team_info.json')
+            prompt_parts = []
+            opposing_pokemon_type_dict = get_pokemon_type(str(current_pokemon[1]))
+            opposing_pokemon_type = opposing_pokemon_type_dict[str(current_pokemon[1])]
+
+            for pokemon in (p for p in team_data['side']['pokemon'] if not p["active"]):
+                prompt_parts.append(format_pokemon_info(pokemon, opposing_pokemon_type))
+
+            switch_prompt = "\n".join(prompt_parts)
+            battle_context = f"Your {current_pokemon[0]} was fainted. Choose from your bench a pokemon to replace it:" + "\n" + switch_prompt
+        full_context = "Summary of the last three turns: " "\n" + "\n" + context + "\n" + "\n" + "Prompt Context: " + battle_context
         print(full_context)
         call_gpt = supervisor(full_context)
         print(Fore.GREEN + call_gpt + Style.RESET_ALL)
@@ -380,7 +391,7 @@ class gpt_player(Player):
 
         try:
             # Existing logic
-            if battle.available_moves:
+            if battle.available_switches or battle.available_moves:
                 chosen_order = None
                 for mon in battle.available_switches:
                     if mon.species == call:

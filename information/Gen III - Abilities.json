@@ -121,7 +121,7 @@
     },
     "innerfocus": {
         "Description": "This Pokemon cannot be made to flinch.",
-        "Learnt By": "Abra. Alakazam. Crobat. Dragonite. Farfetch'd. Girafarig. Glalie. Golbat. Kadabra. Sneasel. Snorunt. Zubat",
+        "Learnt By": "Abra. Alakazam. Crobat. Dragonite. Farfetchd. Girafarig. Glalie. Golbat. Kadabra. Sneasel. Snorunt. Zubat",
         "Name": "Inner Focus"
     },
     "insomnia": {
@@ -136,7 +136,7 @@
     },
     "keeneye": {
         "Description": "This Pokemon's Accuracy cannot be lowered.",
-        "Learnt By": "Farfetch'd. Fearow. Furret. Hitmonchan. Hoothoot. Noctowl. Pelipper. Pidgeot. Pidgeotto. Pidgey. Sableye. Sentret. Skarmory. Sneasel. Spearow. Wingull",
+        "Learnt By": "Farfetchd. Fearow. Furret. Hitmonchan. Hoothoot. Noctowl. Pelipper. Pidgeot. Pidgeotto. Pidgey. Sableye. Sentret. Skarmory. Sneasel. Spearow. Wingull",
         "Name": "Keen Eye"
     },
     "levitate": {

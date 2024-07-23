@@ -151,6 +151,10 @@ def format_move_info(move: Dict, opposing_pokemon_type: List[str]) -> str:
         move_name = " ".join(move_name.split()[:3])
         move_id = move_name.replace(" ", "").lower()
 
+    if "return" in move_name:
+        move_name = "Return"
+        move_id = "return102"
+
     move_info = get_moves_info(move_id)
     move_type = move_info[move_id]['Type']
     move_effect = move_info[move_id]['Effect']
@@ -177,7 +181,7 @@ def format_move_info(move: Dict, opposing_pokemon_type: List[str]) -> str:
     if move_type in type_interactions.get('no effect', []):
         effectiveness += "But this move will have no effect. "
 
-    base_info = f"{move_name}: A {move_type}-type move. Power {move_power}. {move_effect}{effectiveness}"
+    base_info = f"{move_name}: A {move_type}-type move. Power {move_power}. {move_effect} {effectiveness}"
 
     if pp < 5:
         return f"{base_info} It only has {pp} power points left."
@@ -200,7 +204,6 @@ def format_pokemon_info(pokemon: Dict, opposing_pokemon_type: List[str]) -> str:
     type_interactions = get_combined_type_interaction(opposing_pokemon_type)
 
     for move_id in pokemon['moves']:
-        print(move_id)
         move_info = get_moves_info(move_id)
         if isinstance(move_info, dict) and move_id in move_info:
             move_type = move_info[move_id]['Type']
@@ -224,13 +227,15 @@ def build_battle_prompt(current_pokemon: str, opposing_pokemon: str, current_abi
     team_data = load_team_data('battle_context/team_info.json')
 
     current_pokemon_ability = get_ability_description(current_ability)
+    current_ability_name = get_ability_name(current_ability)
     opposing_pokemon_ability = get_pokemon_ability(opposing_pokemon)
+    opposing_ability_name = get_ability_name(opposing_pokemon_ability)
     opposing_pokemon_type_dict = get_pokemon_type(opposing_pokemon)
     opposing_pokemon_type = opposing_pokemon_type_dict[opposing_pokemon]
     prompt_parts = [
-        f"You're facing {opposing_pokemon}. Your current pokemon is {current_pokemon}.",
-        f"\nYour {current_pokemon}'s ability: {current_ability}{current_pokemon_ability}",
-        f"\nOpposing {opposing_pokemon}'s ability: {opposing_pokemon_ability}",
+        f"You're facing {opposing_pokemon.capitalize()}. Your current pokemon is {current_pokemon.capitalize()}.",
+        f"\nYour {current_pokemon.capitalize()}'s ability: {current_ability_name}: {current_pokemon_ability}",
+        f"\nOpposing {opposing_pokemon.capitalize()}'s ability: {opposing_pokemon_ability}",
         "\nYour active Pokémon's moves are:"
     ]
 
